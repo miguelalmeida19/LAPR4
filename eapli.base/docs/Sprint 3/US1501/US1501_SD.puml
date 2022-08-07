@@ -1,0 +1,79 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+actor "Customer" as Cli
+
+participant ":ShoppingCartUI" as UI
+participant ":AddProductsShoppingCartController" as Controller
+participant ":ListCatalogService" as Serv
+participant ":TcpSrvOrdersThread" as TCP
+
+
+
+
+activate Cli
+loop for each product added
+Cli -> UI : Requests to add products to a shopping cart
+activate UI
+UI->Controller: createShoppingCartAndRequestCatalog()
+activate Controller
+Controller->Serv: sendMessageToServer(SHOPPINGCART.code,null)
+activate Serv
+Serv->TCP: receiveAnswer()
+activate TCP
+deactivate TCP
+deactivate Serv
+deactivate Controller
+loop while the request of filter is different of "no"
+Cli <-- UI: Asks for the filter to sort the search on the catalog
+end loop
+deactivate UI
+note left: The filter and sorting operations have been already explained in a previous US
+Cli -> UI : Selects the filter
+activate UI
+Cli <-- UI: Asks the way to sort the results
+deactivate UI
+Cli -> UI : Selects ascendant or descendant
+activate UI
+Cli <-- UI: Asks to select a product
+deactivate UI
+Cli -> UI : Selects a product
+activate UI
+Cli <-- UI: Asks the quantity
+deactivate UI
+Cli -> UI : Types the quantity
+activate UI
+UI->Controller: addProductToShoppingCart()
+activate Controller
+Controller->Serv: addProductToShoppingCart(shoppingCart)
+activate Serv
+Serv->TCP: receiveAnswer()
+activate TCP
+deactivate TCP
+deactivate Serv
+deactivate Controller
+
+end loop
+Cli <-- UI: Shows success or failure of the operation
+deactivate UI
+
+
+@enduml

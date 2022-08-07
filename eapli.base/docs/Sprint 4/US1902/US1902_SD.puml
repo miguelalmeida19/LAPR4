@@ -1,0 +1,38 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+
+participant ":OrdersService" as CLI
+participant ":TcpSrvOrdersThread" as TCP
+
+
+
+
+activate CLI
+CLI -> TCP : sendMessageToServer(option,data)
+activate TCP
+TCP <- TCP :receivesAnswer(answer)
+TCP -> CLI :sendMessageToClient(option,data)
+deactivate TCP
+CLI -> CLI :receivesAnswer(answer)
+deactivate CLI
+
+@enduml

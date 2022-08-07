@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="568px" preserveAspectRatio="none" style="width:550px;height:568px;background:#FCF9EA;" version="1.1" viewBox="0 0 550 568" width="550px" zoomAndPan="magnify"><defs><filter height="300%" id="f808ks5t9ystg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="525" x="9" y="45.0176">SYSTEM SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="276.5" y="87.3223"/><rect fill="#FFFFFF" filter="url(#f808ks5t9ystg)" height="276.1641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="125.5" y="198.2188"/><rect fill="#FFFFFF" filter="url(#f808ks5t9ystg)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="412.5" y="220.5703"/><rect fill="#FFFFFF" filter="url(#f808ks5t9ystg)" height="55.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="412.5" y="281.2734"/><rect fill="#FFFFFF" filter="url(#f808ks5t9ystg)" height="37.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="412.5" y="367.3281"/><rect fill="#FFFFFF" filter="url(#f808ks5t9ystg)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="412.5" y="435.0313"/><rect fill="#FCF9EA" filter="url(#f808ks5t9ystg)" height="79.0547" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="380" x="81.5" y="296.2734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="130.5" x2="130.5" y1="188.2188" y2="483.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="417.5" x2="417.5" y1="188.2188" y2="483.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="91.5" y="185.1426">Sales Clerk</text><ellipse cx="130.5" cy="113.6094" fill="#FEFECE" filter="url(#f808ks5t9ystg)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M130.5,121.6094 L130.5,148.6094 M117.5,129.6094 L143.5,129.6094 M130.5,148.6094 L117.5,163.6094 M130.5,148.6094 L143.5,163.6094 " fill="none" filter="url(#f808ks5t9ystg)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="91.5" y="496.916">Sales Clerk</text><ellipse cx="130.5" cy="509.9922" fill="#FEFECE" filter="url(#f808ks5t9ystg)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M130.5,517.9922 L130.5,544.9922 M117.5,525.9922 L143.5,525.9922 M130.5,544.9922 L117.5,559.9922 M130.5,544.9922 L143.5,559.9922 " fill="none" filter="url(#f808ks5t9ystg)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f808ks5t9ystg)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="64" x="383.5" y="151.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="390.5" y="173.1426">:System</text><rect fill="#FEFECE" filter="url(#f808ks5t9ystg)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="64" x="383.5" y="482.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="390.5" y="503.916">:System</text><rect fill="#FFFFFF" filter="url(#f808ks5t9ystg)" height="276.1641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="125.5" y="198.2188"/><rect fill="#FFFFFF" filter="url(#f808ks5t9ystg)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="412.5" y="220.5703"/><rect fill="#FFFFFF" filter="url(#f808ks5t9ystg)" height="55.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="412.5" y="281.2734"/><rect fill="#FFFFFF" filter="url(#f808ks5t9ystg)" height="37.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="412.5" y="367.3281"/><rect fill="#FFFFFF" filter="url(#f808ks5t9ystg)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="412.5" y="435.0313"/><polygon fill="#FFC5A1" points="400.5,216.5703,410.5,220.5703,400.5,224.5703,404.5,220.5703" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="135.5" x2="406.5" y1="220.5703" y2="220.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="142.5" y="215.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="162" x="153.5" y="215.7139">Requires to add a new order</text><polygon fill="#FFC5A1" points="146.5,246.9219,136.5,250.9219,146.5,254.9219,142.5,250.9219" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="140.5" x2="416.5" y1="250.9219" y2="250.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="152.5" y="246.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="163.5" y="246.0654">Asks the customer who required the order</text><polygon fill="#FFC5A1" points="400.5,277.2734,410.5,281.2734,400.5,285.2734,404.5,281.2734" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="135.5" x2="406.5" y1="281.2734" y2="281.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="142.5" y="276.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="153.5" y="276.417">selects the customer.</text><path d="M91.5,296.2734 L154.5,296.2734 L154.5,304.2734 L144.5,314.2734 L81.5,314.2734 L81.5,306.2734 A10,10 0 0 1 91.5,296.2734 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="79.0547" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="380" x="81.5" y="296.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="96.5" y="310.7686">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="143" x="169.5" y="309.6924">[for each product wanted]</text><polygon fill="#FFC5A1" points="146.5,332.9766,136.5,336.9766,146.5,340.9766,142.5,336.9766" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="140.5" x2="416.5" y1="336.9766" y2="336.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="152.5" y="332.1201">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="145" x="163.5" y="332.1201">shows products to select</text><polygon fill="#FFC5A1" points="400.5,363.3281,410.5,367.3281,400.5,371.3281,404.5,367.3281" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="135.5" x2="406.5" y1="367.3281" y2="367.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="142.5" y="362.4717">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="153.5" y="362.4717">selects a product</text><polygon fill="#FFC5A1" points="146.5,400.6797,136.5,404.6797,146.5,408.6797,142.5,404.6797" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="140.5" x2="416.5" y1="404.6797" y2="404.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="152.5" y="399.8232">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="163.5" y="399.8232">asks for the required data</text><polygon fill="#FFC5A1" points="400.5,431.0313,410.5,435.0313,400.5,439.0313,404.5,435.0313" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="135.5" x2="406.5" y1="435.0313" y2="435.0313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="142.5" y="430.1748">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="153.5" y="430.1748">types the data</text><polygon fill="#FFC5A1" points="146.5,461.3828,136.5,465.3828,146.5,469.3828,142.5,465.3828" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="140.5" x2="416.5" y1="465.3828" y2="465.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="152.5" y="460.5264">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="236" x="163.5" y="460.5264">shows success or failure of the operation</text><!--MD5=[b246be645c92f143a52542dedadac779]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Sales Clerk" as sales
+activate sales
+sales -> ":System" : Requires to add a new order
+activate ":System"
+sales <- - ":System": Asks the customer who required the order
+deactivate ":System"
+sales -> ":System": selects the customer.
+activate ":System"
+loop for each product wanted
+":System" - -> sales : shows products to select
+deactivate ":System"
+sales -> ":System" : selects a product
+activate ":System"
+end loop
+":System" - -> sales : asks for the required data
+deactivate ":System"
+sales - -> ":System" : types the data
+activate ":System"
+":System" - -> sales : shows success or failure of the operation
+deactivate ":System"
+
+
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Sales Clerk" as sales
+activate sales
+sales -> ":System" : Requires to add a new order
+activate ":System"
+sales <- - ":System": Asks the customer who required the order
+deactivate ":System"
+sales -> ":System": selects the customer.
+activate ":System"
+loop for each product wanted
+":System" - -> sales : shows products to select
+deactivate ":System"
+sales -> ":System" : selects a product
+activate ":System"
+end loop
+":System" - -> sales : asks for the required data
+deactivate ":System"
+sales - -> ":System" : types the data
+activate ":System"
+":System" - -> sales : shows success or failure of the operation
+deactivate ":System"
+
+
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

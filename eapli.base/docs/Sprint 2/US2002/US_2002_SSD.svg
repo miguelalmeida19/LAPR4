@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="475px" preserveAspectRatio="none" style="width:550px;height:475px;background:#FCF9EA;" version="1.1" viewBox="0 0 550 475" width="550px" zoomAndPan="magnify"><defs><filter height="300%" id="f19bkknb6t9j7q" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="525" x="9" y="45.0176">SYSTEM SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="276.5" y="87.3223"/><rect fill="#FFFFFF" filter="url(#f19bkknb6t9j7q)" height="183.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="111.5" y="198.2188"/><rect fill="#FFFFFF" filter="url(#f19bkknb6t9j7q)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="459.5" y="220.5703"/><rect fill="#FFFFFF" filter="url(#f19bkknb6t9j7q)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="459.5" y="281.2734"/><rect fill="#FFFFFF" filter="url(#f19bkknb6t9j7q)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="459.5" y="341.9766"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="116.5" x2="116.5" y1="188.2188" y2="390.3281"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="464.5" x2="464.5" y1="188.2188" y2="390.3281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="44.5" y="185.1426">Warehouse employee</text><ellipse cx="116.5" cy="113.6094" fill="#FEFECE" filter="url(#f19bkknb6t9j7q)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M116.5,121.6094 L116.5,148.6094 M103.5,129.6094 L129.5,129.6094 M116.5,148.6094 L103.5,163.6094 M116.5,148.6094 L129.5,163.6094 " fill="none" filter="url(#f19bkknb6t9j7q)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="44.5" y="403.8613">Warehouse employee</text><ellipse cx="116.5" cy="416.9375" fill="#FEFECE" filter="url(#f19bkknb6t9j7q)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M116.5,424.9375 L116.5,451.9375 M103.5,432.9375 L129.5,432.9375 M116.5,451.9375 L103.5,466.9375 M116.5,451.9375 L129.5,466.9375 " fill="none" filter="url(#f19bkknb6t9j7q)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f19bkknb6t9j7q)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="64" x="430.5" y="151.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="437.5" y="173.1426">:System</text><rect fill="#FEFECE" filter="url(#f19bkknb6t9j7q)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="64" x="430.5" y="389.3281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="437.5" y="410.8613">:System</text><rect fill="#FFFFFF" filter="url(#f19bkknb6t9j7q)" height="183.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="111.5" y="198.2188"/><rect fill="#FFFFFF" filter="url(#f19bkknb6t9j7q)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="459.5" y="220.5703"/><rect fill="#FFFFFF" filter="url(#f19bkknb6t9j7q)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="459.5" y="281.2734"/><rect fill="#FFFFFF" filter="url(#f19bkknb6t9j7q)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="459.5" y="341.9766"/><polygon fill="#FFC5A1" points="447.5,216.5703,457.5,220.5703,447.5,224.5703,451.5,220.5703" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="121.5" x2="453.5" y1="220.5703" y2="220.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="128.5" y="215.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="308" x="139.5" y="215.7139">starts configuring an AGV available on the warehouse</text><polygon fill="#FFC5A1" points="132.5,246.9219,122.5,250.9219,132.5,254.9219,128.5,250.9219" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="126.5" x2="463.5" y1="250.9219" y2="250.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="138.5" y="246.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="149.5" y="246.0654">shows available AGV docks to select from</text><polygon fill="#FFC5A1" points="447.5,277.2734,457.5,281.2734,447.5,285.2734,451.5,281.2734" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="121.5" x2="453.5" y1="281.2734" y2="281.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="128.5" y="276.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="139.5" y="276.417">selects a dock</text><polygon fill="#FFC5A1" points="132.5,307.625,122.5,311.625,132.5,315.625,128.5,311.625" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="126.5" x2="463.5" y1="311.625" y2="311.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="138.5" y="306.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="167" x="149.5" y="306.7686">asks for the AGV information</text><polygon fill="#FFC5A1" points="447.5,337.9766,457.5,341.9766,447.5,345.9766,451.5,341.9766" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="121.5" x2="453.5" y1="341.9766" y2="341.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="128.5" y="337.1201">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="139.5" y="337.1201">inserts the requested information</text><polygon fill="#FFC5A1" points="132.5,368.3281,122.5,372.3281,132.5,376.3281,128.5,372.3281" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="126.5" x2="463.5" y1="372.3281" y2="372.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="138.5" y="367.4717">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="224" x="149.5" y="367.4717">informs AGV was created successfully</text><!--MD5=[62fd36cc8ab156e6b045da90c0d93108]
+@startuml
+autonumber
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+actor "Warehouse employee" as WE
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+
+autonumber
+activate WE
+WE -> ":System" : starts configuring an AGV available on the warehouse
+activate ":System"
+":System" - -> WE : shows available AGV docks to select from
+deactivate ":System"
+WE -> ":System" : selects a dock
+activate ":System"
+":System" - -> WE : asks for the AGV information
+deactivate ":System"
+WE -> ":System" : inserts the requested information
+activate ":System"
+":System" - -> WE : informs AGV was created successfully
+deactivate ":System"
+
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 17:25:22 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

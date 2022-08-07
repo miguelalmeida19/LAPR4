@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="662px" preserveAspectRatio="none" style="width:550px;height:662px;background:#FCF9EA;" version="1.1" viewBox="0 0 550 662" width="550px" zoomAndPan="magnify"><defs><filter height="300%" id="f109kqg91mdgcb" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="525" x="9" y="45.0176">SYSTEM SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="276.5" y="87.3223"/><rect fill="#FFFFFF" filter="url(#f109kqg91mdgcb)" height="369.2188" style="stroke:#A80036;stroke-width:1.0;" width="10" x="98.75" y="198.2188"/><rect fill="#FFFFFF" filter="url(#f109kqg91mdgcb)" height="70.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="433.75" y="245.9219"/><rect fill="#FFFFFF" filter="url(#f109kqg91mdgcb)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="433.75" y="338.9766"/><rect fill="#FFFFFF" filter="url(#f109kqg91mdgcb)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="433.75" y="399.6797"/><rect fill="#FFFFFF" filter="url(#f109kqg91mdgcb)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="433.75" y="460.3828"/><rect fill="#FFFFFF" filter="url(#f109kqg91mdgcb)" height="37.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="433.75" y="521.0859"/><rect fill="#FCF9EA" filter="url(#f109kqg91mdgcb)" height="323.8672" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="442.5" x="50.25" y="205.2188"/><rect fill="#FCF9EA" filter="url(#f109kqg91mdgcb)" height="48.7031" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="422.5" x="60.25" y="260.9219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="103.25" x2="103.25" y1="188.2188" y2="576.4375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="438.75" x2="438.75" y1="188.2188" y2="576.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="70.25" y="185.1426">Customer</text><ellipse cx="103.75" cy="113.6094" fill="#FEFECE" filter="url(#f109kqg91mdgcb)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M103.75,121.6094 L103.75,148.6094 M90.75,129.6094 L116.75,129.6094 M103.75,148.6094 L90.75,163.6094 M103.75,148.6094 L116.75,163.6094 " fill="none" filter="url(#f109kqg91mdgcb)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="70.25" y="589.9707">Customer</text><ellipse cx="103.75" cy="603.0469" fill="#FEFECE" filter="url(#f109kqg91mdgcb)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M103.75,611.0469 L103.75,638.0469 M90.75,619.0469 L116.75,619.0469 M103.75,638.0469 L90.75,653.0469 M103.75,638.0469 L116.75,653.0469 " fill="none" filter="url(#f109kqg91mdgcb)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f109kqg91mdgcb)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="64" x="404.75" y="151.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="411.75" y="173.1426">:System</text><rect fill="#FEFECE" filter="url(#f109kqg91mdgcb)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="64" x="404.75" y="575.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="411.75" y="596.9707">:System</text><rect fill="#FFFFFF" filter="url(#f109kqg91mdgcb)" height="369.2188" style="stroke:#A80036;stroke-width:1.0;" width="10" x="98.75" y="198.2188"/><rect fill="#FFFFFF" filter="url(#f109kqg91mdgcb)" height="70.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="433.75" y="245.9219"/><rect fill="#FFFFFF" filter="url(#f109kqg91mdgcb)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="433.75" y="338.9766"/><rect fill="#FFFFFF" filter="url(#f109kqg91mdgcb)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="433.75" y="399.6797"/><rect fill="#FFFFFF" filter="url(#f109kqg91mdgcb)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="433.75" y="460.3828"/><rect fill="#FFFFFF" filter="url(#f109kqg91mdgcb)" height="37.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="433.75" y="521.0859"/><path d="M60.25,205.2188 L123.25,205.2188 L123.25,213.2188 L113.25,223.2188 L50.25,223.2188 L50.25,215.2188 A10,10 0 0 1 60.25,205.2188 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="323.8672" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="442.5" x="50.25" y="205.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="65.25" y="219.7139">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="136" x="138.25" y="218.6377">[for each product added]</text><polygon fill="#FFC5A1" points="421.75,241.9219,431.75,245.9219,421.75,249.9219,425.75,245.9219" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="108.75" x2="427.75" y1="245.9219" y2="245.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="115.75" y="241.0654">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="257" x="126.75" y="241.0654">Requests to add products to a shopping cart</text><path d="M70.25,260.9219 L133.25,260.9219 L133.25,268.9219 L123.25,278.9219 L60.25,278.9219 L60.25,270.9219 A10,10 0 0 1 70.25,260.9219 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="48.7031" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="422.5" x="60.25" y="260.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="75.25" y="275.417">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="254" x="148.25" y="274.3408">[while the request of filter is different of "no"]</text><polygon fill="#FFC5A1" points="119.75,297.625,109.75,301.625,119.75,305.625,115.75,301.625" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="113.75" x2="432.75" y1="301.625" y2="301.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="125.75" y="296.7686">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="290" x="136.75" y="296.7686">Asks for the filter to sort the search on the catalog</text><polygon fill="#FFC5A1" points="421.75,334.9766,431.75,338.9766,421.75,342.9766,425.75,338.9766" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="108.75" x2="427.75" y1="338.9766" y2="338.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="115.75" y="334.1201">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="126.75" y="334.1201">Selects the filter</text><polygon fill="#FFC5A1" points="119.75,365.3281,109.75,369.3281,119.75,373.3281,115.75,369.3281" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="113.75" x2="437.75" y1="369.3281" y2="369.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="125.75" y="364.4717">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="185" x="136.75" y="364.4717">Asks the way to sort the results</text><polygon fill="#FFC5A1" points="421.75,395.6797,431.75,399.6797,421.75,403.6797,425.75,399.6797" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="108.75" x2="427.75" y1="399.6797" y2="399.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="115.75" y="394.8232">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="194" x="126.75" y="394.8232">Selects ascendant or descendant</text><polygon fill="#FFC5A1" points="119.75,426.0313,109.75,430.0313,119.75,434.0313,115.75,430.0313" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="113.75" x2="437.75" y1="430.0313" y2="430.0313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="125.75" y="425.1748">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="136.75" y="425.1748">Asks to select a product</text><polygon fill="#FFC5A1" points="421.75,456.3828,431.75,460.3828,421.75,464.3828,425.75,460.3828" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="108.75" x2="427.75" y1="460.3828" y2="460.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="115.75" y="455.5264">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="126.75" y="455.5264">Selects a product</text><polygon fill="#FFC5A1" points="119.75,486.7344,109.75,490.7344,119.75,494.7344,115.75,490.7344" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="113.75" x2="437.75" y1="490.7344" y2="490.7344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="125.75" y="485.8779">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="136.75" y="485.8779">Asks the quantity</text><polygon fill="#FFC5A1" points="421.75,517.0859,431.75,521.0859,421.75,525.0859,425.75,521.0859" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="108.75" x2="427.75" y1="521.0859" y2="521.0859"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="115.75" y="516.2295">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="126.75" y="516.2295">Types the quantity</text><polygon fill="#FFC5A1" points="119.75,554.4375,109.75,558.4375,119.75,562.4375,115.75,558.4375" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="113.75" x2="437.75" y1="558.4375" y2="558.4375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="125.75" y="553.5811">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="238" x="143.75" y="553.5811">Shows success or failure of the operation</text><!--MD5=[140491cc473a069bfe2fa27076de8d93]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Customer" as Cli
+activate Cli
+loop for each product added
+Cli -> ":System" : Requests to add products to a shopping cart
+activate ":System"
+loop while the request of filter is different of "no"
+Cli <- - ":System": Asks for the filter to sort the search on the catalog
+end loop
+deactivate ":System"
+Cli -> ":System" : Selects the filter
+activate ":System"
+Cli <- - ":System": Asks the way to sort the results
+deactivate ":System"
+Cli -> ":System" : Selects ascendant or descendant
+activate ":System"
+Cli <- - ":System": Asks to select a product
+deactivate ":System"
+Cli -> ":System" : Selects a product
+activate ":System"
+Cli <- - ":System": Asks the quantity
+deactivate ":System"
+Cli -> ":System" : Types the quantity
+activate ":System"
+end loop
+
+Cli <- - ":System": Shows success or failure of the operation
+deactivate ":System"
+
+
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Customer" as Cli
+activate Cli
+loop for each product added
+Cli -> ":System" : Requests to add products to a shopping cart
+activate ":System"
+loop while the request of filter is different of "no"
+Cli <- - ":System": Asks for the filter to sort the search on the catalog
+end loop
+deactivate ":System"
+Cli -> ":System" : Selects the filter
+activate ":System"
+Cli <- - ":System": Asks the way to sort the results
+deactivate ":System"
+Cli -> ":System" : Selects ascendant or descendant
+activate ":System"
+Cli <- - ":System": Asks to select a product
+deactivate ":System"
+Cli -> ":System" : Selects a product
+activate ":System"
+Cli <- - ":System": Asks the quantity
+deactivate ":System"
+Cli -> ":System" : Types the quantity
+activate ":System"
+end loop
+
+Cli <- - ":System": Shows success or failure of the operation
+deactivate ":System"
+
+
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

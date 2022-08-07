@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="956px" preserveAspectRatio="none" style="width:1123px;height:956px;background:#FCF9EA;" version="1.1" viewBox="0 0 1123 956" width="1123px" zoomAndPan="magnify"><defs><filter height="300%" id="f1jmfg4pdkeakr" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="556.75" y="10.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="556.75" y="22.959"/><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="414" x="348.25" y="58.1738">US1001 - Class Diagram</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="560.25" y="100.4785"/><!--MD5=[f0b1058317b21fca6bbeb2d4b05a2853]
+class AddProductController--><rect codeLine="26" fill="#BADFDB" filter="url(#f1jmfg4pdkeakr)" height="61.8359" id="AddProductController" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="706" x="302.5" y="224.7656"/><ellipse cx="592.75" cy="240.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M594.75,237.2656 Q594.9531,236.7656 595.1875,236.5156 Q595.4219,236.2656 595.6875,236.2656 Q596.1563,236.2656 596.4531,236.5469 Q596.75,236.8281 596.75,237.4844 L596.75,239.0469 Q596.75,239.7031 596.4688,239.9844 Q596.1875,240.2656 595.75,240.2656 Q595.3594,240.2656 595.1094,240.0938 Q594.8594,239.9219 594.75,239.4688 Q594.7031,239.1563 594.5313,238.9844 Q594.2188,238.6563 593.6563,238.4688 Q593.0938,238.2656 592.5313,238.2656 Q591.8281,238.2656 591.2344,238.5469 Q590.6563,238.8281 590.2031,239.4531 Q589.75,240.0781 589.75,240.9375 L589.75,241.8594 Q589.75,242.8906 590.5938,243.5781 Q591.4375,244.2656 592.9375,244.2656 Q593.8281,244.2656 594.4531,244.0625 Q594.8125,243.9531 595.2188,243.5938 Q595.4844,243.3906 595.625,243.3281 Q595.7656,243.2656 595.9375,243.2656 Q596.2656,243.2656 596.5,243.5313 Q596.75,243.7813 596.75,244.1406 Q596.75,244.4844 596.4063,244.8906 Q595.9063,245.4844 595.1094,245.8125 Q594.0625,246.2656 592.7813,246.2656 Q591.2813,246.2656 590.0781,245.6719 Q589.1094,245.2031 588.4219,244.1875 Q587.75,243.1719 587.75,241.9688 L587.75,240.875 Q587.75,239.625 588.3438,238.5313 Q588.9531,237.4375 590,236.8594 Q591.0625,236.2656 592.25,236.2656 Q592.9688,236.2656 593.5938,236.5156 Q594.2188,236.7656 594.75,237.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="613.25" y="245.6758">AddProductController</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="303.5" x2="1007.5" y1="256.7656" y2="256.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="303.5" x2="1007.5" y1="264.7656" y2="264.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="694" x="308.5" y="280.1846">+addProduct(price,brand, reference,shortDescription,longDescription,technicalDescription,barcode,width,length,height,weight,productCategory)</text><!--MD5=[1a0d7810d1900c610f8a79f5f43b4088]
+class AddProductUI--><rect codeLine="29" fill="#BADFDB" filter="url(#f1jmfg4pdkeakr)" height="48" id="AddProductUI" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="107" x="602" y="116.7656"/><ellipse cx="617" cy="132.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M619,129.2656 Q619.2031,128.7656 619.4375,128.5156 Q619.6719,128.2656 619.9375,128.2656 Q620.4063,128.2656 620.7031,128.5469 Q621,128.8281 621,129.4844 L621,131.0469 Q621,131.7031 620.7188,131.9844 Q620.4375,132.2656 620,132.2656 Q619.6094,132.2656 619.3594,132.0938 Q619.1094,131.9219 619,131.4688 Q618.9531,131.1563 618.7813,130.9844 Q618.4688,130.6563 617.9063,130.4688 Q617.3438,130.2656 616.7813,130.2656 Q616.0781,130.2656 615.4844,130.5469 Q614.9063,130.8281 614.4531,131.4531 Q614,132.0781 614,132.9375 L614,133.8594 Q614,134.8906 614.8438,135.5781 Q615.6875,136.2656 617.1875,136.2656 Q618.0781,136.2656 618.7031,136.0625 Q619.0625,135.9531 619.4688,135.5938 Q619.7344,135.3906 619.875,135.3281 Q620.0156,135.2656 620.1875,135.2656 Q620.5156,135.2656 620.75,135.5313 Q621,135.7813 621,136.1406 Q621,136.4844 620.6563,136.8906 Q620.1563,137.4844 619.3594,137.8125 Q618.3125,138.2656 617.0313,138.2656 Q615.5313,138.2656 614.3281,137.6719 Q613.3594,137.2031 612.6719,136.1875 Q612,135.1719 612,133.9688 L612,132.875 Q612,131.625 612.5938,130.5313 Q613.2031,129.4375 614.25,128.8594 Q615.3125,128.2656 616.5,128.2656 Q617.2188,128.2656 617.8438,128.5156 Q618.4688,128.7656 619,129.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="631" y="137.6758">AddProductUI</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="603" x2="708" y1="148.7656" y2="148.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="603" x2="708" y1="156.7656" y2="156.7656"/><!--MD5=[f6821e9956e54f84c223b187e9d7f4aa]
+class ProductManagementService--><rect codeLine="31" fill="#BADFDB" filter="url(#f1jmfg4pdkeakr)" height="103.3438" id="ProductManagementService" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="729" x="7" y="346.7656"/><ellipse cx="290.25" cy="362.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M292.25,359.2656 Q292.4531,358.7656 292.6875,358.5156 Q292.9219,358.2656 293.1875,358.2656 Q293.6563,358.2656 293.9531,358.5469 Q294.25,358.8281 294.25,359.4844 L294.25,361.0469 Q294.25,361.7031 293.9688,361.9844 Q293.6875,362.2656 293.25,362.2656 Q292.8594,362.2656 292.6094,362.0938 Q292.3594,361.9219 292.25,361.4688 Q292.2031,361.1563 292.0313,360.9844 Q291.7188,360.6563 291.1563,360.4688 Q290.5938,360.2656 290.0313,360.2656 Q289.3281,360.2656 288.7344,360.5469 Q288.1563,360.8281 287.7031,361.4531 Q287.25,362.0781 287.25,362.9375 L287.25,363.8594 Q287.25,364.8906 288.0938,365.5781 Q288.9375,366.2656 290.4375,366.2656 Q291.3281,366.2656 291.9531,366.0625 Q292.3125,365.9531 292.7188,365.5938 Q292.9844,365.3906 293.125,365.3281 Q293.2656,365.2656 293.4375,365.2656 Q293.7656,365.2656 294,365.5313 Q294.25,365.7813 294.25,366.1406 Q294.25,366.4844 293.9063,366.8906 Q293.4063,367.4844 292.6094,367.8125 Q291.5625,368.2656 290.2813,368.2656 Q288.7813,368.2656 287.5781,367.6719 Q286.6094,367.2031 285.9219,366.1875 Q285.25,365.1719 285.25,363.9688 L285.25,362.875 Q285.25,361.625 285.8438,360.5313 Q286.4531,359.4375 287.5,358.8594 Q288.5625,358.2656 289.75,358.2656 Q290.4688,358.2656 291.0938,358.5156 Q291.7188,358.7656 292.25,359.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="154" x="310.75" y="367.6758">ProductManagementService</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="8" x2="735" y1="378.7656" y2="378.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="8" x2="735" y1="386.7656" y2="386.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="238" x="13" y="402.1846">+ProductManagementService(productRepository)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="717" x="13" y="416.0205">+addNewProduct(price,brand, reference,shortDescription,longDescription,technicalDescription,barcode,width,length,height,weight,productCategory)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="13" y="429.8564">+allProducts()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="13" y="443.6924">+productOfIdentity(id)</text><!--MD5=[d3df14e98e429aa8206aa15487be4e22]
+class ProductCategoryManagementService--><rect codeLine="38" fill="#BADFDB" filter="url(#f1jmfg4pdkeakr)" height="103.3438" id="ProductCategoryManagementService" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="338" x="771.5" y="346.7656"/><ellipse cx="834.75" cy="362.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M836.75,359.2656 Q836.9531,358.7656 837.1875,358.5156 Q837.4219,358.2656 837.6875,358.2656 Q838.1563,358.2656 838.4531,358.5469 Q838.75,358.8281 838.75,359.4844 L838.75,361.0469 Q838.75,361.7031 838.4688,361.9844 Q838.1875,362.2656 837.75,362.2656 Q837.3594,362.2656 837.1094,362.0938 Q836.8594,361.9219 836.75,361.4688 Q836.7031,361.1563 836.5313,360.9844 Q836.2188,360.6563 835.6563,360.4688 Q835.0938,360.2656 834.5313,360.2656 Q833.8281,360.2656 833.2344,360.5469 Q832.6563,360.8281 832.2031,361.4531 Q831.75,362.0781 831.75,362.9375 L831.75,363.8594 Q831.75,364.8906 832.5938,365.5781 Q833.4375,366.2656 834.9375,366.2656 Q835.8281,366.2656 836.4531,366.0625 Q836.8125,365.9531 837.2188,365.5938 Q837.4844,365.3906 837.625,365.3281 Q837.7656,365.2656 837.9375,365.2656 Q838.2656,365.2656 838.5,365.5313 Q838.75,365.7813 838.75,366.1406 Q838.75,366.4844 838.4063,366.8906 Q837.9063,367.4844 837.1094,367.8125 Q836.0625,368.2656 834.7813,368.2656 Q833.2813,368.2656 832.0781,367.6719 Q831.1094,367.2031 830.4219,366.1875 Q829.75,365.1719 829.75,363.9688 L829.75,362.875 Q829.75,361.625 830.3438,360.5313 Q830.9531,359.4375 832,358.8594 Q833.0625,358.2656 834.25,358.2656 Q834.9688,358.2656 835.5938,358.5156 Q836.2188,358.7656 836.75,359.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="203" x="855.25" y="367.6758">ProductCategoryManagementService</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="772.5" x2="1108.5" y1="378.7656" y2="378.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="772.5" x2="1108.5" y1="386.7656" y2="386.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="326" x="777.5" y="402.1846">+ProductCategoryManagementService(productCategoryRepository)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="216" x="777.5" y="416.0205">+addNewProductCategory(code,description)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="777.5" y="429.8564">+allProductCategories()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="165" x="777.5" y="443.6924">+productCategoryOfIdentity(code)</text><!--MD5=[866dcdb0a7daba50545206253620ba29]
+class ProductCategoryRepository--><rect codeLine="44" fill="#BADFDB" filter="url(#f1jmfg4pdkeakr)" height="61.8359" id="ProductCategoryRepository" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="182" x="849.5" y="509.7656"/><ellipse cx="864.5" cy="525.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M866.5,522.2656 Q866.7031,521.7656 866.9375,521.5156 Q867.1719,521.2656 867.4375,521.2656 Q867.9063,521.2656 868.2031,521.5469 Q868.5,521.8281 868.5,522.4844 L868.5,524.0469 Q868.5,524.7031 868.2188,524.9844 Q867.9375,525.2656 867.5,525.2656 Q867.1094,525.2656 866.8594,525.0938 Q866.6094,524.9219 866.5,524.4688 Q866.4531,524.1563 866.2813,523.9844 Q865.9688,523.6563 865.4063,523.4688 Q864.8438,523.2656 864.2813,523.2656 Q863.5781,523.2656 862.9844,523.5469 Q862.4063,523.8281 861.9531,524.4531 Q861.5,525.0781 861.5,525.9375 L861.5,526.8594 Q861.5,527.8906 862.3438,528.5781 Q863.1875,529.2656 864.6875,529.2656 Q865.5781,529.2656 866.2031,529.0625 Q866.5625,528.9531 866.9688,528.5938 Q867.2344,528.3906 867.375,528.3281 Q867.5156,528.2656 867.6875,528.2656 Q868.0156,528.2656 868.25,528.5313 Q868.5,528.7813 868.5,529.1406 Q868.5,529.4844 868.1563,529.8906 Q867.6563,530.4844 866.8594,530.8125 Q865.8125,531.2656 864.5313,531.2656 Q863.0313,531.2656 861.8281,530.6719 Q860.8594,530.2031 860.1719,529.1875 Q859.5,528.1719 859.5,526.9688 L859.5,525.875 Q859.5,524.625 860.0938,523.5313 Q860.7031,522.4375 861.75,521.8594 Q862.8125,521.2656 864,521.2656 Q864.7188,521.2656 865.3438,521.5156 Q865.9688,521.7656 866.5,522.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="878.5" y="530.6758">ProductCategoryRepository</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="850.5" x2="1030.5" y1="541.7656" y2="541.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="850.5" x2="1030.5" y1="549.7656" y2="549.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="855.5" y="565.1846">+findAll()</text><!--MD5=[f9761e4ec0e5a044b983a0fb01ce84a9]
+class ProductRepository--><rect codeLine="47" fill="#BADFDB" filter="url(#f1jmfg4pdkeakr)" height="61.8359" id="ProductRepository" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="133" x="245" y="509.7656"/><ellipse cx="260" cy="525.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M262,522.2656 Q262.2031,521.7656 262.4375,521.5156 Q262.6719,521.2656 262.9375,521.2656 Q263.4063,521.2656 263.7031,521.5469 Q264,521.8281 264,522.4844 L264,524.0469 Q264,524.7031 263.7188,524.9844 Q263.4375,525.2656 263,525.2656 Q262.6094,525.2656 262.3594,525.0938 Q262.1094,524.9219 262,524.4688 Q261.9531,524.1563 261.7813,523.9844 Q261.4688,523.6563 260.9063,523.4688 Q260.3438,523.2656 259.7813,523.2656 Q259.0781,523.2656 258.4844,523.5469 Q257.9063,523.8281 257.4531,524.4531 Q257,525.0781 257,525.9375 L257,526.8594 Q257,527.8906 257.8438,528.5781 Q258.6875,529.2656 260.1875,529.2656 Q261.0781,529.2656 261.7031,529.0625 Q262.0625,528.9531 262.4688,528.5938 Q262.7344,528.3906 262.875,528.3281 Q263.0156,528.2656 263.1875,528.2656 Q263.5156,528.2656 263.75,528.5313 Q264,528.7813 264,529.1406 Q264,529.4844 263.6563,529.8906 Q263.1563,530.4844 262.3594,530.8125 Q261.3125,531.2656 260.0313,531.2656 Q258.5313,531.2656 257.3281,530.6719 Q256.3594,530.2031 255.6719,529.1875 Q255,528.1719 255,526.9688 L255,525.875 Q255,524.625 255.5938,523.5313 Q256.2031,522.4375 257.25,521.8594 Q258.3125,521.2656 259.5,521.2656 Q260.2188,521.2656 260.8438,521.5156 Q261.4688,521.7656 262,522.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="101" x="274" y="530.6758">ProductRepository</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="246" x2="377" y1="541.7656" y2="541.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="246" x2="377" y1="549.7656" y2="549.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="251" y="565.1846">+save(product)</text><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><rect codeLine="50" fill="#BADFDB" filter="url(#f1jmfg4pdkeakr)" height="310.8828" id="Product" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="688" x="27.5" y="631.7656"/><ellipse cx="346.25" cy="647.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M348.25,644.2656 Q348.4531,643.7656 348.6875,643.5156 Q348.9219,643.2656 349.1875,643.2656 Q349.6563,643.2656 349.9531,643.5469 Q350.25,643.8281 350.25,644.4844 L350.25,646.0469 Q350.25,646.7031 349.9688,646.9844 Q349.6875,647.2656 349.25,647.2656 Q348.8594,647.2656 348.6094,647.0938 Q348.3594,646.9219 348.25,646.4688 Q348.2031,646.1563 348.0313,645.9844 Q347.7188,645.6563 347.1563,645.4688 Q346.5938,645.2656 346.0313,645.2656 Q345.3281,645.2656 344.7344,645.5469 Q344.1563,645.8281 343.7031,646.4531 Q343.25,647.0781 343.25,647.9375 L343.25,648.8594 Q343.25,649.8906 344.0938,650.5781 Q344.9375,651.2656 346.4375,651.2656 Q347.3281,651.2656 347.9531,651.0625 Q348.3125,650.9531 348.7188,650.5938 Q348.9844,650.3906 349.125,650.3281 Q349.2656,650.2656 349.4375,650.2656 Q349.7656,650.2656 350,650.5313 Q350.25,650.7813 350.25,651.1406 Q350.25,651.4844 349.9063,651.8906 Q349.4063,652.4844 348.6094,652.8125 Q347.5625,653.2656 346.2813,653.2656 Q344.7813,653.2656 343.5781,652.6719 Q342.6094,652.2031 341.9219,651.1875 Q341.25,650.1719 341.25,648.9688 L341.25,647.875 Q341.25,646.625 341.8438,645.5313 Q342.4531,644.4375 343.5,643.8594 Q344.5625,643.2656 345.75,643.2656 Q346.4688,643.2656 347.0938,643.5156 Q347.7188,643.7656 348.25,644.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="366.75" y="652.6758">Product</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="28.5" x2="714.5" y1="663.7656" y2="663.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="28.5" x2="714.5" y1="671.7656" y2="671.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="676" x="33.5" y="687.1846">+Product(price,brand, reference,shortDescription,longDescription,technicalDescription,barcode,width,length,height,weight,productCategory)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="33.5" y="701.0205">+equals(o)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="48" x="33.5" y="714.8564">+identity()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="33.5" y="728.6924">+price()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="33.5" y="742.5283">+productPrice()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="33.5" y="756.3643">+productBrand()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="33.5" y="770.2002">+productReference()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="131" x="33.5" y="784.0361">+productShortDescription()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="33.5" y="797.8721">+productLongDescription()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="151" x="33.5" y="811.708">+productTechnicalDescription()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="33.5" y="825.5439">+productProductionCode()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="33.5" y="839.3799">+barcode()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="33.5" y="853.2158">+productBarcode()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="33.5" y="867.0518">+productWidth()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="33.5" y="880.8877">+productLength()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="33.5" y="894.7236">+productHeight()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="33.5" y="908.5596">+productWeight()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="33.5" y="922.3955">+category()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="33.5" y="936.2314">+productCategory()</text><!--MD5=[af623b001cb41040b83c31703cd4ad48]
+link AddProductUI to AddProductController--><path codeLine="72" d="M655.5,164.9056 C655.5,180.4756 655.5,201.2956 655.5,218.9856 " fill="none" id="AddProductUI-to-AddProductController" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="655.5,224.3656,659.5,215.3656,655.5,219.3656,651.5,215.3656,655.5,224.3656" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[dca1b03dd3e9265bf553860ef8ddc4d6]
+link AddProductController to ProductManagementService--><path codeLine="73" d="M594.57,286.9056 C560.75,303.6456 517.68,324.9456 478.43,344.3656 " fill="none" id="AddProductController-to-ProductManagementService" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="473.67,346.7256,483.5109,346.3287,478.1535,344.5124,479.9697,339.1551,473.67,346.7256" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[245085e557b5273b5d39874407a34c9f]
+link AddProductController to ProductCategoryManagementService--><path codeLine="74" d="M716.64,286.9056 C750.59,303.6456 793.8,324.9456 833.19,344.3656 " fill="none" id="AddProductController-to-ProductCategoryManagementService" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="837.97,346.7256,831.6799,339.1471,833.4893,344.5068,828.1297,346.3162,837.97,346.7256" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[1877a9e2ad6b3b82b4f9e4c06e3ce6dc]
+link ProductManagementService to ProductRepository--><path codeLine="75" d="M349.84,449.9856 C342.11,468.0856 333.58,488.0556 326.54,504.5556 " fill="none" id="ProductManagementService-to-ProductRepository" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="324.4,509.5556,331.6042,502.8401,326.3575,504.9547,324.2428,499.708,324.4,509.5556" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[b3b3b87a94a1ff058cf43ecb6daf9ad3]
+link ProductManagementService to Product--><path codeLine="76" d="M384.85,449.7756 C389.16,468.4856 393.37,489.9556 395.5,509.7656 C399.55,547.4756 398.84,588.1356 395.91,626.3756 " fill="none" id="ProductManagementService-to-Product" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="395.51,631.5056,400.2169,622.8543,395.9099,626.5216,392.2426,622.2146,395.51,631.5056" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[68e4965bc339513f2ae30d33caf3e4dc]
+link ProductRepository to Product--><path codeLine="77" d="M318.98,572.2356 C322.61,587.0556 327.29,606.1056 332.35,626.7156 " fill="none" id="ProductRepository-to-Product" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="333.57,631.7056,335.3215,622.0138,332.3842,626.8483,327.5497,623.911,333.57,631.7056" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[d6aabee4db21397a52b45b87c28e6cb8]
+link ProductCategoryManagementService to ProductCategoryRepository--><path codeLine="78" d="M940.5,449.9856 C940.5,468.0856 940.5,488.0556 940.5,504.5556 " fill="none" id="ProductCategoryManagementService-to-ProductCategoryRepository" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="940.5,509.5556,944.5,500.5556,940.5,504.5556,936.5,500.5556,940.5,509.5556" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[349378c060366d9a8a29f288e8d07a39]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+endheader
+title <b>US1001 - Class Diagram\n
+
+' ======= classes =========
+class AddProductController{
++addProduct(price,brand, reference,shortDescription,longDescription,technicalDescription,barcode,width,length,height,weight,productCategory)
+}
+class AddProductUI{
+}
+class ProductManagementService{
++ProductManagementService(productRepository)
++addNewProduct(price,brand, reference,shortDescription,longDescription,technicalDescription,barcode,width,length,height,weight,productCategory)
++allProducts()
++productOfIdentity(id)
+
+}
+class ProductCategoryManagementService{
+ +ProductCategoryManagementService(productCategoryRepository)
+ + addNewProductCategory(code,description)
+ +allProductCategories()
+ +productCategoryOfIdentity(code)
+}
+class ProductCategoryRepository{
++findAll()
+}
+class ProductRepository{
++save(product)
+}
+class Product{
++Product(price,brand, reference,shortDescription,longDescription,technicalDescription,barcode,width,length,height,weight,productCategory)
++equals(o)
++identity()
++price()
++productPrice()
++productBrand()
++productReference()
++productShortDescription()
++productLongDescription()
++productTechnicalDescription()
++productProductionCode()
++barcode()
++productBarcode()
++productWidth()
++productLength()
++productHeight()
++productWeight()
++category()
++productCategory()
+}
+
+AddProductUI ..> AddProductController
+AddProductController ..> ProductManagementService
+AddProductController ..> ProductCategoryManagementService
+ProductManagementService ..> ProductRepository
+ProductManagementService ..> Product
+ProductRepository ..> Product
+ProductCategoryManagementService ..> ProductCategoryRepository
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+endheader
+title <b>US1001 - Class Diagram\n
+
+class AddProductController{
++addProduct(price,brand, reference,shortDescription,longDescription,technicalDescription,barcode,width,length,height,weight,productCategory)
+}
+class AddProductUI{
+}
+class ProductManagementService{
++ProductManagementService(productRepository)
++addNewProduct(price,brand, reference,shortDescription,longDescription,technicalDescription,barcode,width,length,height,weight,productCategory)
++allProducts()
++productOfIdentity(id)
+
+}
+class ProductCategoryManagementService{
+ +ProductCategoryManagementService(productCategoryRepository)
+ + addNewProductCategory(code,description)
+ +allProductCategories()
+ +productCategoryOfIdentity(code)
+}
+class ProductCategoryRepository{
++findAll()
+}
+class ProductRepository{
++save(product)
+}
+class Product{
++Product(price,brand, reference,shortDescription,longDescription,technicalDescription,barcode,width,length,height,weight,productCategory)
++equals(o)
++identity()
++price()
++productPrice()
++productBrand()
++productReference()
++productShortDescription()
++productLongDescription()
++productTechnicalDescription()
++productProductionCode()
++barcode()
++productBarcode()
++productWidth()
++productLength()
++productHeight()
++productWeight()
++category()
++productCategory()
+}
+
+AddProductUI ..> AddProductController
+AddProductController ..> ProductManagementService
+AddProductController ..> ProductCategoryManagementService
+ProductManagementService ..> ProductRepository
+ProductManagementService ..> Product
+ProductRepository ..> Product
+ProductCategoryManagementService ..> ProductCategoryRepository
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

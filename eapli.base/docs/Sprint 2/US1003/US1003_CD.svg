@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="887px" preserveAspectRatio="none" style="width:498px;height:887px;background:#FCF9EA;" version="1.1" viewBox="0 0 498 887" width="498px" zoomAndPan="magnify"><defs><filter height="300%" id="fviwlauqnuq88" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="244" y="10.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="244" y="22.959"/><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="414" x="35.5" y="58.1738">US1003 - Class Diagram</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="247.5" y="100.4785"/><!--MD5=[46ecbe5be7f1f8b4b6de668608619e15]
+class AddCustomerController--><rect codeLine="26" fill="#BADFDB" filter="url(#fviwlauqnuq88)" height="61.8359" id="AddCustomerController" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="435" x="28" y="224.7656"/><ellipse cx="176.25" cy="240.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M178.25,237.2656 Q178.4531,236.7656 178.6875,236.5156 Q178.9219,236.2656 179.1875,236.2656 Q179.6563,236.2656 179.9531,236.5469 Q180.25,236.8281 180.25,237.4844 L180.25,239.0469 Q180.25,239.7031 179.9688,239.9844 Q179.6875,240.2656 179.25,240.2656 Q178.8594,240.2656 178.6094,240.0938 Q178.3594,239.9219 178.25,239.4688 Q178.2031,239.1563 178.0313,238.9844 Q177.7188,238.6563 177.1563,238.4688 Q176.5938,238.2656 176.0313,238.2656 Q175.3281,238.2656 174.7344,238.5469 Q174.1563,238.8281 173.7031,239.4531 Q173.25,240.0781 173.25,240.9375 L173.25,241.8594 Q173.25,242.8906 174.0938,243.5781 Q174.9375,244.2656 176.4375,244.2656 Q177.3281,244.2656 177.9531,244.0625 Q178.3125,243.9531 178.7188,243.5938 Q178.9844,243.3906 179.125,243.3281 Q179.2656,243.2656 179.4375,243.2656 Q179.7656,243.2656 180,243.5313 Q180.25,243.7813 180.25,244.1406 Q180.25,244.4844 179.9063,244.8906 Q179.4063,245.4844 178.6094,245.8125 Q177.5625,246.2656 176.2813,246.2656 Q174.7813,246.2656 173.5781,245.6719 Q172.6094,245.2031 171.9219,244.1875 Q171.25,243.1719 171.25,241.9688 L171.25,240.875 Q171.25,239.625 171.8438,238.5313 Q172.4531,237.4375 173.5,236.8594 Q174.5625,236.2656 175.75,236.2656 Q176.4688,236.2656 177.0938,236.5156 Q177.7188,236.7656 178.25,237.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="130" x="196.75" y="245.6758">AddCustomerController</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="29" x2="462" y1="256.7656" y2="256.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="29" x2="462" y1="264.7656" y2="264.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="423" x="34" y="280.1846">+addCustomer(firstName,lastName,vat,email,phoneNumber,addresses,gender,birthdate)</text><!--MD5=[6da3ee1a450180cf948252897b0c67ba]
+class RegisterCustomerUI--><rect codeLine="29" fill="#BADFDB" filter="url(#fviwlauqnuq88)" height="48" id="RegisterCustomerUI" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="146" x="172.5" y="116.7656"/><ellipse cx="187.5" cy="132.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M189.5,129.2656 Q189.7031,128.7656 189.9375,128.5156 Q190.1719,128.2656 190.4375,128.2656 Q190.9063,128.2656 191.2031,128.5469 Q191.5,128.8281 191.5,129.4844 L191.5,131.0469 Q191.5,131.7031 191.2188,131.9844 Q190.9375,132.2656 190.5,132.2656 Q190.1094,132.2656 189.8594,132.0938 Q189.6094,131.9219 189.5,131.4688 Q189.4531,131.1563 189.2813,130.9844 Q188.9688,130.6563 188.4063,130.4688 Q187.8438,130.2656 187.2813,130.2656 Q186.5781,130.2656 185.9844,130.5469 Q185.4063,130.8281 184.9531,131.4531 Q184.5,132.0781 184.5,132.9375 L184.5,133.8594 Q184.5,134.8906 185.3438,135.5781 Q186.1875,136.2656 187.6875,136.2656 Q188.5781,136.2656 189.2031,136.0625 Q189.5625,135.9531 189.9688,135.5938 Q190.2344,135.3906 190.375,135.3281 Q190.5156,135.2656 190.6875,135.2656 Q191.0156,135.2656 191.25,135.5313 Q191.5,135.7813 191.5,136.1406 Q191.5,136.4844 191.1563,136.8906 Q190.6563,137.4844 189.8594,137.8125 Q188.8125,138.2656 187.5313,138.2656 Q186.0313,138.2656 184.8281,137.6719 Q183.8594,137.2031 183.1719,136.1875 Q182.5,135.1719 182.5,133.9688 L182.5,132.875 Q182.5,131.625 183.0938,130.5313 Q183.7031,129.4375 184.75,128.8594 Q185.8125,128.2656 187,128.2656 Q187.7188,128.2656 188.3438,128.5156 Q188.9688,128.7656 189.5,129.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="114" x="201.5" y="137.6758">RegisterCustomerUI</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="173.5" x2="317.5" y1="148.7656" y2="148.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="173.5" x2="317.5" y1="156.7656" y2="156.7656"/><!--MD5=[989eca604b864bbb335e037ac451278e]
+class CustomerManagementService--><rect codeLine="31" fill="#BADFDB" filter="url(#fviwlauqnuq88)" height="103.3438" id="CustomerManagementService" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="477" x="7" y="346.7656"/><ellipse cx="157.75" cy="362.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M159.75,359.2656 Q159.9531,358.7656 160.1875,358.5156 Q160.4219,358.2656 160.6875,358.2656 Q161.1563,358.2656 161.4531,358.5469 Q161.75,358.8281 161.75,359.4844 L161.75,361.0469 Q161.75,361.7031 161.4688,361.9844 Q161.1875,362.2656 160.75,362.2656 Q160.3594,362.2656 160.1094,362.0938 Q159.8594,361.9219 159.75,361.4688 Q159.7031,361.1563 159.5313,360.9844 Q159.2188,360.6563 158.6563,360.4688 Q158.0938,360.2656 157.5313,360.2656 Q156.8281,360.2656 156.2344,360.5469 Q155.6563,360.8281 155.2031,361.4531 Q154.75,362.0781 154.75,362.9375 L154.75,363.8594 Q154.75,364.8906 155.5938,365.5781 Q156.4375,366.2656 157.9375,366.2656 Q158.8281,366.2656 159.4531,366.0625 Q159.8125,365.9531 160.2188,365.5938 Q160.4844,365.3906 160.625,365.3281 Q160.7656,365.2656 160.9375,365.2656 Q161.2656,365.2656 161.5,365.5313 Q161.75,365.7813 161.75,366.1406 Q161.75,366.4844 161.4063,366.8906 Q160.9063,367.4844 160.1094,367.8125 Q159.0625,368.2656 157.7813,368.2656 Q156.2813,368.2656 155.0781,367.6719 Q154.1094,367.2031 153.4219,366.1875 Q152.75,365.1719 152.75,363.9688 L152.75,362.875 Q152.75,361.625 153.3438,360.5313 Q153.9531,359.4375 155,358.8594 Q156.0625,358.2656 157.25,358.2656 Q157.9688,358.2656 158.5938,358.5156 Q159.2188,358.7656 159.75,359.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="167" x="178.25" y="367.6758">CustomerManagementService</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="8" x2="483" y1="378.7656" y2="378.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="8" x2="483" y1="386.7656" y2="386.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="228" x="13" y="402.1846">+CustomerManagementService(customerRepo)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="465" x="13" y="416.0205">+registerNewCustomer(firstName,lastName,vat,email,phoneNumber,addresses,gender,birthdate)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="13" y="429.8564">+allCustomers()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="13" y="443.6924">+customerOfIdentity(id)</text><!--MD5=[e69d6994dde37a3d0167e5476c791457]
+class CustomerRepository--><rect codeLine="37" fill="#BADFDB" filter="url(#fviwlauqnuq88)" height="61.8359" id="CustomerRepository" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="146" x="109.5" y="509.7656"/><ellipse cx="124.5" cy="525.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M126.5,522.2656 Q126.7031,521.7656 126.9375,521.5156 Q127.1719,521.2656 127.4375,521.2656 Q127.9063,521.2656 128.2031,521.5469 Q128.5,521.8281 128.5,522.4844 L128.5,524.0469 Q128.5,524.7031 128.2188,524.9844 Q127.9375,525.2656 127.5,525.2656 Q127.1094,525.2656 126.8594,525.0938 Q126.6094,524.9219 126.5,524.4688 Q126.4531,524.1563 126.2813,523.9844 Q125.9688,523.6563 125.4063,523.4688 Q124.8438,523.2656 124.2813,523.2656 Q123.5781,523.2656 122.9844,523.5469 Q122.4063,523.8281 121.9531,524.4531 Q121.5,525.0781 121.5,525.9375 L121.5,526.8594 Q121.5,527.8906 122.3438,528.5781 Q123.1875,529.2656 124.6875,529.2656 Q125.5781,529.2656 126.2031,529.0625 Q126.5625,528.9531 126.9688,528.5938 Q127.2344,528.3906 127.375,528.3281 Q127.5156,528.2656 127.6875,528.2656 Q128.0156,528.2656 128.25,528.5313 Q128.5,528.7813 128.5,529.1406 Q128.5,529.4844 128.1563,529.8906 Q127.6563,530.4844 126.8594,530.8125 Q125.8125,531.2656 124.5313,531.2656 Q123.0313,531.2656 121.8281,530.6719 Q120.8594,530.2031 120.1719,529.1875 Q119.5,528.1719 119.5,526.9688 L119.5,525.875 Q119.5,524.625 120.0938,523.5313 Q120.7031,522.4375 121.75,521.8594 Q122.8125,521.2656 124,521.2656 Q124.7188,521.2656 125.3438,521.5156 Q125.9688,521.7656 126.5,522.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="114" x="138.5" y="530.6758">CustomerRepository</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="110.5" x2="254.5" y1="541.7656" y2="541.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="110.5" x2="254.5" y1="549.7656" y2="549.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="115.5" y="565.1846">+save(customer)</text><!--MD5=[2ce0c9fb7f55b1e256ab28a8ea6b25ec]
+class Customer--><rect codeLine="40" fill="#BADFDB" filter="url(#fviwlauqnuq88)" height="241.7031" id="Customer" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="376" x="57.5" y="631.7656"/><ellipse cx="213.75" cy="647.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M215.75,644.2656 Q215.9531,643.7656 216.1875,643.5156 Q216.4219,643.2656 216.6875,643.2656 Q217.1563,643.2656 217.4531,643.5469 Q217.75,643.8281 217.75,644.4844 L217.75,646.0469 Q217.75,646.7031 217.4688,646.9844 Q217.1875,647.2656 216.75,647.2656 Q216.3594,647.2656 216.1094,647.0938 Q215.8594,646.9219 215.75,646.4688 Q215.7031,646.1563 215.5313,645.9844 Q215.2188,645.6563 214.6563,645.4688 Q214.0938,645.2656 213.5313,645.2656 Q212.8281,645.2656 212.2344,645.5469 Q211.6563,645.8281 211.2031,646.4531 Q210.75,647.0781 210.75,647.9375 L210.75,648.8594 Q210.75,649.8906 211.5938,650.5781 Q212.4375,651.2656 213.9375,651.2656 Q214.8281,651.2656 215.4531,651.0625 Q215.8125,650.9531 216.2188,650.5938 Q216.4844,650.3906 216.625,650.3281 Q216.7656,650.2656 216.9375,650.2656 Q217.2656,650.2656 217.5,650.5313 Q217.75,650.7813 217.75,651.1406 Q217.75,651.4844 217.4063,651.8906 Q216.9063,652.4844 216.1094,652.8125 Q215.0625,653.2656 213.7813,653.2656 Q212.2813,653.2656 211.0781,652.6719 Q210.1094,652.2031 209.4219,651.1875 Q208.75,650.1719 208.75,648.9688 L208.75,647.875 Q208.75,646.625 209.3438,645.5313 Q209.9531,644.4375 211,643.8594 Q212.0625,643.2656 213.25,643.2656 Q213.9688,643.2656 214.5938,643.5156 Q215.2188,643.7656 215.75,644.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="234.25" y="652.6758">Customer</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="58.5" x2="432.5" y1="663.7656" y2="663.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="58.5" x2="432.5" y1="671.7656" y2="671.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="364" x="63.5" y="687.1846">+Customer(user,email,gender,name,vat,phoneNumber,addresses,birthDate)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="339" x="63.5" y="701.0205">+Customer(email,gender,name,vat,phoneNumber,addresses,birthDate)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="63.5" y="714.8564">+equals(o)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="63.5" y="728.6924">+sameAs(other)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="48" x="63.5" y="742.5283">+identity()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="63.5" y="756.3643">+name()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="63.5" y="770.2002">+customerName()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="63.5" y="784.0361">+email()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="63.5" y="797.8721">+customerEmail()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="63.5" y="811.708">+customerGender()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="126" x="63.5" y="825.5439">+customerPhoneNumber()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="63.5" y="839.3799">+customerVat()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="63.5" y="853.2158">+customerAddresses()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="63.5" y="867.0518">+customerBirthDate()</text><!--MD5=[00814c99e791381612c7cb22808b34fc]
+link RegisterCustomerUI to AddCustomerController--><path codeLine="57" d="M245.5,164.9056 C245.5,180.4756 245.5,201.2956 245.5,218.9856 " fill="none" id="RegisterCustomerUI-to-AddCustomerController" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="245.5,224.3656,249.5,215.3656,245.5,219.3656,241.5,215.3656,245.5,224.3656" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[50c343821f6350f8faa9ea6db0207480]
+link AddCustomerController to CustomerManagementService--><path codeLine="58" d="M245.5,286.9056 C245.5,302.8256 245.5,322.8756 245.5,341.5056 " fill="none" id="AddCustomerController-to-CustomerManagementService" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="245.5,346.7256,249.5,337.7256,245.5,341.7256,241.5,337.7256,245.5,346.7256" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[c5a9cd1ee7a638163ea0b3cfc0ea502c]
+link CustomerManagementService to CustomerRepository--><path codeLine="59" d="M222.76,449.9856 C214.57,468.2356 205.53,488.3956 198.1,504.9856 " fill="none" id="CustomerManagementService-to-CustomerRepository" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="196.04,509.5556,203.3639,502.9707,198.08,504.9907,196.06,499.7068,196.04,509.5556" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[a483790186abc55cace1feefed20cc69]
+link CustomerManagementService to Customer--><path codeLine="60" d="M261.14,449.9256 C266.15,468.5456 271.03,489.9356 273.5,509.7656 C278.23,547.7256 276.13,589.0656 271.43,626.6556 " fill="none" id="CustomerManagementService-to-Customer" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="270.78,631.7056,275.9042,623.2948,271.423,626.7471,267.9707,622.2659,270.78,631.7056" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[3ae97d11c2ca570632e7e7ed3510da9a]
+link CustomerRepository to Customer--><path codeLine="61" d="M191.53,571.8556 C196.03,586.8656 201.81,606.1456 207.91,626.4756 " fill="none" id="CustomerRepository-to-Customer" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="209.39,631.3856,210.6298,621.6151,207.9506,626.5973,202.9685,623.9181,209.39,631.3856" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[e3035410b3dcadaea615c721c4269d34]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+endheader
+title <b>US1003 - Class Diagram\n
+
+' ======= classes =========
+class AddCustomerController{
++addCustomer(firstName,lastName,vat,email,phoneNumber,addresses,gender,birthdate)
+}
+class RegisterCustomerUI{
+}
+class CustomerManagementService{
++CustomerManagementService(customerRepo)
++registerNewCustomer(firstName,lastName,vat,email,phoneNumber,addresses,gender,birthdate)
++allCustomers()
++customerOfIdentity(id)
+}
+class CustomerRepository{
++save(customer)
+}
+class Customer{
++Customer(user,email,gender,name,vat,phoneNumber,addresses,birthDate)
++Customer(email,gender,name,vat,phoneNumber,addresses,birthDate)
++equals(o)
++sameAs(other)
++identity()
++name()
++customerName()
++email()
++customerEmail()
++customerGender()
++customerPhoneNumber()
++customerVat()
++customerAddresses()
++customerBirthDate()
+}
+
+RegisterCustomerUI ..> AddCustomerController
+AddCustomerController ..> CustomerManagementService
+CustomerManagementService ..> CustomerRepository
+CustomerManagementService ..> Customer
+CustomerRepository ..> Customer
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+endheader
+title <b>US1003 - Class Diagram\n
+
+class AddCustomerController{
++addCustomer(firstName,lastName,vat,email,phoneNumber,addresses,gender,birthdate)
+}
+class RegisterCustomerUI{
+}
+class CustomerManagementService{
++CustomerManagementService(customerRepo)
++registerNewCustomer(firstName,lastName,vat,email,phoneNumber,addresses,gender,birthdate)
++allCustomers()
++customerOfIdentity(id)
+}
+class CustomerRepository{
++save(customer)
+}
+class Customer{
++Customer(user,email,gender,name,vat,phoneNumber,addresses,birthDate)
++Customer(email,gender,name,vat,phoneNumber,addresses,birthDate)
++equals(o)
++sameAs(other)
++identity()
++name()
++customerName()
++email()
++customerEmail()
++customerGender()
++customerPhoneNumber()
++customerVat()
++customerAddresses()
++customerBirthDate()
+}
+
+RegisterCustomerUI ..> AddCustomerController
+AddCustomerController ..> CustomerManagementService
+CustomerManagementService ..> CustomerRepository
+CustomerManagementService ..> Customer
+CustomerRepository ..> Customer
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

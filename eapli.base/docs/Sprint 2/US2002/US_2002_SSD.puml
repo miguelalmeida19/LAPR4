@@ -1,0 +1,36 @@
+@startuml
+autonumber
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+actor "Warehouse employee" as WE
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+
+autonumber
+activate WE
+WE -> ":System" : starts configuring an AGV available on the warehouse
+activate ":System"
+":System" --> WE : shows available AGV docks to select from
+deactivate ":System"
+WE -> ":System" : selects a dock
+activate ":System"
+":System" --> WE : asks for the AGV information
+deactivate ":System"
+WE -> ":System" : inserts the requested information
+activate ":System"
+":System" --> WE : informs AGV was created successfully
+deactivate ":System"
+
+@enduml

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="356px" preserveAspectRatio="none" style="width:699px;height:356px;background:#D7E2DD;" version="1.1" viewBox="0 0 699 356" width="699px" zoomAndPan="magnify"><defs><filter height="300%" id="frtsniub6cfa6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="344.5" y="10.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="344.5" y="22.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="142" x="272" y="40.7275">Built by DeezNuts ©</text><text fill="#D55563" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="428" x="129" y="77.041">AGGREGATE CUSTOMER</text><text fill="#D55563" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="348" y="119.3457"/><!--MD5=[e43b054f55165e9e8d4409b7864f8a12]
+cluster Aggregate Customer--><rect fill="#C3DBD9" filter="url(#frtsniub6cfa6)" height="209" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="680" x="7" y="135.6328"/><path d="M162,135.6328 L162,146.2422 L152,156.2422 L7,156.2422 " fill="none" style="stroke:#FFFFFF;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="145" x="10" y="151.166">Aggregate Customer</text><!--MD5=[2ce0c9fb7f55b1e256ab28a8ea6b25ec]
+class Customer--><rect codeLine="43" fill="#86C2BD" filter="url(#frtsniub6cfa6)" height="62.0234" id="Customer" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="95" x="269.5" y="171.6328"/><ellipse cx="284.5" cy="191.7266" fill="#B0C1DB" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M283,192.7266 L283,194.7266 L287,194.7266 L287,193.7266 L287,193.2422 L287.625,192.7266 L288,192.7266 L288.375,192.7266 L289,193.2422 L289,193.7266 L289,196.7266 L281,196.7266 L280.5156,196.7266 L280,196.1016 L280,195.7266 L280,195.3516 L280.5156,194.7266 L281,194.7266 L281,194.7266 L281,188.7266 L281,188.7266 L280.5156,188.7266 L280,188.1016 L280,187.7266 L280,187.3516 L280.5156,186.7266 L281,186.7266 L289,186.7266 L289,189.7266 L289,190.2109 L288.375,190.7266 L288,190.7266 L287.625,190.7266 L287,190.2109 L287,189.7266 L287,188.7266 L283,188.7266 L283,190.7266 L284,190.7266 L284,190.2422 L284,190.2422 L284.625,189.7266 L285,189.7266 L285.375,189.7266 L286,190.2422 L286,190.7266 L286,192.7266 L286,193.2109 L285.375,193.7266 L285.375,193.7266 L285,193.7266 L284.625,193.7266 L284,193.2109 L284,193.2109 L284,192.7266 L283,192.7266 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="296.5" y="189.0898">«entity root»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="302.5" y="204.1836">Customer</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="270.5" x2="363.5" y1="211.8203" y2="211.8203"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="275.5" y="227.2393">-birthdate</text><rect fill="#86C2BD" filter="url(#frtsniub6cfa6)" height="35.0938" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="81" x="23.5" y="293.6328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="30.5" y="308.0898">CustomerID</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="24.5" x2="103.5" y1="312.7266" y2="312.7266"/><rect fill="#86C2BD" filter="url(#frtsniub6cfa6)" height="35.0938" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="48" x="140" y="293.6328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="34" x="147" y="308.0898">Name</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="141" x2="187" y1="312.7266" y2="312.7266"/><rect fill="#86C2BD" filter="url(#frtsniub6cfa6)" height="35.0938" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="35" x="223.5" y="293.6328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="21" x="230.5" y="308.0898">VAT</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="224.5" x2="257.5" y1="312.7266" y2="312.7266"/><rect fill="#86C2BD" filter="url(#frtsniub6cfa6)" height="35.0938" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="46" x="294" y="293.6328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="301" y="308.0898">Email</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="295" x2="339" y1="312.7266" y2="312.7266"/><rect fill="#86C2BD" filter="url(#frtsniub6cfa6)" height="35.0938" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="95" x="375.5" y="293.6328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="382.5" y="308.0898">PhoneNumber</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="376.5" x2="469.5" y1="312.7266" y2="312.7266"/><rect fill="#86C2BD" filter="url(#frtsniub6cfa6)" height="35.0938" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="74" x="506" y="293.6328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="60" x="513" y="308.0898">Addresses</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="507" x2="579" y1="312.7266" y2="312.7266"/><rect fill="#86C2BD" filter="url(#frtsniub6cfa6)" height="35.0938" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="55" x="615.5" y="293.6328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="41" x="622.5" y="308.0898">Gender</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="616.5" x2="669.5" y1="312.7266" y2="312.7266"/><!--MD5=[be14ee3937ee11dc31021ac29cf5dbcb]
+link Customer to CustomerID--><path codeLine="54" d="M269.41,223.6628 C223.15,243.1428 153.43,272.4828 108.31,291.4828 " fill="none" id="Customer-to-CustomerID" style="stroke:#38555F;stroke-width:3.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#38555F" points="103.48,293.5128,113.3272,293.6959,108.086,291.5674,110.2145,286.3263,103.48,293.5128" style="stroke:#38555F;stroke-width:3.0;"/><!--MD5=[0a8270db3671c85e503ce247627dc826]
+link Customer to Name--><path codeLine="55" d="M273.57,233.8628 C247.45,252.0428 214.97,274.6528 192.18,290.5228 " fill="none" id="Customer-to-Name" style="stroke:#38555F;stroke-width:3.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#38555F" points="188.04,293.4028,197.7109,291.539,192.1422,290.5441,193.137,284.9754,188.04,293.4028" style="stroke:#38555F;stroke-width:3.0;"/><!--MD5=[e21c05835871e6a5cb5a81425ddc1343]
+link Customer to VAT--><path codeLine="56" d="M295.42,233.8628 C282.83,251.5128 267.25,273.3428 255.99,289.1228 " fill="none" id="Customer-to-VAT" style="stroke:#38555F;stroke-width:3.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#38555F" points="252.94,293.4028,261.4194,288.3929,255.8408,289.3303,254.9034,283.7516,252.94,293.4028" style="stroke:#38555F;stroke-width:3.0;"/><!--MD5=[d37020313d60b0dc9e19f240715ef155]
+link Customer to Email--><path codeLine="57" d="M317,233.8628 C317,251.2128 317,272.6028 317,288.3028 " fill="none" id="Customer-to-Email" style="stroke:#38555F;stroke-width:3.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#38555F" points="317,293.4028,321,284.4028,317,288.4028,313,284.4028,317,293.4028" style="stroke:#38555F;stroke-width:3.0;"/><!--MD5=[fd4380d65360519d48eed8286565e90d]
+link Customer to PhoneNumber--><path codeLine="58" d="M347.09,233.8628 C364.81,251.6628 386.76,273.7228 402.49,289.5228 " fill="none" id="Customer-to-PhoneNumber" style="stroke:#38555F;stroke-width:3.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#38555F" points="406.35,293.4028,402.833,284.2033,402.8216,289.8601,397.1648,289.8487,406.35,293.4028" style="stroke:#38555F;stroke-width:3.0;"/><!--MD5=[7bc3708bf15fc25698e7123d80192af9]
+link Customer to Addresses--><path codeLine="59" d="M364.65,226.0928 C405.84,245.5028 464.69,273.2328 503.35,291.4528 " fill="none" id="Customer-to-Addresses" style="stroke:#38555F;stroke-width:3.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#38555F" points="507.96,293.6228,501.5255,286.1665,503.4375,291.4904,498.1136,293.4024,507.96,293.6228" style="stroke:#38555F;stroke-width:3.0;"/><!--MD5=[cf5567b3002e4b9a664bc30512620907]
+link Customer to Gender--><path codeLine="60" d="M364.93,218.3228 C421.02,235.6628 516.6,265.6928 598,293.6328 C602.07,295.0328 606.34,296.5428 610.55,298.0528 " fill="none" id="Customer-to-Gender" style="stroke:#38555F;stroke-width:3.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#38555F" points="615.46,299.8328,608.3572,293.0101,610.7581,298.1321,605.6361,300.5331,615.46,299.8328" style="stroke:#38555F;stroke-width:3.0;"/><!--MD5=[925b5d66c6a81d95a32019545b136a03]
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #d7e2dd
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #d55563
+
+skinparam packageBackgroundColor #C3DBD9
+skinparam packageBorderColor #
+skinparam packageBorderThickness 40
+
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor #B0C1DB
+skinparam arrowThickness 3
+
+skinparam class {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+skinparam object {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by DeezNuts ©</font>
+endheader
+title <b>AGGREGATE CUSTOMER\n
+
+' ======= aggregates =========
+
+package "Aggregate Customer" <<Frame>> {
+    entity Customer<<entity root>>{
+        - birthdate
+    }
+    object CustomerID
+    object Name
+    object VAT
+    object Email
+    object PhoneNumber
+    object Addresses
+    object Gender
+
+    Customer -down[dotted,#38555F]-> CustomerID
+    Customer -down[dotted,#38555F]-> Name
+    Customer -down[dotted,#38555F]-> VAT
+    Customer -down[dotted,#38555F]-> Email
+    Customer -down[dotted,#38555F]-> PhoneNumber
+    Customer -down[dotted,#38555F]-> Addresses
+    Customer -down[dotted,#38555F]-> Gender
+}
+
+
+@enduml
+
+@startuml
+hide methods
+skinparam backgroundColor #d7e2dd
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #d55563
+
+skinparam packageBackgroundColor #C3DBD9
+skinparam packageBorderColor #
+skinparam packageBorderThickness 40
+
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor #B0C1DB
+skinparam arrowThickness 3
+
+skinparam class {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+skinparam object {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+center header
+
+
+<font color=Black size=15><b>Built by DeezNuts ©</font>
+endheader
+title <b>AGGREGATE CUSTOMER\n
+
+
+package "Aggregate Customer" <<Frame>> {
+    entity Customer<<entity root>>{
+        - birthdate
+    }
+    object CustomerID
+    object Name
+    object VAT
+    object Email
+    object PhoneNumber
+    object Addresses
+    object Gender
+
+    Customer -down[dotted,#38555F]-> CustomerID
+    Customer -down[dotted,#38555F]-> Name
+    Customer -down[dotted,#38555F]-> VAT
+    Customer -down[dotted,#38555F]-> Email
+    Customer -down[dotted,#38555F]-> PhoneNumber
+    Customer -down[dotted,#38555F]-> Addresses
+    Customer -down[dotted,#38555F]-> Gender
+}
+
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

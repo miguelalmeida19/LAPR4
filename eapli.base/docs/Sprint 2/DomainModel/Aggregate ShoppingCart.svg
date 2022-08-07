@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="453px" preserveAspectRatio="none" style="width:520px;height:453px;background:#D7E2DD;" version="1.1" viewBox="0 0 520 453" width="520px" zoomAndPan="magnify"><defs><filter height="300%" id="fysyg9lxh9j7z" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="259" y="10.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="259" y="22.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="142" x="186.5" y="40.7275">Built by DeezNuts ©</text><text fill="#D55563" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="511" x="2" y="77.041">AGGREGATE SHOPPINGCART</text><text fill="#D55563" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="262.5" y="119.3457"/><!--MD5=[434ac4ec4bb35dd90a2666d396765d1c]
+cluster Aggregate ShoppingCart--><rect fill="#C3DBD9" filter="url(#fysyg9lxh9j7z)" height="306" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="345" x="89" y="135.6328"/><path d="M272,135.6328 L272,146.2422 L262,156.2422 L89,156.2422 " fill="none" style="stroke:#FFFFFF;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="173" x="92" y="151.166">Aggregate ShoppingCart</text><!--MD5=[8f025d9392027a137d45bff5a9222fd1]
+class ShoppingCartItem--><rect codeLine="43" fill="#86C2BD" filter="url(#fysyg9lxh9j7z)" height="40" id="ShoppingCartItem" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="132" x="105" y="289.6328"/><ellipse cx="120" cy="305.6328" fill="#B0C1DB" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M118.5,306.6328 L118.5,308.6328 L122.5,308.6328 L122.5,307.6328 L122.5,307.1484 L123.125,306.6328 L123.5,306.6328 L123.875,306.6328 L124.5,307.1484 L124.5,307.6328 L124.5,310.6328 L116.5,310.6328 L116.0156,310.6328 L115.5,310.0078 L115.5,309.6328 L115.5,309.2578 L116.0156,308.6328 L116.5,308.6328 L116.5,308.6328 L116.5,302.6328 L116.5,302.6328 L116.0156,302.6328 L115.5,302.0078 L115.5,301.6328 L115.5,301.2578 L116.0156,300.6328 L116.5,300.6328 L124.5,300.6328 L124.5,303.6328 L124.5,304.1172 L123.875,304.6328 L123.5,304.6328 L123.125,304.6328 L122.5,304.1172 L122.5,303.6328 L122.5,302.6328 L118.5,302.6328 L118.5,304.6328 L119.5,304.6328 L119.5,304.1484 L119.5,304.1484 L120.125,303.6328 L120.5,303.6328 L120.875,303.6328 L121.5,304.1484 L121.5,304.6328 L121.5,306.6328 L121.5,307.1172 L120.875,307.6328 L120.875,307.6328 L120.5,307.6328 L120.125,307.6328 L119.5,307.1172 L119.5,307.1172 L119.5,306.6328 L118.5,306.6328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="100" x="134" y="310.543">ShoppingCartItem</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="106" x2="236" y1="321.6328" y2="321.6328"/><!--MD5=[5966e65ec991dc36b37db3be72f739a6]
+class ShoppingCart--><rect codeLine="46" fill="#86C2BD" filter="url(#fysyg9lxh9j7z)" height="40" id="ShoppingCart" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="108" x="251" y="171.6328"/><ellipse cx="266" cy="187.6328" fill="#B0C1DB" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M264.5,188.6328 L264.5,190.6328 L268.5,190.6328 L268.5,189.6328 L268.5,189.1484 L269.125,188.6328 L269.5,188.6328 L269.875,188.6328 L270.5,189.1484 L270.5,189.6328 L270.5,192.6328 L262.5,192.6328 L262.0156,192.6328 L261.5,192.0078 L261.5,191.6328 L261.5,191.2578 L262.0156,190.6328 L262.5,190.6328 L262.5,190.6328 L262.5,184.6328 L262.5,184.6328 L262.0156,184.6328 L261.5,184.0078 L261.5,183.6328 L261.5,183.2578 L262.0156,182.6328 L262.5,182.6328 L270.5,182.6328 L270.5,185.6328 L270.5,186.1172 L269.875,186.6328 L269.5,186.6328 L269.125,186.6328 L268.5,186.1172 L268.5,185.6328 L268.5,184.6328 L264.5,184.6328 L264.5,186.6328 L265.5,186.6328 L265.5,186.1484 L265.5,186.1484 L266.125,185.6328 L266.5,185.6328 L266.875,185.6328 L267.5,186.1484 L267.5,186.6328 L267.5,188.6328 L267.5,189.1172 L266.875,189.6328 L266.875,189.6328 L266.5,189.6328 L266.125,189.6328 L265.5,189.1172 L265.5,189.1172 L265.5,188.6328 L264.5,188.6328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="76" x="280" y="192.543">ShoppingCart</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="252" x2="358" y1="203.6328" y2="203.6328"/><rect fill="#86C2BD" filter="url(#fysyg9lxh9j7z)" height="35.0938" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="75" x="115.5" y="390.6328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="122.5" y="405.0898">Product_ID</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="116.5" x2="189.5" y1="409.7266" y2="409.7266"/><rect fill="#86C2BD" filter="url(#fysyg9lxh9j7z)" height="35.0938" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="58" x="226" y="390.6328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="233" y="405.0898">Quantity</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="227" x2="283" y1="409.7266" y2="409.7266"/><rect fill="#86C2BD" filter="url(#fysyg9lxh9j7z)" height="35.0938" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="65" x="272.5" y="292.1328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="51" x="279.5" y="306.5898">Client_ID</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="273.5" x2="336.5" y1="311.2266" y2="311.2266"/><rect fill="#86C2BD" filter="url(#fysyg9lxh9j7z)" height="35.0938" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="45" x="372.5" y="292.1328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="31" x="379.5" y="306.5898">Items</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="373.5" x2="416.5" y1="311.2266" y2="311.2266"/><!--MD5=[5307bcb04e91bc1d3bcb10ac956962fd]
+link ShoppingCartItem to Product_ID--><path codeLine="54" d="M167.44,329.7028 C164.45,345.7228 160.18,368.6428 157.06,385.3828 " fill="none" id="ShoppingCartItem-to-Product_ID" style="stroke:#38555F;stroke-width:3.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#38555F" points="156.13,390.3628,161.7272,382.259,157.0557,385.4493,153.8655,380.7778,156.13,390.3628" style="stroke:#38555F;stroke-width:3.0;"/><!--MD5=[f7f6b057a1da30c5db0f1474bd8bbc7a]
+link ShoppingCartItem to Quantity--><path codeLine="55" d="M187.6,329.7028 C201.79,346.0028 222.18,369.4328 236.81,386.2428 " fill="none" id="ShoppingCartItem-to-Quantity" style="stroke:#38555F;stroke-width:3.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#38555F" points="240.4,390.3628,237.504,380.9494,237.1156,386.5929,231.4721,386.2044,240.4,390.3628" style="stroke:#38555F;stroke-width:3.0;"/><!--MD5=[b71e5e3f6d4105f4e843137478253853]
+link ShoppingCart to Client_ID--><path codeLine="57" d="M305,211.7928 C305,232.4328 305,265.2328 305,286.8428 " fill="none" id="ShoppingCart-to-Client_ID" style="stroke:#38555F;stroke-width:3.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#38555F" points="305,292.0828,309,283.0828,305,287.0828,301,283.0828,305,292.0828" style="stroke:#38555F;stroke-width:3.0;"/><!--MD5=[5b44a69fe0787f13dd207c6ecb894a92]
+link ShoppingCart to Items--><path codeLine="58" d="M319.86,211.7928 C336.15,232.7828 362.19,266.3428 378.94,287.9328 " fill="none" id="ShoppingCart-to-Items" style="stroke:#38555F;stroke-width:3.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#38555F" points="382.16,292.0828,379.8231,282.5152,379.1032,288.1261,373.4923,287.4061,382.16,292.0828" style="stroke:#38555F;stroke-width:3.0;"/><!--MD5=[c6e6882fd8bdc64049c22c5cd3433ece]
+reverse link ShoppingCart to ShoppingCartItem--><path codeLine="60" d="M262.67,219.0928 C252.61,226.0128 242.16,233.7528 233,241.6328 C215.95,256.3128 198.74,275.3228 186.79,289.3428 " fill="none" id="ShoppingCart-backto-ShoppingCartItem" style="stroke:#FFC5A1;stroke-width:3.0;"/><polygon fill="#D7E2DD" points="273.75,211.6728,266.5389,211.6816,263.7735,218.3414,270.9846,218.3326,273.75,211.6728" style="stroke:#FFC5A1;stroke-width:3.0;"/><polygon fill="#000000" points="234.331,254.2054,242.9649,250.2171,238.9717,245.9039,234.331,254.2054" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="247" y="256.1279">contains</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="256.9766" y="233.1036">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="185.5278" y="278.9308">*</text><!--MD5=[dcba780e07379908137eabec2a87dec3]
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #d7e2dd
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #d55563
+
+skinparam packageBackgroundColor #C3DBD9
+skinparam packageBorderColor #
+skinparam packageBorderThickness 40
+
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor #B0C1DB
+skinparam arrowThickness 3
+
+skinparam class {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+skinparam object {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by DeezNuts ©</font>
+endheader
+title <b>AGGREGATE SHOPPINGCART\n
+
+' ======= aggregates =========
+
+package "Aggregate ShoppingCart" <<Frame>> {
+    entity ShoppingCartItem{
+    }
+
+    entity ShoppingCart{
+    }
+
+    object Product_ID
+    object Quantity
+    object Client_ID
+    object Items
+
+    ShoppingCartItem -down[dotted,#38555F]-> Product_ID
+    ShoppingCartItem -down[dotted,#38555F]-> Quantity
+
+    ShoppingCart -down[dotted,#38555F]-> Client_ID
+    ShoppingCart -down[dotted,#38555F]-> Items
+
+    ShoppingCart "1" o- - "*" ShoppingCartItem : contains >
+}
+
+
+@enduml
+
+@startuml
+hide methods
+skinparam backgroundColor #d7e2dd
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #d55563
+
+skinparam packageBackgroundColor #C3DBD9
+skinparam packageBorderColor #
+skinparam packageBorderThickness 40
+
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor #B0C1DB
+skinparam arrowThickness 3
+
+skinparam class {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+skinparam object {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+center header
+
+
+<font color=Black size=15><b>Built by DeezNuts ©</font>
+endheader
+title <b>AGGREGATE SHOPPINGCART\n
+
+
+package "Aggregate ShoppingCart" <<Frame>> {
+    entity ShoppingCartItem{
+    }
+
+    entity ShoppingCart{
+    }
+
+    object Product_ID
+    object Quantity
+    object Client_ID
+    object Items
+
+    ShoppingCartItem -down[dotted,#38555F]-> Product_ID
+    ShoppingCartItem -down[dotted,#38555F]-> Quantity
+
+    ShoppingCart -down[dotted,#38555F]-> Client_ID
+    ShoppingCart -down[dotted,#38555F]-> Items
+
+    ShoppingCart "1" o- - "*" ShoppingCartItem : contains >
+}
+
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

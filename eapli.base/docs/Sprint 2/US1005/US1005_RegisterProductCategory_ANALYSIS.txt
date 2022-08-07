@@ -1,0 +1,19 @@
+# US1005 - Registro de Categorias de produtos - ANÁLISE
+------------------------------------------------------------------
+## Resumo da funcionalidade e do seu contexto
+
+* O "mainMenu" utiliza a aplicação de backffice para registrar as categorias de Produto que iram pertencer ao dominio do negócio, caraterizando os produtos.
+* Uma categoria de produto é caraterizado por um código e uma descrição.
+* Uma categoria de produto terá vários produtos associados.
+
+
+-------------------------------------------------------------------
+## REGRAS DE NEGÓCIO
+-------------------------------------------------------------------
+
+* O código de uma categoria de produto tem que ser único no sistema.
+* Como boa prática do negócio cada descrição deverá ser particular a cada categoria de produto.
+
+### Decisões no modelo de negócio
+
+* A categoria de produto acaba por fazer parte do mesmo agregado do produto, pelo facto que de ser referido que "um produto está obrigatoriamente associado a uma categoria de produto" o que faz com que haja uma dependência entre as duas entidades.

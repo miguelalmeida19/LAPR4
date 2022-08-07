@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="407px" preserveAspectRatio="none" style="width:442px;height:407px;background:#FCF9EA;" version="1.1" viewBox="0 0 442 407" width="442px" zoomAndPan="magnify"><defs/><g><rect fill="#FCF9EA" height="25.1563" rx="10" ry="10" style="stroke:#00000000;stroke-width:1.0;" width="3" x="215.5" y="0"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="3" x="215.5" y="10.3809"> </text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="3" x="215.5" y="22.959"> </text><rect fill="#FCF9EA" height="94.6094" rx="10" ry="10" style="stroke:#00000000;stroke-width:1.0;" width="424" x="5" y="31.1563"/><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="414" x="10" y="69.1738">US1902 - Class Diagram</text><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="11" x="211.5" y="111.4785"> </text><!--MD5=[30b684850bb7f3ba00e218ee24abf563]
+class TcpSrvOrders--><g id="elem_TcpSrvOrders"><rect codeLine="26" fill="#BADFDB" height="100.8281" id="TcpSrvOrders" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:0.5;" width="121" x="163.5" y="138.7656"/><ellipse cx="178.5" cy="154.7656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M180.5,151.2656 Q180.7031,150.7656 180.9375,150.5156 Q181.1719,150.2656 181.4375,150.2656 Q181.9063,150.2656 182.2031,150.5469 Q182.5,150.8281 182.5,151.4844 L182.5,153.0469 Q182.5,153.7031 182.2188,153.9844 Q181.9375,154.2656 181.5,154.2656 Q181.1094,154.2656 180.8594,154.0938 Q180.6094,153.9219 180.5,153.4688 Q180.4531,153.1563 180.2813,152.9844 Q179.9688,152.6563 179.4063,152.4688 Q178.8438,152.2656 178.2813,152.2656 Q177.5781,152.2656 176.9844,152.5469 Q176.4063,152.8281 175.9531,153.4531 Q175.5,154.0781 175.5,154.9375 L175.5,155.8594 Q175.5,156.8906 176.3438,157.5781 Q177.1875,158.2656 178.6875,158.2656 Q179.5781,158.2656 180.2031,158.0625 Q180.5625,157.9531 180.9688,157.5938 Q181.2344,157.3906 181.375,157.3281 Q181.5156,157.2656 181.6875,157.2656 Q182.0156,157.2656 182.25,157.5313 Q182.5,157.7813 182.5,158.1406 Q182.5,158.4844 182.1563,158.8906 Q181.6563,159.4844 180.8594,159.8125 Q179.8125,160.2656 178.5313,160.2656 Q177.0313,160.2656 175.8281,159.6719 Q174.8594,159.2031 174.1719,158.1875 Q173.5,157.1719 173.5,155.9688 L173.5,154.875 Q173.5,153.625 174.0938,152.5313 Q174.7031,151.4375 175.75,150.8594 Q176.8125,150.2656 178,150.2656 Q178.7188,150.2656 179.3438,150.5156 Q179.9688,150.7656 180.5,151.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="192.5" y="160.4941">TcpSrvOrders</text><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="164.5" x2="283.5" y1="170.7656" y2="170.7656"/><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="164.5" x2="283.5" y1="178.7656" y2="178.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="169.5" y="197.2988">+run()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="169.5" y="214.9082">+allProducts()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="169.5" y="232.5176">+getSocket()</text></g><!--MD5=[56dfdcef443de0ec5b039de07ae067c7]
+class OrdersService--><g id="elem_OrdersService"><rect codeLine="31" fill="#BADFDB" height="100.8281" id="OrdersService" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:0.5;" width="248" x="100" y="299.7656"/><ellipse cx="174.25" cy="315.7656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M176.25,312.2656 Q176.4531,311.7656 176.6875,311.5156 Q176.9219,311.2656 177.1875,311.2656 Q177.6563,311.2656 177.9531,311.5469 Q178.25,311.8281 178.25,312.4844 L178.25,314.0469 Q178.25,314.7031 177.9688,314.9844 Q177.6875,315.2656 177.25,315.2656 Q176.8594,315.2656 176.6094,315.0938 Q176.3594,314.9219 176.25,314.4688 Q176.2031,314.1563 176.0313,313.9844 Q175.7188,313.6563 175.1563,313.4688 Q174.5938,313.2656 174.0313,313.2656 Q173.3281,313.2656 172.7344,313.5469 Q172.1563,313.8281 171.7031,314.4531 Q171.25,315.0781 171.25,315.9375 L171.25,316.8594 Q171.25,317.8906 172.0938,318.5781 Q172.9375,319.2656 174.4375,319.2656 Q175.3281,319.2656 175.9531,319.0625 Q176.3125,318.9531 176.7188,318.5938 Q176.9844,318.3906 177.125,318.3281 Q177.2656,318.2656 177.4375,318.2656 Q177.7656,318.2656 178,318.5313 Q178.25,318.7813 178.25,319.1406 Q178.25,319.4844 177.9063,319.8906 Q177.4063,320.4844 176.6094,320.8125 Q175.5625,321.2656 174.2813,321.2656 Q172.7813,321.2656 171.5781,320.6719 Q170.6094,320.2031 169.9219,319.1875 Q169.25,318.1719 169.25,316.9688 L169.25,315.875 Q169.25,314.625 169.8438,313.5313 Q170.4531,312.4375 171.5,311.8594 Q172.5625,311.2656 173.75,311.2656 Q174.4688,311.2656 175.0938,311.5156 Q175.7188,311.7656 176.25,312.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="194.75" y="321.4941">OrdersService</text><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="101" x2="347" y1="331.7656" y2="331.7656"/><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="101" x2="347" y1="339.7656" y2="339.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="236" x="106" y="358.2988">+sendMessageToServer(option,data)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="106" y="375.9082">+convert(Object ob)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="106" y="393.5176">+getSocket()</text></g><!--MD5=[38aa3100c4e67f10d41125b3cd1b5808]
+link TcpSrvOrders to OrdersService--><g id="link_TcpSrvOrders_OrdersService"><path codeLine="38" d="M224,240.1356 C224,257.3056 224,276.6256 224,294.1856 " fill="none" id="TcpSrvOrders-to-OrdersService" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="224,299.5656,228,290.5656,224,294.5656,220,290.5656,224,299.5656" style="stroke:#FFC5A1;stroke-width:1.0;"/></g><!--MD5=[aaf73804dc0fc40ffe5d3452d22a3771]
+@startuml
+ ' ======= layout =========
+ skinparam backgroundColor #fcf9ea
+ skinparam titleBorderRoundCorner 15
+ skinparam titleFontSize 30
+ skinparam classAttributeIconSize 0
+ skinparam titleFontName Arial Black
+ skinparam titleFontColor #f8a978
+ skinparam roundcorner 20
+ skinparam stereotypeCBackgroundColor ffc5a1
+ skinparam class {
+
+ ArrowColor ffc5a1
+ BorderColor White
+ BackgroundColor badfdb
+ }
+
+
+ ' ======= title =========
+ center header
+
+
+ endheader
+ title <b>US1902 - Class Diagram\n
+
+' ======= classes =========
+class TcpSrvOrders{
++run()
++allProducts()
++getSocket()
+}
+class OrdersService{
++sendMessageToServer(option,data)
++convert(Object ob)
++getSocket()
+}
+
+
+TcpSrvOrders ..> OrdersService
+
+@enduml
+
+@startuml
+ skinparam backgroundColor #fcf9ea
+ skinparam titleBorderRoundCorner 15
+ skinparam titleFontSize 30
+ skinparam classAttributeIconSize 0
+ skinparam titleFontName Arial Black
+ skinparam titleFontColor #f8a978
+ skinparam roundcorner 20
+ skinparam stereotypeCBackgroundColor ffc5a1
+ skinparam class {
+
+ ArrowColor ffc5a1
+ BorderColor White
+ BackgroundColor badfdb
+ }
+
+
+ center header
+
+
+ endheader
+ title <b>US1902 - Class Diagram\n
+
+class TcpSrvOrders{
++run()
++allProducts()
++getSocket()
+}
+class OrdersService{
++sendMessageToServer(option,data)
++convert(Object ob)
++getSocket()
+}
+
+
+TcpSrvOrders ..> OrdersService
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

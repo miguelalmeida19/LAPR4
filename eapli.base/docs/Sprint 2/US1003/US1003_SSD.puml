@@ -1,0 +1,34 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Sales Clerk" as sales
+activate sales
+sales -> ":System" : Requires to add a new customer
+activate ":System"
+sales <-- ":System": Asks the required data
+deactivate ":System"
+sales -> ":System": types the data.
+activate ":System"
+":System" --> sales : shows success or failure of the operation
+deactivate ":System"
+
+
+@enduml

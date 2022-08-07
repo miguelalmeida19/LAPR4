@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="791px" preserveAspectRatio="none" style="width:734px;height:791px;background:#FCF9EA;" version="1.1" viewBox="0 0 734 791" width="734px" zoomAndPan="magnify"><defs><filter height="300%" id="fww59qrrvo2a1" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="362.25" y="10.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="362.25" y="22.959"/><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="414" x="153.75" y="58.1738">US2002 - Class Diagram</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="365.75" y="100.4785"/><!--MD5=[6190b5f745b8f8517a6d34913aa85631]
+class AddAGVController--><rect codeLine="26" fill="#BADFDB" filter="url(#fww59qrrvo2a1)" height="61.8359" id="AddAGVController" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="368" x="7" y="224.7656"/><ellipse cx="137.75" cy="240.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M139.75,237.2656 Q139.9531,236.7656 140.1875,236.5156 Q140.4219,236.2656 140.6875,236.2656 Q141.1563,236.2656 141.4531,236.5469 Q141.75,236.8281 141.75,237.4844 L141.75,239.0469 Q141.75,239.7031 141.4688,239.9844 Q141.1875,240.2656 140.75,240.2656 Q140.3594,240.2656 140.1094,240.0938 Q139.8594,239.9219 139.75,239.4688 Q139.7031,239.1563 139.5313,238.9844 Q139.2188,238.6563 138.6563,238.4688 Q138.0938,238.2656 137.5313,238.2656 Q136.8281,238.2656 136.2344,238.5469 Q135.6563,238.8281 135.2031,239.4531 Q134.75,240.0781 134.75,240.9375 L134.75,241.8594 Q134.75,242.8906 135.5938,243.5781 Q136.4375,244.2656 137.9375,244.2656 Q138.8281,244.2656 139.4531,244.0625 Q139.8125,243.9531 140.2188,243.5938 Q140.4844,243.3906 140.625,243.3281 Q140.7656,243.2656 140.9375,243.2656 Q141.2656,243.2656 141.5,243.5313 Q141.75,243.7813 141.75,244.1406 Q141.75,244.4844 141.4063,244.8906 Q140.9063,245.4844 140.1094,245.8125 Q139.0625,246.2656 137.7813,246.2656 Q136.2813,246.2656 135.0781,245.6719 Q134.1094,245.2031 133.4219,244.1875 Q132.75,243.1719 132.75,241.9688 L132.75,240.875 Q132.75,239.625 133.3438,238.5313 Q133.9531,237.4375 135,236.8594 Q136.0625,236.2656 137.25,236.2656 Q137.9688,236.2656 138.5938,236.5156 Q139.2188,236.7656 139.75,237.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="158.25" y="245.6758">AddAGVController</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="8" x2="374" y1="256.7656" y2="256.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="8" x2="374" y1="264.7656" y2="264.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="356" x="13" y="280.1846">+addAGV(identifier, shortDesc, model, maxWeight, maxVolume, agvDock)</text><!--MD5=[b858ad6e4cd32f6f99f5609780872fbc]
+class AddAGVUI--><rect codeLine="29" fill="#BADFDB" filter="url(#fww59qrrvo2a1)" height="48" id="AddAGVUI" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="88" x="297" y="116.7656"/><ellipse cx="312" cy="132.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M314,129.2656 Q314.2031,128.7656 314.4375,128.5156 Q314.6719,128.2656 314.9375,128.2656 Q315.4063,128.2656 315.7031,128.5469 Q316,128.8281 316,129.4844 L316,131.0469 Q316,131.7031 315.7188,131.9844 Q315.4375,132.2656 315,132.2656 Q314.6094,132.2656 314.3594,132.0938 Q314.1094,131.9219 314,131.4688 Q313.9531,131.1563 313.7813,130.9844 Q313.4688,130.6563 312.9063,130.4688 Q312.3438,130.2656 311.7813,130.2656 Q311.0781,130.2656 310.4844,130.5469 Q309.9063,130.8281 309.4531,131.4531 Q309,132.0781 309,132.9375 L309,133.8594 Q309,134.8906 309.8438,135.5781 Q310.6875,136.2656 312.1875,136.2656 Q313.0781,136.2656 313.7031,136.0625 Q314.0625,135.9531 314.4688,135.5938 Q314.7344,135.3906 314.875,135.3281 Q315.0156,135.2656 315.1875,135.2656 Q315.5156,135.2656 315.75,135.5313 Q316,135.7813 316,136.1406 Q316,136.4844 315.6563,136.8906 Q315.1563,137.4844 314.3594,137.8125 Q313.3125,138.2656 312.0313,138.2656 Q310.5313,138.2656 309.3281,137.6719 Q308.3594,137.2031 307.6719,136.1875 Q307,135.1719 307,133.9688 L307,132.875 Q307,131.625 307.5938,130.5313 Q308.2031,129.4375 309.25,128.8594 Q310.3125,128.2656 311.5,128.2656 Q312.2188,128.2656 312.8438,128.5156 Q313.4688,128.7656 314,129.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="326" y="137.6758">AddAGVUI</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="298" x2="384" y1="148.7656" y2="148.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="298" x2="384" y1="156.7656" y2="156.7656"/><!--MD5=[d02157dd65bb14273f32babdf15dd639]
+class AGVManagementService--><rect codeLine="31" fill="#BADFDB" filter="url(#fww59qrrvo2a1)" height="89.5078" id="AGVManagementService" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="391" x="329.5" y="346.7656"/><ellipse cx="453.25" cy="362.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M455.25,359.2656 Q455.4531,358.7656 455.6875,358.5156 Q455.9219,358.2656 456.1875,358.2656 Q456.6563,358.2656 456.9531,358.5469 Q457.25,358.8281 457.25,359.4844 L457.25,361.0469 Q457.25,361.7031 456.9688,361.9844 Q456.6875,362.2656 456.25,362.2656 Q455.8594,362.2656 455.6094,362.0938 Q455.3594,361.9219 455.25,361.4688 Q455.2031,361.1563 455.0313,360.9844 Q454.7188,360.6563 454.1563,360.4688 Q453.5938,360.2656 453.0313,360.2656 Q452.3281,360.2656 451.7344,360.5469 Q451.1563,360.8281 450.7031,361.4531 Q450.25,362.0781 450.25,362.9375 L450.25,363.8594 Q450.25,364.8906 451.0938,365.5781 Q451.9375,366.2656 453.4375,366.2656 Q454.3281,366.2656 454.9531,366.0625 Q455.3125,365.9531 455.7188,365.5938 Q455.9844,365.3906 456.125,365.3281 Q456.2656,365.2656 456.4375,365.2656 Q456.7656,365.2656 457,365.5313 Q457.25,365.7813 457.25,366.1406 Q457.25,366.4844 456.9063,366.8906 Q456.4063,367.4844 455.6094,367.8125 Q454.5625,368.2656 453.2813,368.2656 Q451.7813,368.2656 450.5781,367.6719 Q449.6094,367.2031 448.9219,366.1875 Q448.25,365.1719 448.25,363.9688 L448.25,362.875 Q448.25,361.625 448.8438,360.5313 Q449.4531,359.4375 450.5,358.8594 Q451.5625,358.2656 452.75,358.2656 Q453.4688,358.2656 454.0938,358.5156 Q454.7188,358.7656 455.25,359.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="135" x="473.75" y="367.6758">AGVManagementService</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="330.5" x2="719.5" y1="378.7656" y2="378.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="330.5" x2="719.5" y1="386.7656" y2="386.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="212" x="335.5" y="402.1846">+AGVManagementService(AGVRepository)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="379" x="335.5" y="416.0205">+addNewAGV(identifier, shortDesc, model, maxWeight, maxVolume, agvDock)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="335.5" y="429.8564">+allAGVs()</text><!--MD5=[116488e8673dfc468e79e36bca1a9209]
+class ListAGVDocksController--><rect codeLine="37" fill="#BADFDB" filter="url(#fww59qrrvo2a1)" height="61.8359" id="ListAGVDocksController" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="164" x="426" y="224.7656"/><ellipse cx="441" cy="240.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M443,237.2656 Q443.2031,236.7656 443.4375,236.5156 Q443.6719,236.2656 443.9375,236.2656 Q444.4063,236.2656 444.7031,236.5469 Q445,236.8281 445,237.4844 L445,239.0469 Q445,239.7031 444.7188,239.9844 Q444.4375,240.2656 444,240.2656 Q443.6094,240.2656 443.3594,240.0938 Q443.1094,239.9219 443,239.4688 Q442.9531,239.1563 442.7813,238.9844 Q442.4688,238.6563 441.9063,238.4688 Q441.3438,238.2656 440.7813,238.2656 Q440.0781,238.2656 439.4844,238.5469 Q438.9063,238.8281 438.4531,239.4531 Q438,240.0781 438,240.9375 L438,241.8594 Q438,242.8906 438.8438,243.5781 Q439.6875,244.2656 441.1875,244.2656 Q442.0781,244.2656 442.7031,244.0625 Q443.0625,243.9531 443.4688,243.5938 Q443.7344,243.3906 443.875,243.3281 Q444.0156,243.2656 444.1875,243.2656 Q444.5156,243.2656 444.75,243.5313 Q445,243.7813 445,244.1406 Q445,244.4844 444.6563,244.8906 Q444.1563,245.4844 443.3594,245.8125 Q442.3125,246.2656 441.0313,246.2656 Q439.5313,246.2656 438.3281,245.6719 Q437.3594,245.2031 436.6719,244.1875 Q436,243.1719 436,241.9688 L436,240.875 Q436,239.625 436.5938,238.5313 Q437.2031,237.4375 438.25,236.8594 Q439.3125,236.2656 440.5,236.2656 Q441.2188,236.2656 441.8438,236.5156 Q442.4688,236.7656 443,237.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="132" x="455" y="245.6758">ListAGVDocksController</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="427" x2="589" y1="256.7656" y2="256.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="427" x2="589" y1="264.7656" y2="264.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="432" y="280.1846">+allAGVDocks()</text><!--MD5=[9338fd51dec1f48e0e33c27a3a699c91]
+class AGVDockManagementService--><rect codeLine="40" fill="#BADFDB" filter="url(#fww59qrrvo2a1)" height="75.6719" id="AGVDockManagementService" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="272" x="22" y="353.7656"/><ellipse cx="72.25" cy="369.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M74.25,366.2656 Q74.4531,365.7656 74.6875,365.5156 Q74.9219,365.2656 75.1875,365.2656 Q75.6563,365.2656 75.9531,365.5469 Q76.25,365.8281 76.25,366.4844 L76.25,368.0469 Q76.25,368.7031 75.9688,368.9844 Q75.6875,369.2656 75.25,369.2656 Q74.8594,369.2656 74.6094,369.0938 Q74.3594,368.9219 74.25,368.4688 Q74.2031,368.1563 74.0313,367.9844 Q73.7188,367.6563 73.1563,367.4688 Q72.5938,367.2656 72.0313,367.2656 Q71.3281,367.2656 70.7344,367.5469 Q70.1563,367.8281 69.7031,368.4531 Q69.25,369.0781 69.25,369.9375 L69.25,370.8594 Q69.25,371.8906 70.0938,372.5781 Q70.9375,373.2656 72.4375,373.2656 Q73.3281,373.2656 73.9531,373.0625 Q74.3125,372.9531 74.7188,372.5938 Q74.9844,372.3906 75.125,372.3281 Q75.2656,372.2656 75.4375,372.2656 Q75.7656,372.2656 76,372.5313 Q76.25,372.7813 76.25,373.1406 Q76.25,373.4844 75.9063,373.8906 Q75.4063,374.4844 74.6094,374.8125 Q73.5625,375.2656 72.2813,375.2656 Q70.7813,375.2656 69.5781,374.6719 Q68.6094,374.2031 67.9219,373.1875 Q67.25,372.1719 67.25,370.9688 L67.25,369.875 Q67.25,368.625 67.8438,367.5313 Q68.4531,366.4375 69.5,365.8594 Q70.5625,365.2656 71.75,365.2656 Q72.4688,365.2656 73.0938,365.5156 Q73.7188,365.7656 74.25,366.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="163" x="92.75" y="374.6758">AGVDockManagementService</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="23" x2="293" y1="385.7656" y2="385.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="23" x2="293" y1="393.7656" y2="393.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="260" x="28" y="409.1846">+AGVDockManagementService(AGVDockRepository)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="28" y="423.0205">+allAGVDocks()</text><!--MD5=[7a6c8574023effef0a5430868458c27c]
+class AGVDockRepository--><rect codeLine="44" fill="#BADFDB" filter="url(#fww59qrrvo2a1)" height="61.8359" id="AGVDockRepository" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="142" x="87" y="496.7656"/><ellipse cx="102" cy="512.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M104,509.2656 Q104.2031,508.7656 104.4375,508.5156 Q104.6719,508.2656 104.9375,508.2656 Q105.4063,508.2656 105.7031,508.5469 Q106,508.8281 106,509.4844 L106,511.0469 Q106,511.7031 105.7188,511.9844 Q105.4375,512.2656 105,512.2656 Q104.6094,512.2656 104.3594,512.0938 Q104.1094,511.9219 104,511.4688 Q103.9531,511.1563 103.7813,510.9844 Q103.4688,510.6563 102.9063,510.4688 Q102.3438,510.2656 101.7813,510.2656 Q101.0781,510.2656 100.4844,510.5469 Q99.9063,510.8281 99.4531,511.4531 Q99,512.0781 99,512.9375 L99,513.8594 Q99,514.8906 99.8438,515.5781 Q100.6875,516.2656 102.1875,516.2656 Q103.0781,516.2656 103.7031,516.0625 Q104.0625,515.9531 104.4688,515.5938 Q104.7344,515.3906 104.875,515.3281 Q105.0156,515.2656 105.1875,515.2656 Q105.5156,515.2656 105.75,515.5313 Q106,515.7813 106,516.1406 Q106,516.4844 105.6563,516.8906 Q105.1563,517.4844 104.3594,517.8125 Q103.3125,518.2656 102.0313,518.2656 Q100.5313,518.2656 99.3281,517.6719 Q98.3594,517.2031 97.6719,516.1875 Q97,515.1719 97,513.9688 L97,512.875 Q97,511.625 97.5938,510.5313 Q98.2031,509.4375 99.25,508.8594 Q100.3125,508.2656 101.5,508.2656 Q102.2188,508.2656 102.8438,508.5156 Q103.4688,508.7656 104,509.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="110" x="116" y="517.6758">AGVDockRepository</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="88" x2="228" y1="528.7656" y2="528.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="88" x2="228" y1="536.7656" y2="536.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="93" y="552.1846">+findAll()</text><!--MD5=[a2934c79e3adc781b0cd87c74812aba5]
+class AGVRepository--><rect codeLine="47" fill="#BADFDB" filter="url(#fww59qrrvo2a1)" height="61.8359" id="AGVRepository" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="114" x="413" y="496.7656"/><ellipse cx="428" cy="512.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M430,509.2656 Q430.2031,508.7656 430.4375,508.5156 Q430.6719,508.2656 430.9375,508.2656 Q431.4063,508.2656 431.7031,508.5469 Q432,508.8281 432,509.4844 L432,511.0469 Q432,511.7031 431.7188,511.9844 Q431.4375,512.2656 431,512.2656 Q430.6094,512.2656 430.3594,512.0938 Q430.1094,511.9219 430,511.4688 Q429.9531,511.1563 429.7813,510.9844 Q429.4688,510.6563 428.9063,510.4688 Q428.3438,510.2656 427.7813,510.2656 Q427.0781,510.2656 426.4844,510.5469 Q425.9063,510.8281 425.4531,511.4531 Q425,512.0781 425,512.9375 L425,513.8594 Q425,514.8906 425.8438,515.5781 Q426.6875,516.2656 428.1875,516.2656 Q429.0781,516.2656 429.7031,516.0625 Q430.0625,515.9531 430.4688,515.5938 Q430.7344,515.3906 430.875,515.3281 Q431.0156,515.2656 431.1875,515.2656 Q431.5156,515.2656 431.75,515.5313 Q432,515.7813 432,516.1406 Q432,516.4844 431.6563,516.8906 Q431.1563,517.4844 430.3594,517.8125 Q429.3125,518.2656 428.0313,518.2656 Q426.5313,518.2656 425.3281,517.6719 Q424.3594,517.2031 423.6719,516.1875 Q423,515.1719 423,513.9688 L423,512.875 Q423,511.625 423.5938,510.5313 Q424.2031,509.4375 425.25,508.8594 Q426.3125,508.2656 427.5,508.2656 Q428.2188,508.2656 428.8438,508.5156 Q429.4688,508.7656 430,509.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="82" x="442" y="517.6758">AGVRepository</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="414" x2="526" y1="528.7656" y2="528.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="414" x2="526" y1="536.7656" y2="536.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="419" y="552.1846">+save(AGV)</text><!--MD5=[53b2c06ade5903185ca3326dce80e141]
+class AGV--><rect codeLine="50" fill="#BADFDB" filter="url(#fww59qrrvo2a1)" height="158.6875" id="AGV" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="350" x="350" y="618.7656"/><ellipse cx="509.25" cy="634.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M511.25,631.2656 Q511.4531,630.7656 511.6875,630.5156 Q511.9219,630.2656 512.1875,630.2656 Q512.6563,630.2656 512.9531,630.5469 Q513.25,630.8281 513.25,631.4844 L513.25,633.0469 Q513.25,633.7031 512.9688,633.9844 Q512.6875,634.2656 512.25,634.2656 Q511.8594,634.2656 511.6094,634.0938 Q511.3594,633.9219 511.25,633.4688 Q511.2031,633.1563 511.0313,632.9844 Q510.7188,632.6563 510.1563,632.4688 Q509.5938,632.2656 509.0313,632.2656 Q508.3281,632.2656 507.7344,632.5469 Q507.1563,632.8281 506.7031,633.4531 Q506.25,634.0781 506.25,634.9375 L506.25,635.8594 Q506.25,636.8906 507.0938,637.5781 Q507.9375,638.2656 509.4375,638.2656 Q510.3281,638.2656 510.9531,638.0625 Q511.3125,637.9531 511.7188,637.5938 Q511.9844,637.3906 512.125,637.3281 Q512.2656,637.2656 512.4375,637.2656 Q512.7656,637.2656 513,637.5313 Q513.25,637.7813 513.25,638.1406 Q513.25,638.4844 512.9063,638.8906 Q512.4063,639.4844 511.6094,639.8125 Q510.5625,640.2656 509.2813,640.2656 Q507.7813,640.2656 506.5781,639.6719 Q505.6094,639.2031 504.9219,638.1875 Q504.25,637.1719 504.25,635.9688 L504.25,634.875 Q504.25,633.625 504.8438,632.5313 Q505.4531,631.4375 506.5,630.8594 Q507.5625,630.2656 508.75,630.2656 Q509.4688,630.2656 510.0938,630.5156 Q510.7188,630.7656 511.25,631.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="23" x="529.75" y="639.6758">AGV</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="351" x2="699" y1="650.7656" y2="650.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="351" x2="699" y1="658.7656" y2="658.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="338" x="356" y="674.1846">+AGV(identifier, shortDesc, model, maxWeight, maxVolume, agvDock)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="356" y="688.0205">+equals(o)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="48" x="356" y="701.8564">+identity()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="356" y="715.6924">+shortDesc()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="356" y="729.5283">+model()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="356" y="743.3643">+maxWeight()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="356" y="757.2002">+maxVolume()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="356" y="771.0361">+AGVDockId()</text><!--MD5=[8cd80734904c6015861f6b25ee0b4f15]
+link AddAGVUI to AddAGVController--><path codeLine="61" d="M310.28,164.9056 C288.65,181.2056 259.36,203.2656 235.22,221.4556 " fill="none" id="AddAGVUI-to-AddAGVController" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="231.08,224.5756,240.675,222.3537,235.0731,221.5665,235.8604,215.9647,231.08,224.5756" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[502898a75c03dced55a5bae4b6adf01a]
+link AddAGVUI to ListAGVDocksController--><path codeLine="62" d="M375.2,164.9056 C399.38,181.2656 432.16,203.4556 459.11,221.6856 " fill="none" id="AddAGVUI-to-ListAGVDocksController" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="463.38,224.5756,458.1766,216.2135,459.2419,221.7692,453.6863,222.8345,463.38,224.5756" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[a2b959ee8471f05e1a3bc637dc383e58]
+link ListAGVDocksController to AGVManagementService--><path codeLine="64" d="M511.82,286.8356 C513.86,302.9156 516.42,323.1256 518.74,341.4356 " fill="none" id="ListAGVDocksController-to-AGVManagementService" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="519.39,346.5456,522.2261,337.1139,518.761,341.5853,514.2896,338.1203,519.39,346.5456" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[456728a9b405c225498707be3fb7efe7]
+link AddAGVController to AGVDockManagementService--><path codeLine="65" d="M183.59,286.8356 C179.11,305.0456 173.32,328.5556 168.38,348.5956 " fill="none" id="AddAGVController-to-AGVDockManagementService" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="167.15,353.6156,173.1919,345.8377,168.3492,348.7616,165.4254,343.9189,167.15,353.6156" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[8426c14368a6db7886e91db946a597fe]
+link AGVManagementService to AGVRepository--><path codeLine="66" d="M506.84,437.0156 C499.52,454.8556 491.19,475.1356 484.31,491.8956 " fill="none" id="AGVManagementService-to-AGVRepository" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="482.41,496.5256,489.5281,489.7188,484.3087,491.9002,482.1273,486.6808,482.41,496.5256" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[edc4e94d7ba400f772331a72bb2cfdff]
+link AGVManagementService to AGV--><path codeLine="67" d="M534.86,436.8056 C538.52,455.2256 542.2,476.9356 544,496.7656 C547.47,535.0956 544.45,577.5456 539.87,613.4656 " fill="none" id="AGVManagementService-to-AGV" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="539.18,618.7256,544.3042,610.3148,539.823,613.7671,536.3707,609.2859,539.18,618.7256" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[44c78d46300cbd445cde51c8cf6651a2]
+link AGVRepository to AGV--><path codeLine="68" d="M479.83,558.8856 C484.87,574.3356 491.29,593.9956 497.69,613.6056 " fill="none" id="AGVRepository-to-AGV" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="499.32,618.5856,500.3218,608.7878,497.7646,613.8337,492.7187,611.2765,499.32,618.5856" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[29997ff22ddc651175d17acee657f665]
+link AGVDockManagementService to AGVDockRepository--><path codeLine="69" d="M158,430.0956 C158,449.2056 158,472.3556 158,491.2056 " fill="none" id="AGVDockManagementService-to-AGVDockRepository" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="158,496.4056,162,487.4056,158,491.4056,154,487.4056,158,496.4056" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[e4804a7754f06bd009077c40062bf4f8]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+endheader
+title <b>US2002 - Class Diagram\n
+
+' ======= classes =========
+class AddAGVController{
++addAGV(identifier, shortDesc, model, maxWeight, maxVolume, agvDock)
+}
+class AddAGVUI{
+}
+class AGVManagementService{
++AGVManagementService(AGVRepository)
++addNewAGV(identifier, shortDesc, model, maxWeight, maxVolume, agvDock)
++allAGVs()
+
+}
+class ListAGVDocksController {
++allAGVDocks()
+}
+class AGVDockManagementService{
+ +AGVDockManagementService(AGVDockRepository)
+ +allAGVDocks()
+}
+class AGVDockRepository{
++findAll()
+}
+class AGVRepository{
++save(AGV)
+}
+class AGV{
++AGV(identifier, shortDesc, model, maxWeight, maxVolume, agvDock)
++equals(o)
++identity()
++shortDesc()
++model()
++maxWeight()
++maxVolume()
++AGVDockId()
+}
+
+AddAGVUI ..> AddAGVController
+AddAGVUI ..> ListAGVDocksController
+
+ListAGVDocksController ..> AGVManagementService
+AddAGVController ..> AGVDockManagementService
+AGVManagementService ..> AGVRepository
+AGVManagementService ..> AGV
+AGVRepository ..> AGV
+AGVDockManagementService ..> AGVDockRepository
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+endheader
+title <b>US2002 - Class Diagram\n
+
+class AddAGVController{
++addAGV(identifier, shortDesc, model, maxWeight, maxVolume, agvDock)
+}
+class AddAGVUI{
+}
+class AGVManagementService{
++AGVManagementService(AGVRepository)
++addNewAGV(identifier, shortDesc, model, maxWeight, maxVolume, agvDock)
++allAGVs()
+
+}
+class ListAGVDocksController {
++allAGVDocks()
+}
+class AGVDockManagementService{
+ +AGVDockManagementService(AGVDockRepository)
+ +allAGVDocks()
+}
+class AGVDockRepository{
++findAll()
+}
+class AGVRepository{
++save(AGV)
+}
+class AGV{
++AGV(identifier, shortDesc, model, maxWeight, maxVolume, agvDock)
++equals(o)
++identity()
++shortDesc()
++model()
++maxWeight()
++maxVolume()
++AGVDockId()
+}
+
+AddAGVUI ..> AddAGVController
+AddAGVUI ..> ListAGVDocksController
+
+ListAGVDocksController ..> AGVManagementService
+AddAGVController ..> AGVDockManagementService
+AGVManagementService ..> AGVRepository
+AGVManagementService ..> AGV
+AGVRepository ..> AGV
+AGVDockManagementService ..> AGVDockRepository
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 17:25:22 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

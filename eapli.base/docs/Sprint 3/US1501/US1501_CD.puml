@@ -1,0 +1,52 @@
+@startuml
+ ' ======= layout =========
+ skinparam backgroundColor #fcf9ea
+ skinparam titleBorderRoundCorner 15
+ skinparam titleFontSize 30
+ skinparam classAttributeIconSize 0
+ skinparam titleFontName Arial Black
+ skinparam titleFontColor #f8a978
+ skinparam roundcorner 20
+ skinparam stereotypeCBackgroundColor ffc5a1
+ skinparam class {
+
+ ArrowColor ffc5a1
+ BorderColor White
+ BackgroundColor badfdb
+ }
+
+
+ ' ======= title =========
+ center header
+
+
+ endheader
+ title <b>US1501 - Class Diagram\n
+
+' ======= classes =========
+class TcpSrvOrders{
++run()
++allProducts()
++getSocket()
+}
+class ListCatalogService{
++sendMessageToServer(option,data)
++addProductToShoppingCart(shoppingCart)
++getSocket()
+}
+class ShoppingCartUI{
+}
+class AddProductsShoppingCartController{
++createShoppingCartAndRequestCatalog()
++addProductToShoppingCart()
++getShoppingCartContent()
++getTotalPrice()
+}
+
+
+ShoppingCartUI ..>AddProductsShoppingCartController
+AddProductsShoppingCartController-->ListCatalogService
+ListCatalogService ..> TcpSrvOrders
+TcpSrvOrders ..> ListCatalogService
+
+@enduml

@@ -1,0 +1,131 @@
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #d7e2dd
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #d55563
+
+skinparam packageBackgroundColor #C3DBD9
+skinparam packageBorderColor #
+skinparam packageBorderThickness 40
+
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor #e0a2a4
+skinparam arrowThickness 3
+
+skinparam class {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+skinparam object {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by DeezNuts ©</font>
+endheader
+title <b>DOMAIN MODEL\n
+
+' ======= aggregates =========
+
+package "Aggregate Customer" <<Frame>> {
+    entity Customer{
+        - birthdate
+    }
+}
+
+package "Aggregate Order" <<Frame>> {
+    entity OrderDetails{
+    }
+    entity OrderStatus{
+    }
+    entity Order{
+    }
+
+    entity OrderItem{
+    }
+}
+
+package "Aggregate ShoppingCart" <<Frame>> {
+    entity ShoppingCartItem{
+    }
+
+    entity ShoppingCart{
+    }
+}
+
+
+package "Aggregate Product" <<Frame>> {
+    entity ProductCatalog{
+    }
+
+    entity ProductCategory{
+    }
+
+    entity Product{
+        - promotional code
+    }
+}
+
+
+' ======= classes =========
+
+    entity AGV{
+    }
+
+    object AGV_ID
+    object AGV_Description
+    object AGV_Model
+    object Maximum_Weight
+    object Volume
+    object Base_Location
+
+    AGV -[dotted,#38555F]-> AGV_ID
+    AGV -[dotted,#38555F]-> AGV_Description
+    AGV -[dotted,#38555F]-> AGV_Model
+    AGV -[dotted,#38555F]-> Maximum_Weight
+    AGV -[dotted,#38555F]-> Volume
+    AGV -[dotted,#38555F]-> Base_Location
+
+
+    entity Survey{}
+
+' ======= connections =========
+
+Customer "1" -- "1" ShoppingCart : manages >
+
+ShoppingCart "1" o-- "*" ShoppingCartItem : contains >
+
+Product "*" o-- "1" ProductCategory : categorized as >
+
+Product "*" o-- "1" ProductCatalog : listed in >
+
+Order "1" o-- "*" OrderItem : contains >
+
+Order "1" o-- "1" OrderDetails : described in >
+
+Order "1" o-- "1" OrderStatus : updated by >
+
+ShoppingCartItem "1" -- "*" Product : refers to >
+
+OrderItem "1" -- "*" Product : refers to >
+
+Customer "1" -- "*" Survey : answers to >
+
+AGV "1" -- "*" Product : transports >
+
+Order "*" -- "1" AGV : assigned to >
+
+Customer "1" -- "*" Order : starts >
+
+@enduml

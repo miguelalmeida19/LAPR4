@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="744px" preserveAspectRatio="none" style="width:999px;height:744px;background:#FCF9EA;" version="1.1" viewBox="0 0 999 744" width="999px" zoomAndPan="magnify"><defs/><g><rect fill="#FCF9EA" height="25.1563" rx="10" ry="10" style="stroke:#00000000;stroke-width:1.0;" width="3" x="491.25" y="0"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="3" x="491.25" y="10.3809"> </text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="3" x="491.25" y="22.959"> </text><rect fill="#FCF9EA" height="94.6094" rx="10" ry="10" style="stroke:#00000000;stroke-width:1.0;" width="424" x="280.75" y="31.1563"/><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="414" x="285.75" y="69.1738">US1502 - Class Diagram</text><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="11" x="487.25" y="111.4785"> </text><!--MD5=[30b684850bb7f3ba00e218ee24abf563]
+class TcpSrvOrders--><g id="elem_TcpSrvOrders"><rect codeLine="26" fill="#BADFDB" height="100.8281" id="TcpSrvOrders" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:0.5;" width="121" x="276" y="316.7656"/><ellipse cx="291" cy="332.7656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M293,329.2656 Q293.2031,328.7656 293.4375,328.5156 Q293.6719,328.2656 293.9375,328.2656 Q294.4063,328.2656 294.7031,328.5469 Q295,328.8281 295,329.4844 L295,331.0469 Q295,331.7031 294.7188,331.9844 Q294.4375,332.2656 294,332.2656 Q293.6094,332.2656 293.3594,332.0938 Q293.1094,331.9219 293,331.4688 Q292.9531,331.1563 292.7813,330.9844 Q292.4688,330.6563 291.9063,330.4688 Q291.3438,330.2656 290.7813,330.2656 Q290.0781,330.2656 289.4844,330.5469 Q288.9063,330.8281 288.4531,331.4531 Q288,332.0781 288,332.9375 L288,333.8594 Q288,334.8906 288.8438,335.5781 Q289.6875,336.2656 291.1875,336.2656 Q292.0781,336.2656 292.7031,336.0625 Q293.0625,335.9531 293.4688,335.5938 Q293.7344,335.3906 293.875,335.3281 Q294.0156,335.2656 294.1875,335.2656 Q294.5156,335.2656 294.75,335.5313 Q295,335.7813 295,336.1406 Q295,336.4844 294.6563,336.8906 Q294.1563,337.4844 293.3594,337.8125 Q292.3125,338.2656 291.0313,338.2656 Q289.5313,338.2656 288.3281,337.6719 Q287.3594,337.2031 286.6719,336.1875 Q286,335.1719 286,333.9688 L286,332.875 Q286,331.625 286.5938,330.5313 Q287.2031,329.4375 288.25,328.8594 Q289.3125,328.2656 290.5,328.2656 Q291.2188,328.2656 291.8438,328.5156 Q292.4688,328.7656 293,329.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="305" y="338.4941">TcpSrvOrders</text><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="277" x2="396" y1="348.7656" y2="348.7656"/><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="277" x2="396" y1="356.7656" y2="356.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="282" y="375.2988">+run()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="282" y="392.9082">+allProducts()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="282" y="410.5176">+getSocket()</text></g><!--MD5=[56dfdcef443de0ec5b039de07ae067c7]
+class OrdersService--><g id="elem_OrdersService"><rect codeLine="31" fill="#BADFDB" height="100.8281" id="OrdersService" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:0.5;" width="248" x="105.5" y="556.7656"/><ellipse cx="179.75" cy="572.7656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M181.75,569.2656 Q181.9531,568.7656 182.1875,568.5156 Q182.4219,568.2656 182.6875,568.2656 Q183.1563,568.2656 183.4531,568.5469 Q183.75,568.8281 183.75,569.4844 L183.75,571.0469 Q183.75,571.7031 183.4688,571.9844 Q183.1875,572.2656 182.75,572.2656 Q182.3594,572.2656 182.1094,572.0938 Q181.8594,571.9219 181.75,571.4688 Q181.7031,571.1563 181.5313,570.9844 Q181.2188,570.6563 180.6563,570.4688 Q180.0938,570.2656 179.5313,570.2656 Q178.8281,570.2656 178.2344,570.5469 Q177.6563,570.8281 177.2031,571.4531 Q176.75,572.0781 176.75,572.9375 L176.75,573.8594 Q176.75,574.8906 177.5938,575.5781 Q178.4375,576.2656 179.9375,576.2656 Q180.8281,576.2656 181.4531,576.0625 Q181.8125,575.9531 182.2188,575.5938 Q182.4844,575.3906 182.625,575.3281 Q182.7656,575.2656 182.9375,575.2656 Q183.2656,575.2656 183.5,575.5313 Q183.75,575.7813 183.75,576.1406 Q183.75,576.4844 183.4063,576.8906 Q182.9063,577.4844 182.1094,577.8125 Q181.0625,578.2656 179.7813,578.2656 Q178.2813,578.2656 177.0781,577.6719 Q176.1094,577.2031 175.4219,576.1875 Q174.75,575.1719 174.75,573.9688 L174.75,572.875 Q174.75,571.625 175.3438,570.5313 Q175.9531,569.4375 177,568.8594 Q178.0625,568.2656 179.25,568.2656 Q179.9688,568.2656 180.5938,568.5156 Q181.2188,568.7656 181.75,569.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="200.25" y="578.4941">OrdersService</text><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="106.5" x2="352.5" y1="588.7656" y2="588.7656"/><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="106.5" x2="352.5" y1="596.7656" y2="596.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="236" x="111.5" y="615.2988">+sendMessageToServer(option,data)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="111.5" y="632.9082">+convert(Object ob)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="111.5" y="650.5176">+getSocket()</text></g><!--MD5=[a47e51889cdd403bc4a36310957d916d]
+class CheckStatusOfOrdersController--><g id="elem_CheckStatusOfOrdersController"><rect codeLine="36" fill="#BADFDB" height="65.6094" id="CheckStatusOfOrdersController" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:0.5;" width="233" x="7" y="334.2656"/><ellipse cx="22" cy="350.2656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M24,346.7656 Q24.2031,346.2656 24.4375,346.0156 Q24.6719,345.7656 24.9375,345.7656 Q25.4063,345.7656 25.7031,346.0469 Q26,346.3281 26,346.9844 L26,348.5469 Q26,349.2031 25.7188,349.4844 Q25.4375,349.7656 25,349.7656 Q24.6094,349.7656 24.3594,349.5938 Q24.1094,349.4219 24,348.9688 Q23.9531,348.6563 23.7813,348.4844 Q23.4688,348.1563 22.9063,347.9688 Q22.3438,347.7656 21.7813,347.7656 Q21.0781,347.7656 20.4844,348.0469 Q19.9063,348.3281 19.4531,348.9531 Q19,349.5781 19,350.4375 L19,351.3594 Q19,352.3906 19.8438,353.0781 Q20.6875,353.7656 22.1875,353.7656 Q23.0781,353.7656 23.7031,353.5625 Q24.0625,353.4531 24.4688,353.0938 Q24.7344,352.8906 24.875,352.8281 Q25.0156,352.7656 25.1875,352.7656 Q25.5156,352.7656 25.75,353.0313 Q26,353.2813 26,353.6406 Q26,353.9844 25.6563,354.3906 Q25.1563,354.9844 24.3594,355.3125 Q23.3125,355.7656 22.0313,355.7656 Q20.5313,355.7656 19.3281,355.1719 Q18.3594,354.7031 17.6719,353.6875 Q17,352.6719 17,351.4688 L17,350.375 Q17,349.125 17.5938,348.0313 Q18.2031,346.9375 19.25,346.3594 Q20.3125,345.7656 21.5,345.7656 Q22.2188,345.7656 22.8438,346.0156 Q23.4688,346.2656 24,346.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="36" y="355.9941">CheckStatusOfOrdersController</text><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="8" x2="239" y1="366.2656" y2="366.2656"/><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="8" x2="239" y1="374.2656" y2="374.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="13" y="392.7988">+getCustomerOrdersStatus()</text></g><!--MD5=[78d8c402c50d5d8fd745603c7e9e6a14]
+class CheckStatusOfOrdersUI--><g id="elem_CheckStatusOfOrdersUI"><rect codeLine="39" fill="#BADFDB" height="48" id="CheckStatusOfOrdersUI" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:0.5;" width="183" x="31" y="173.7656"/><ellipse cx="46" cy="189.7656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M48,186.2656 Q48.2031,185.7656 48.4375,185.5156 Q48.6719,185.2656 48.9375,185.2656 Q49.4063,185.2656 49.7031,185.5469 Q50,185.8281 50,186.4844 L50,188.0469 Q50,188.7031 49.7188,188.9844 Q49.4375,189.2656 49,189.2656 Q48.6094,189.2656 48.3594,189.0938 Q48.1094,188.9219 48,188.4688 Q47.9531,188.1563 47.7813,187.9844 Q47.4688,187.6563 46.9063,187.4688 Q46.3438,187.2656 45.7813,187.2656 Q45.0781,187.2656 44.4844,187.5469 Q43.9063,187.8281 43.4531,188.4531 Q43,189.0781 43,189.9375 L43,190.8594 Q43,191.8906 43.8438,192.5781 Q44.6875,193.2656 46.1875,193.2656 Q47.0781,193.2656 47.7031,193.0625 Q48.0625,192.9531 48.4688,192.5938 Q48.7344,192.3906 48.875,192.3281 Q49.0156,192.2656 49.1875,192.2656 Q49.5156,192.2656 49.75,192.5313 Q50,192.7813 50,193.1406 Q50,193.4844 49.6563,193.8906 Q49.1563,194.4844 48.3594,194.8125 Q47.3125,195.2656 46.0313,195.2656 Q44.5313,195.2656 43.3281,194.6719 Q42.3594,194.2031 41.6719,193.1875 Q41,192.1719 41,190.9688 L41,189.875 Q41,188.625 41.5938,187.5313 Q42.2031,186.4375 43.25,185.8594 Q44.3125,185.2656 45.5,185.2656 Q46.2188,185.2656 46.8438,185.5156 Q47.4688,185.7656 48,186.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="60" y="195.4941">CheckStatusOfOrdersUI</text><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="32" x2="213" y1="205.7656" y2="205.7656"/><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="32" x2="213" y1="213.7656" y2="213.7656"/></g><!--MD5=[989eca604b864bbb335e037ac451278e]
+class CustomerManagementService--><g id="elem_CustomerManagementService"><rect codeLine="41" fill="#BADFDB" height="118.4375" id="CustomerManagementService" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:0.5;" width="618" x="249.5" y="138.7656"/><ellipse cx="459.25" cy="154.7656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M461.25,151.2656 Q461.4531,150.7656 461.6875,150.5156 Q461.9219,150.2656 462.1875,150.2656 Q462.6563,150.2656 462.9531,150.5469 Q463.25,150.8281 463.25,151.4844 L463.25,153.0469 Q463.25,153.7031 462.9688,153.9844 Q462.6875,154.2656 462.25,154.2656 Q461.8594,154.2656 461.6094,154.0938 Q461.3594,153.9219 461.25,153.4688 Q461.2031,153.1563 461.0313,152.9844 Q460.7188,152.6563 460.1563,152.4688 Q459.5938,152.2656 459.0313,152.2656 Q458.3281,152.2656 457.7344,152.5469 Q457.1563,152.8281 456.7031,153.4531 Q456.25,154.0781 456.25,154.9375 L456.25,155.8594 Q456.25,156.8906 457.0938,157.5781 Q457.9375,158.2656 459.4375,158.2656 Q460.3281,158.2656 460.9531,158.0625 Q461.3125,157.9531 461.7188,157.5938 Q461.9844,157.3906 462.125,157.3281 Q462.2656,157.2656 462.4375,157.2656 Q462.7656,157.2656 463,157.5313 Q463.25,157.7813 463.25,158.1406 Q463.25,158.4844 462.9063,158.8906 Q462.4063,159.4844 461.6094,159.8125 Q460.5625,160.2656 459.2813,160.2656 Q457.7813,160.2656 456.5781,159.6719 Q455.6094,159.2031 454.9219,158.1875 Q454.25,157.1719 454.25,155.9688 L454.25,154.875 Q454.25,153.625 454.8438,152.5313 Q455.4531,151.4375 456.5,150.8594 Q457.5625,150.2656 458.75,150.2656 Q459.4688,150.2656 460.0938,150.5156 Q460.7188,150.7656 461.25,151.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="479.75" y="160.4941">CustomerManagementService</text><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="250.5" x2="866.5" y1="170.7656" y2="170.7656"/><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="250.5" x2="866.5" y1="178.7656" y2="178.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="300" x="255.5" y="197.2988">+CustomerManagementService(customerRepo)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="606" x="255.5" y="214.9082">+registerNewCustomer(firstName,lastName,vat,email,phoneNumber,addresses,gender,birthdate)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="255.5" y="232.5176">+allCustomers()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="255.5" y="250.127">+customerOfIdentity(id)</text></g><!--MD5=[e69d6994dde37a3d0167e5476c791457]
+class CustomerRepository--><g id="elem_CustomerRepository"><rect codeLine="47" fill="#BADFDB" height="65.6094" id="CustomerRepository" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:0.5;" width="250" x="433.5" y="334.2656"/><ellipse cx="489.75" cy="350.2656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M491.75,346.7656 Q491.9531,346.2656 492.1875,346.0156 Q492.4219,345.7656 492.6875,345.7656 Q493.1563,345.7656 493.4531,346.0469 Q493.75,346.3281 493.75,346.9844 L493.75,348.5469 Q493.75,349.2031 493.4688,349.4844 Q493.1875,349.7656 492.75,349.7656 Q492.3594,349.7656 492.1094,349.5938 Q491.8594,349.4219 491.75,348.9688 Q491.7031,348.6563 491.5313,348.4844 Q491.2188,348.1563 490.6563,347.9688 Q490.0938,347.7656 489.5313,347.7656 Q488.8281,347.7656 488.2344,348.0469 Q487.6563,348.3281 487.2031,348.9531 Q486.75,349.5781 486.75,350.4375 L486.75,351.3594 Q486.75,352.3906 487.5938,353.0781 Q488.4375,353.7656 489.9375,353.7656 Q490.8281,353.7656 491.4531,353.5625 Q491.8125,353.4531 492.2188,353.0938 Q492.4844,352.8906 492.625,352.8281 Q492.7656,352.7656 492.9375,352.7656 Q493.2656,352.7656 493.5,353.0313 Q493.75,353.2813 493.75,353.6406 Q493.75,353.9844 493.4063,354.3906 Q492.9063,354.9844 492.1094,355.3125 Q491.0625,355.7656 489.7813,355.7656 Q488.2813,355.7656 487.0781,355.1719 Q486.1094,354.7031 485.4219,353.6875 Q484.75,352.6719 484.75,351.4688 L484.75,350.375 Q484.75,349.125 485.3438,348.0313 Q485.9531,346.9375 487,346.3594 Q488.0625,345.7656 489.25,345.7656 Q489.9688,345.7656 490.5938,346.0156 Q491.2188,346.2656 491.75,346.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="510.25" y="355.9941">CustomerRepository</text><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="434.5" x2="682.5" y1="366.2656" y2="366.2656"/><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="434.5" x2="682.5" y1="374.2656" y2="374.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="238" x="439.5" y="392.7988">+findByUser(SystemUser systemUser)</text></g><!--MD5=[f79b18e0a8787d8a1dca28bac6b23797]
+class OrderManagementService--><g id="elem_OrderManagementService"><rect codeLine="50" fill="#BADFDB" height="259.3125" id="OrderManagementService" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:0.5;" width="604" x="388.5" y="477.7656"/><ellipse cx="603.25" cy="493.7656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M605.25,490.2656 Q605.4531,489.7656 605.6875,489.5156 Q605.9219,489.2656 606.1875,489.2656 Q606.6563,489.2656 606.9531,489.5469 Q607.25,489.8281 607.25,490.4844 L607.25,492.0469 Q607.25,492.7031 606.9688,492.9844 Q606.6875,493.2656 606.25,493.2656 Q605.8594,493.2656 605.6094,493.0938 Q605.3594,492.9219 605.25,492.4688 Q605.2031,492.1563 605.0313,491.9844 Q604.7188,491.6563 604.1563,491.4688 Q603.5938,491.2656 603.0313,491.2656 Q602.3281,491.2656 601.7344,491.5469 Q601.1563,491.8281 600.7031,492.4531 Q600.25,493.0781 600.25,493.9375 L600.25,494.8594 Q600.25,495.8906 601.0938,496.5781 Q601.9375,497.2656 603.4375,497.2656 Q604.3281,497.2656 604.9531,497.0625 Q605.3125,496.9531 605.7188,496.5938 Q605.9844,496.3906 606.125,496.3281 Q606.2656,496.2656 606.4375,496.2656 Q606.7656,496.2656 607,496.5313 Q607.25,496.7813 607.25,497.1406 Q607.25,497.4844 606.9063,497.8906 Q606.4063,498.4844 605.6094,498.8125 Q604.5625,499.2656 603.2813,499.2656 Q601.7813,499.2656 600.5781,498.6719 Q599.6094,498.2031 598.9219,497.1875 Q598.25,496.1719 598.25,494.9688 L598.25,493.875 Q598.25,492.625 598.8438,491.5313 Q599.4531,490.4375 600.5,489.8594 Q601.5625,489.2656 602.75,489.2656 Q603.4688,489.2656 604.0938,489.5156 Q604.7188,489.7656 605.25,490.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="623.75" y="499.4941">OrderManagementService</text><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="389.5" x2="991.5" y1="509.7656" y2="509.7656"/><line style="stroke:#FFFFFF;stroke-width:0.5;" x1="389.5" x2="991.5" y1="517.7656" y2="517.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="286" x="394.5" y="536.2988">+OrderManagementService(orderRepository)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="592" x="394.5" y="553.9082">+addNewOrder(shippingMethod,orderStatus,createdOn,paymentMethod,orderItems,customer)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="394.5" y="571.5176">+allOrders()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="394.5" y="589.127">+orderOfIdentity(code)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="394.5" y="606.7363">+findByAgvStatus(agvStatus)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="394.5" y="624.3457">+setOrderAgv(order)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="394.5" y="641.9551">+findByOrderStatus(orderStatus)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="394.5" y="659.5645">+setOrderStatus(order)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="394.5" y="677.1738">+setOrderStatusDelivered(order)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="394.5" y="694.7832">+findByAgv(AGV)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="294" x="394.5" y="712.3926">+findByCustomerStatus(customer,orderStatus)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="394.5" y="730.002">+getOrderRepository()</text></g><!--MD5=[38aa3100c4e67f10d41125b3cd1b5808]
+link TcpSrvOrders to OrdersService--><g id="link_TcpSrvOrders_OrdersService"><path codeLine="66" d="M303.61,417.8656 C283.24,457.0156 258.61,511.5556 243.04,551.8856 " fill="none" id="TcpSrvOrders-to-OrdersService" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="241.19,556.7256,248.1399,549.7472,242.9753,552.0552,240.6673,546.8906,241.19,556.7256" style="stroke:#FFC5A1;stroke-width:1.0;"/></g><!--MD5=[04bf3915faf9ed2721c5439a6a9a3168]
+link OrdersService to TcpSrvOrders--><g id="link_OrdersService_TcpSrvOrders"><path codeLine="69" d="M262.97,556.7256 C283.51,517.6056 308.14,463.0656 323.57,422.7156 " fill="none" id="OrdersService-to-TcpSrvOrders" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="325.41,417.8656,318.4788,424.8626,323.6372,422.5408,325.959,427.6992,325.41,417.8656" style="stroke:#FFC5A1;stroke-width:1.0;"/></g><!--MD5=[c5cd53dc6910df8cb10f6015d93ff8aa]
+link CheckStatusOfOrdersUI to CheckStatusOfOrdersController--><g id="link_CheckStatusOfOrdersUI_CheckStatusOfOrdersController"><path codeLine="67" d="M122.64,222.0556 C122.8,249.7056 123.08,296.1656 123.28,328.8656 " fill="none" id="CheckStatusOfOrdersUI-to-CheckStatusOfOrdersController" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="123.31,333.9956,127.2585,324.9729,123.2814,328.9957,119.2586,325.0186,123.31,333.9956" style="stroke:#FFC5A1;stroke-width:1.0;"/></g><!--MD5=[abd881486a2ee9111d69b5c782cd700c]
+link CheckStatusOfOrdersController to OrdersService--><g id="link_CheckStatusOfOrdersController_OrdersService"><path codeLine="68" d="M137.8,400.3656 C155.06,439.1256 184.37,504.9456 205.21,551.7256 " fill="none" id="CheckStatusOfOrdersController-to-OrdersService" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="207.32,556.4756,207.3257,546.6268,205.292,551.9054,200.0133,549.8716,207.32,556.4756" style="stroke:#FFC5A1;stroke-width:1.0;"/></g><!--MD5=[7f0216af4406b1ff9e5eea70cabd4d71]
+link CustomerManagementService to TcpSrvOrders--><g id="link_CustomerManagementService_TcpSrvOrders"><path codeLine="70" d="M481.48,256.8756 C455.33,276.6156 426.39,298.4456 401.29,317.3856 " fill="none" id="CustomerManagementService-to-TcpSrvOrders" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="397.3,320.3956,406.8911,318.1572,401.288,317.3796,402.0655,311.7765,397.3,320.3956" style="stroke:#FFC5A1;stroke-width:1.0;"/></g><!--MD5=[c5a9cd1ee7a638163ea0b3cfc0ea502c]
+link CustomerManagementService to CustomerRepository--><g id="link_CustomerManagementService_CustomerRepository"><path codeLine="71" d="M558.5,256.8756 C558.5,280.7456 558.5,307.6856 558.5,328.8556 " fill="none" id="CustomerManagementService-to-CustomerRepository" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="558.5,334.1156,562.5,325.1156,558.5,329.1156,554.5,325.1156,558.5,334.1156" style="stroke:#FFC5A1;stroke-width:1.0;"/></g><!--MD5=[c222fe205714c65a71db9cbe24fbfff7]
+link TcpSrvOrders to OrderManagementService--><g id="link_TcpSrvOrders_OrderManagementService"><path codeLine="72" d="M397.35,409.1756 C424.99,427.7656 459.4,450.8956 494.81,474.7056 " fill="none" id="TcpSrvOrders-to-OrderManagementService" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="499.14,477.6056,493.9034,469.2643,494.9908,474.8156,489.4394,475.903,499.14,477.6056" style="stroke:#FFC5A1;stroke-width:1.0;"/></g><!--MD5=[308bf1cbbda1326e1e73a1e1fbe77062]
+@startuml
+ ' ======= layout =========
+ skinparam backgroundColor #fcf9ea
+ skinparam titleBorderRoundCorner 15
+ skinparam titleFontSize 30
+ skinparam classAttributeIconSize 0
+ skinparam titleFontName Arial Black
+ skinparam titleFontColor #f8a978
+ skinparam roundcorner 20
+ skinparam stereotypeCBackgroundColor ffc5a1
+ skinparam class {
+
+ ArrowColor ffc5a1
+ BorderColor White
+ BackgroundColor badfdb
+ }
+
+
+ ' ======= title =========
+ center header
+
+
+ endheader
+ title <b>US1502 - Class Diagram\n
+
+' ======= classes =========
+class TcpSrvOrders{
++run()
++allProducts()
++getSocket()
+}
+class OrdersService{
++sendMessageToServer(option,data)
++convert(Object ob)
++getSocket()
+}
+class CheckStatusOfOrdersController{
++getCustomerOrdersStatus()
+}
+class CheckStatusOfOrdersUI{
+}
+class CustomerManagementService{
+ +CustomerManagementService(customerRepo)
+ +registerNewCustomer(firstName,lastName,vat,email,phoneNumber,addresses,gender,birthdate)
+ +allCustomers()
+ +customerOfIdentity(id)
+}
+class CustomerRepository{
+ +findByUser(SystemUser systemUser)
+}
+class OrderManagementService{
+ +OrderManagementService(orderRepository)
+ +addNewOrder(shippingMethod,orderStatus,createdOn,paymentMethod,orderItems,customer)
+ +allOrders()
+ +orderOfIdentity(code)
+ +findByAgvStatus(agvStatus)
+ + setOrderAgv(order)
+ +findByOrderStatus(orderStatus)
+ +setOrderStatus(order)
+ +setOrderStatusDelivered(order)
+ +findByAgv(AGV)
+ +findByCustomerStatus(customer,orderStatus)
+ +getOrderRepository()
+}
+
+
+TcpSrvOrders ..> OrdersService
+CheckStatusOfOrdersUI ..> CheckStatusOfOrdersController
+CheckStatusOfOrdersController ..> OrdersService
+OrdersService ..> TcpSrvOrders
+CustomerManagementService ..> TcpSrvOrders
+CustomerManagementService ..> CustomerRepository
+TcpSrvOrders ..> OrderManagementService
+
+@enduml
+
+@startuml
+ skinparam backgroundColor #fcf9ea
+ skinparam titleBorderRoundCorner 15
+ skinparam titleFontSize 30
+ skinparam classAttributeIconSize 0
+ skinparam titleFontName Arial Black
+ skinparam titleFontColor #f8a978
+ skinparam roundcorner 20
+ skinparam stereotypeCBackgroundColor ffc5a1
+ skinparam class {
+
+ ArrowColor ffc5a1
+ BorderColor White
+ BackgroundColor badfdb
+ }
+
+
+ center header
+
+
+ endheader
+ title <b>US1502 - Class Diagram\n
+
+class TcpSrvOrders{
++run()
++allProducts()
++getSocket()
+}
+class OrdersService{
++sendMessageToServer(option,data)
++convert(Object ob)
++getSocket()
+}
+class CheckStatusOfOrdersController{
++getCustomerOrdersStatus()
+}
+class CheckStatusOfOrdersUI{
+}
+class CustomerManagementService{
+ +CustomerManagementService(customerRepo)
+ +registerNewCustomer(firstName,lastName,vat,email,phoneNumber,addresses,gender,birthdate)
+ +allCustomers()
+ +customerOfIdentity(id)
+}
+class CustomerRepository{
+ +findByUser(SystemUser systemUser)
+}
+class OrderManagementService{
+ +OrderManagementService(orderRepository)
+ +addNewOrder(shippingMethod,orderStatus,createdOn,paymentMethod,orderItems,customer)
+ +allOrders()
+ +orderOfIdentity(code)
+ +findByAgvStatus(agvStatus)
+ + setOrderAgv(order)
+ +findByOrderStatus(orderStatus)
+ +setOrderStatus(order)
+ +setOrderStatusDelivered(order)
+ +findByAgv(AGV)
+ +findByCustomerStatus(customer,orderStatus)
+ +getOrderRepository()
+}
+
+
+TcpSrvOrders ..> OrdersService
+CheckStatusOfOrdersUI ..> CheckStatusOfOrdersController
+CheckStatusOfOrdersController ..> OrdersService
+OrdersService ..> TcpSrvOrders
+CustomerManagementService ..> TcpSrvOrders
+CustomerManagementService ..> CustomerRepository
+TcpSrvOrders ..> OrderManagementService
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

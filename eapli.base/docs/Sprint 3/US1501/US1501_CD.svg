@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="491px" preserveAspectRatio="none" style="width:453px;height:491px;background:#FCF9EA;" version="1.1" viewBox="0 0 453 491" width="453px" zoomAndPan="magnify"><defs><filter height="300%" id="fmlxu0du8ofva" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="221.5" y="10.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="221.5" y="22.959"/><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="414" x="13" y="58.1738">US1501 - Class Diagram</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="225" y="100.4785"/><!--MD5=[30b684850bb7f3ba00e218ee24abf563]
+class TcpSrvOrders--><rect codeLine="26" fill="#BADFDB" filter="url(#fmlxu0du8ofva)" height="89.5078" id="TcpSrvOrders" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="107" x="64.5" y="231.2656"/><ellipse cx="79.5" cy="247.2656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M81.5,243.7656 Q81.7031,243.2656 81.9375,243.0156 Q82.1719,242.7656 82.4375,242.7656 Q82.9063,242.7656 83.2031,243.0469 Q83.5,243.3281 83.5,243.9844 L83.5,245.5469 Q83.5,246.2031 83.2188,246.4844 Q82.9375,246.7656 82.5,246.7656 Q82.1094,246.7656 81.8594,246.5938 Q81.6094,246.4219 81.5,245.9688 Q81.4531,245.6563 81.2813,245.4844 Q80.9688,245.1563 80.4063,244.9688 Q79.8438,244.7656 79.2813,244.7656 Q78.5781,244.7656 77.9844,245.0469 Q77.4063,245.3281 76.9531,245.9531 Q76.5,246.5781 76.5,247.4375 L76.5,248.3594 Q76.5,249.3906 77.3438,250.0781 Q78.1875,250.7656 79.6875,250.7656 Q80.5781,250.7656 81.2031,250.5625 Q81.5625,250.4531 81.9688,250.0938 Q82.2344,249.8906 82.375,249.8281 Q82.5156,249.7656 82.6875,249.7656 Q83.0156,249.7656 83.25,250.0313 Q83.5,250.2813 83.5,250.6406 Q83.5,250.9844 83.1563,251.3906 Q82.6563,251.9844 81.8594,252.3125 Q80.8125,252.7656 79.5313,252.7656 Q78.0313,252.7656 76.8281,252.1719 Q75.8594,251.7031 75.1719,250.6875 Q74.5,249.6719 74.5,248.4688 L74.5,247.375 Q74.5,246.125 75.0938,245.0313 Q75.7031,243.9375 76.75,243.3594 Q77.8125,242.7656 79,242.7656 Q79.7188,242.7656 80.3438,243.0156 Q80.9688,243.2656 81.5,243.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="93.5" y="252.1758">TcpSrvOrders</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="65.5" x2="170.5" y1="263.2656" y2="263.2656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="65.5" x2="170.5" y1="271.2656" y2="271.2656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="70.5" y="286.6846">+run()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="70.5" y="300.5205">+allProducts()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="70.5" y="314.3564">+getSocket()</text><!--MD5=[34df258b459c0f8801a37283e17c78c5]
+class ListCatalogService--><rect codeLine="31" fill="#BADFDB" filter="url(#fmlxu0du8ofva)" height="89.5078" id="ListCatalogService" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="222" x="7" y="387.7656"/><ellipse cx="62.25" cy="403.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M64.25,400.2656 Q64.4531,399.7656 64.6875,399.5156 Q64.9219,399.2656 65.1875,399.2656 Q65.6563,399.2656 65.9531,399.5469 Q66.25,399.8281 66.25,400.4844 L66.25,402.0469 Q66.25,402.7031 65.9688,402.9844 Q65.6875,403.2656 65.25,403.2656 Q64.8594,403.2656 64.6094,403.0938 Q64.3594,402.9219 64.25,402.4688 Q64.2031,402.1563 64.0313,401.9844 Q63.7188,401.6563 63.1563,401.4688 Q62.5938,401.2656 62.0313,401.2656 Q61.3281,401.2656 60.7344,401.5469 Q60.1563,401.8281 59.7031,402.4531 Q59.25,403.0781 59.25,403.9375 L59.25,404.8594 Q59.25,405.8906 60.0938,406.5781 Q60.9375,407.2656 62.4375,407.2656 Q63.3281,407.2656 63.9531,407.0625 Q64.3125,406.9531 64.7188,406.5938 Q64.9844,406.3906 65.125,406.3281 Q65.2656,406.2656 65.4375,406.2656 Q65.7656,406.2656 66,406.5313 Q66.25,406.7813 66.25,407.1406 Q66.25,407.4844 65.9063,407.8906 Q65.4063,408.4844 64.6094,408.8125 Q63.5625,409.2656 62.2813,409.2656 Q60.7813,409.2656 59.5781,408.6719 Q58.6094,408.2031 57.9219,407.1875 Q57.25,406.1719 57.25,404.9688 L57.25,403.875 Q57.25,402.625 57.8438,401.5313 Q58.4531,400.4375 59.5,399.8594 Q60.5625,399.2656 61.75,399.2656 Q62.4688,399.2656 63.0938,399.5156 Q63.7188,399.7656 64.25,400.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="103" x="82.75" y="408.6758">ListCatalogService</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="8" x2="228" y1="419.7656" y2="419.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="8" x2="228" y1="427.7656" y2="427.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="13" y="443.1846">+sendMessageToServer(option,data)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="13" y="457.0205">+addProductToShoppingCart(shoppingCart)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="13" y="470.8564">+getSocket()</text><!--MD5=[e5116be3624c70b41ff2e261f1fc7f09]
+class ShoppingCartUI--><rect codeLine="36" fill="#BADFDB" filter="url(#fmlxu0du8ofva)" height="48" id="ShoppingCartUI" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="120" x="263" y="116.7656"/><ellipse cx="278" cy="132.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M280,129.2656 Q280.2031,128.7656 280.4375,128.5156 Q280.6719,128.2656 280.9375,128.2656 Q281.4063,128.2656 281.7031,128.5469 Q282,128.8281 282,129.4844 L282,131.0469 Q282,131.7031 281.7188,131.9844 Q281.4375,132.2656 281,132.2656 Q280.6094,132.2656 280.3594,132.0938 Q280.1094,131.9219 280,131.4688 Q279.9531,131.1563 279.7813,130.9844 Q279.4688,130.6563 278.9063,130.4688 Q278.3438,130.2656 277.7813,130.2656 Q277.0781,130.2656 276.4844,130.5469 Q275.9063,130.8281 275.4531,131.4531 Q275,132.0781 275,132.9375 L275,133.8594 Q275,134.8906 275.8438,135.5781 Q276.6875,136.2656 278.1875,136.2656 Q279.0781,136.2656 279.7031,136.0625 Q280.0625,135.9531 280.4688,135.5938 Q280.7344,135.3906 280.875,135.3281 Q281.0156,135.2656 281.1875,135.2656 Q281.5156,135.2656 281.75,135.5313 Q282,135.7813 282,136.1406 Q282,136.4844 281.6563,136.8906 Q281.1563,137.4844 280.3594,137.8125 Q279.3125,138.2656 278.0313,138.2656 Q276.5313,138.2656 275.3281,137.6719 Q274.3594,137.2031 273.6719,136.1875 Q273,135.1719 273,133.9688 L273,132.875 Q273,131.625 273.5938,130.5313 Q274.2031,129.4375 275.25,128.8594 Q276.3125,128.2656 277.5,128.2656 Q278.2188,128.2656 278.8438,128.5156 Q279.4688,128.7656 280,129.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="292" y="137.6758">ShoppingCartUI</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="264" x2="382" y1="148.7656" y2="148.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="264" x2="382" y1="156.7656" y2="156.7656"/><!--MD5=[aec932a4d75b6de784dbb3b5d53d1a90]
+class AddProductsShoppingCartController--><rect codeLine="38" fill="#BADFDB" filter="url(#fmlxu0du8ofva)" height="103.3438" id="AddProductsShoppingCartController" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="232" x="207" y="224.7656"/><ellipse cx="222" cy="240.7656" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M224,237.2656 Q224.2031,236.7656 224.4375,236.5156 Q224.6719,236.2656 224.9375,236.2656 Q225.4063,236.2656 225.7031,236.5469 Q226,236.8281 226,237.4844 L226,239.0469 Q226,239.7031 225.7188,239.9844 Q225.4375,240.2656 225,240.2656 Q224.6094,240.2656 224.3594,240.0938 Q224.1094,239.9219 224,239.4688 Q223.9531,239.1563 223.7813,238.9844 Q223.4688,238.6563 222.9063,238.4688 Q222.3438,238.2656 221.7813,238.2656 Q221.0781,238.2656 220.4844,238.5469 Q219.9063,238.8281 219.4531,239.4531 Q219,240.0781 219,240.9375 L219,241.8594 Q219,242.8906 219.8438,243.5781 Q220.6875,244.2656 222.1875,244.2656 Q223.0781,244.2656 223.7031,244.0625 Q224.0625,243.9531 224.4688,243.5938 Q224.7344,243.3906 224.875,243.3281 Q225.0156,243.2656 225.1875,243.2656 Q225.5156,243.2656 225.75,243.5313 Q226,243.7813 226,244.1406 Q226,244.4844 225.6563,244.8906 Q225.1563,245.4844 224.3594,245.8125 Q223.3125,246.2656 222.0313,246.2656 Q220.5313,246.2656 219.3281,245.6719 Q218.3594,245.2031 217.6719,244.1875 Q217,243.1719 217,241.9688 L217,240.875 Q217,239.625 217.5938,238.5313 Q218.2031,237.4375 219.25,236.8594 Q220.3125,236.2656 221.5,236.2656 Q222.2188,236.2656 222.8438,236.5156 Q223.4688,236.7656 224,237.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="200" x="236" y="245.6758">AddProductsShoppingCartController</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="208" x2="438" y1="256.7656" y2="256.7656"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="208" x2="438" y1="264.7656" y2="264.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="206" x="213" y="280.1846">+createShoppingCartAndRequestCatalog()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="146" x="213" y="294.0205">+addProductToShoppingCart()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="131" x="213" y="307.8564">+getShoppingCartContent()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="213" y="321.6924">+getTotalPrice()</text><!--MD5=[285fbb591ab80bd3121f121d07ec155f]
+link ShoppingCartUI to AddProductsShoppingCartController--><path codeLine="46" d="M323,165.0156 C323,180.0456 323,200.2756 323,219.2956 " fill="none" id="ShoppingCartUI-to-AddProductsShoppingCartController" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="323,224.6256,327,215.6256,323,219.6256,319,215.6256,323,224.6256" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[4a0796e6749604a4e9429ec94319a940]
+link AddProductsShoppingCartController to ListCatalogService--><path codeLine="47" d="M255.88,327.8556 C231.7,346.0756 204.53,366.5456 180.75,384.4756 " fill="none" id="AddProductsShoppingCartController-to-ListCatalogService" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#FFC5A1" points="176.65,387.5556,186.2411,385.3172,180.638,384.5396,181.4155,378.9365,176.65,387.5556" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[d498bb9c5e12efb969abeded42ce2692]
+link ListCatalogService to TcpSrvOrders--><path codeLine="48" d="M130.32,387.7556 C131.76,368.7156 131.88,346.3356 130.69,326.7256 " fill="none" id="ListCatalogService-to-TcpSrvOrders" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="130.34,321.5356,126.9669,330.7888,130.683,326.5238,134.948,330.24,130.34,321.5356" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[6b93293dbe887c2eefd82a26815b1082]
+link TcpSrvOrders to ListCatalogService--><path codeLine="49" d="M106.34,321.5356 C105,340.6156 104.89,362.9856 106.03,382.5756 " fill="none" id="TcpSrvOrders-to-ListCatalogService" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="106.36,387.7556,109.7875,378.5224,106.0463,382.7655,101.8033,379.0243,106.36,387.7556" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[3ff2391d36459911dbf1dec087955607]
+@startuml
+ ' ======= layout =========
+ skinparam backgroundColor #fcf9ea
+ skinparam titleBorderRoundCorner 15
+ skinparam titleFontSize 30
+ skinparam classAttributeIconSize 0
+ skinparam titleFontName Arial Black
+ skinparam titleFontColor #f8a978
+ skinparam roundcorner 20
+ skinparam stereotypeCBackgroundColor ffc5a1
+ skinparam class {
+
+ ArrowColor ffc5a1
+ BorderColor White
+ BackgroundColor badfdb
+ }
+
+
+ ' ======= title =========
+ center header
+
+
+ endheader
+ title <b>US1501 - Class Diagram\n
+
+' ======= classes =========
+class TcpSrvOrders{
++run()
++allProducts()
++getSocket()
+}
+class ListCatalogService{
++sendMessageToServer(option,data)
++addProductToShoppingCart(shoppingCart)
++getSocket()
+}
+class ShoppingCartUI{
+}
+class AddProductsShoppingCartController{
++createShoppingCartAndRequestCatalog()
++addProductToShoppingCart()
++getShoppingCartContent()
++getTotalPrice()
+}
+
+
+ShoppingCartUI ..>AddProductsShoppingCartController
+AddProductsShoppingCartController- ->ListCatalogService
+ListCatalogService ..> TcpSrvOrders
+TcpSrvOrders ..> ListCatalogService
+
+@enduml
+
+@startuml
+ skinparam backgroundColor #fcf9ea
+ skinparam titleBorderRoundCorner 15
+ skinparam titleFontSize 30
+ skinparam classAttributeIconSize 0
+ skinparam titleFontName Arial Black
+ skinparam titleFontColor #f8a978
+ skinparam roundcorner 20
+ skinparam stereotypeCBackgroundColor ffc5a1
+ skinparam class {
+
+ ArrowColor ffc5a1
+ BorderColor White
+ BackgroundColor badfdb
+ }
+
+
+ center header
+
+
+ endheader
+ title <b>US1501 - Class Diagram\n
+
+class TcpSrvOrders{
++run()
++allProducts()
++getSocket()
+}
+class ListCatalogService{
++sendMessageToServer(option,data)
++addProductToShoppingCart(shoppingCart)
++getSocket()
+}
+class ShoppingCartUI{
+}
+class AddProductsShoppingCartController{
++createShoppingCartAndRequestCatalog()
++addProductToShoppingCart()
++getShoppingCartContent()
++getTotalPrice()
+}
+
+
+ShoppingCartUI ..>AddProductsShoppingCartController
+AddProductsShoppingCartController- ->ListCatalogService
+ListCatalogService ..> TcpSrvOrders
+TcpSrvOrders ..> ListCatalogService
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="351px" preserveAspectRatio="none" style="width:553px;height:351px;background:#FCF9EA;" version="1.1" viewBox="0 0 553 351" width="553px" zoomAndPan="magnify"><defs/><g><rect fill="#FCF9EA" height="94.6094" rx="10" ry="10" style="stroke:#00000000;stroke-width:1.0;" width="535" x="5" y="10"/><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="525" x="10" y="48.0176">SYSTEM SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="11" x="267" y="90.3223"> </text><rect fill="#FFFFFF" height="61.7031" style="stroke:#181818;stroke-width:1.0;" width="10" x="131.25" y="198.2188"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="445.25" y="220.5703"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="135.75" x2="135.75" y1="188.2188" y2="268.9219"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="450.25" x2="450.25" y1="188.2188" y2="268.9219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="63.75" y="185.1426">Warehouse Employee</text><ellipse cx="136.25" cy="119.1094" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M136.25,127.1094 L136.25,154.1094 M123.25,135.1094 L149.25,135.1094 M136.25,154.1094 L123.25,169.1094 M136.25,154.1094 L149.25,169.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="63.75" y="282.4551">Warehouse Employee</text><ellipse cx="136.25" cy="294.0313" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M136.25,302.0313 L136.25,329.0313 M123.25,310.0313 L149.25,310.0313 M136.25,329.0313 L123.25,344.0313 M136.25,329.0313 L149.25,344.0313 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="31.6094" rx="10" ry="10" style="stroke:#181818;stroke-width:0.5;" width="64" x="418.25" y="155.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="425.25" y="177.1426">:System</text><rect fill="#E2E2F0" height="31.6094" rx="10" ry="10" style="stroke:#181818;stroke-width:0.5;" width="64" x="418.25" y="267.9219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="425.25" y="289.4551">:System</text><rect fill="#FFFFFF" height="61.7031" style="stroke:#181818;stroke-width:1.0;" width="10" x="131.25" y="198.2188"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="445.25" y="220.5703"/><polygon fill="#FFC5A1" points="433.25,216.5703,443.25,220.5703,433.25,224.5703,437.25,220.5703" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="141.25" x2="439.25" y1="220.5703" y2="220.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="148.25" y="215.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="177" x="159.25" y="215.7139">Requires to see the dashboard</text><polygon fill="#FFC5A1" points="152.25,246.9219,142.25,250.9219,152.25,254.9219,148.25,250.9219" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="146.25" x2="449.25" y1="250.9219" y2="250.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="158.25" y="246.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="269" x="169.25" y="246.0654">shows the dashboard or failure of the operation</text><!--MD5=[5bed8a5dd83cfcf8bf0765e7a56d347b]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Warehouse Employee" as emp
+activate emp
+emp -> ":System" : Requires to see the dashboard
+activate ":System"
+emp <- - ":System": shows the dashboard or failure of the operation
+
+deactivate ":System"
+
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Warehouse Employee" as emp
+activate emp
+emp -> ":System" : Requires to see the dashboard
+activate ":System"
+emp <- - ":System": shows the dashboard or failure of the operation
+
+deactivate ":System"
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

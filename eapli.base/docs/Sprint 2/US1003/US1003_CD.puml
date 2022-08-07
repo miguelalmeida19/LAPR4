@@ -1,0 +1,63 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+endheader
+title <b>US1003 - Class Diagram\n
+
+' ======= classes =========
+class AddCustomerController{
++addCustomer(firstName,lastName,vat,email,phoneNumber,addresses,gender,birthdate)
+}
+class RegisterCustomerUI{
+}
+class CustomerManagementService{
++CustomerManagementService(customerRepo)
++registerNewCustomer(firstName,lastName,vat,email,phoneNumber,addresses,gender,birthdate)
++allCustomers()
++customerOfIdentity(id)
+}
+class CustomerRepository{
++save(customer)
+}
+class Customer{
++Customer(user,email,gender,name,vat,phoneNumber,addresses,birthDate)
++Customer(email,gender,name,vat,phoneNumber,addresses,birthDate)
++equals(o)
++sameAs(other)
++identity()
++name()
++customerName()
++email()
++customerEmail()
++customerGender()
++customerPhoneNumber()
++customerVat()
++customerAddresses()
++customerBirthDate()
+}
+
+RegisterCustomerUI ..> AddCustomerController
+AddCustomerController ..> CustomerManagementService
+CustomerManagementService ..> CustomerRepository
+CustomerManagementService ..> Customer
+CustomerRepository ..> Customer
+@enduml

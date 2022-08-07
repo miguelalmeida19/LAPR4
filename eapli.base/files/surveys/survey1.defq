@@ -1,0 +1,105 @@
+PRPP22-01
+
+Product Questionnaire
+
+Hello,
+This questionnaire aims to better understand people perception of the price of a product
+It takes approximately 15 minutes
+Thank you very much for your time and support.
+
+1
+Product Price
+Questions about product price perception
+[mandatory]
+yes
+
+1
+How familiar are you with product?
+Single-Choice
+[mandatory]
+(answer honestly)
+[] I use daily;
+[] I have bought several times;
+[] In general I am aware of the product;
+[] I was not aware of such a product;
+
+2
+If you knew that the product was priced, would you pay more or less to buy it?
+Single-Choice with input value
+[condition dependent] [if s1q1 = 1]
+(no information to provide)
+[] 10 to 20 more;
+[] 5 to 10 more;
+[] No more no less;
+[] 5 to 10 less;
+[] 0 to 20 less;
+[] Other;
+
+3
+About how many units of product more or less would you buy?
+[answer honestly]
+Scaling Options
+[mandatory]
+(consider next year, at each point of the listed price.)
+4 less|1 to 3 less|1 to 3 more|4 more
+- 20;
+- 10;
+- 5;
+- 3;
+
+4
+What would you expect to pay for product?
+Numeric
+[optional]
+(type the number that you expect)
+
+5
+At what price would product start being so cheap that you would feel that the quality cant be good?
+Single-Choice
+[mandatory]
+(these are only price range examples)
+[] 10;
+[] 25;
+[] 7;
+[] 12;
+[] 50;
+
+2
+Product Review
+Questions about some products review
+[optional]
+yes
+
+1
+Based on your experience, can you apply the following attributes to product?
+Scaling Options
+[optional]
+(select one of the scales available)
+Definitely|Probably|Probably not|Definitely not|Not sure
+- High quality;
+- Fair price;
+- A brand I trust;
+- Well built;
+- Good packaging;
+- High value;
+
+2
+Tell us another reason why you would buy the product, other than the product itself?
+Multiple Choice with input value
+[optional]
+(you can select more than one option)
+[] Experience as a customer;
+[] Sales or Service Representative;
+[] Advertising;
+[] Warranty;
+[] Packaging;
+[] Trends;
+[] Other;
+
+3
+What do you like least about the product?
+Free-Text
+[optional]
+(write whatever you think)
+
+You have successfully completed the questionnaire.Thank you for your help.

@@ -1,0 +1,359 @@
+div {
+    text-align: center;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    max-width: 1865px;
+    justify-content: flex-start;
+    padding: 90px 120px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.div-2 {
+    display: flex;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.image-sizer {
+    width: 100%;
+    padding-top: 49.666666666666664%;
+    pointer-events: none;
+    font-size: 0;
+}
+
+.welcome {
+    max-width: 1625px;
+    margin-top: 75px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 59px;
+    line-height: 102.7999997138977%;
+    letter-spacing: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Bahnschrift", sans-serif;
+    font-weight: bold;
+}
+
+.box {
+    display: flex;
+    max-width: 301px;
+    height: 0;
+    width: 301px;
+    margin-top: 75px;
+    box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.25);
+    border-color: rgba(255, 255, 255, 1);
+    border-width: 7px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dashboard_title {
+    max-width: 840px;
+    color: rgba(242, 171, 70, 1);
+    font-size: 123px;
+    line-height: 102.7999997138977%;
+    letter-spacing: 0;
+    text-align: center;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-4 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 80px;
+    box-shadow: -134.16168212890625px 139px 386px 0 rgba(51, 51, 51, 0.14900000393390656);
+    padding: 100px;
+    background-image: linear-gradient(
+            to left,
+            rgba(227, 227, 227, 1) 0%,
+            rgba(255, 255, 255, 1) 100%
+    );
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-5 {
+    display: flex;
+}
+
+@media (max-width: 999px) {
+    .div-5 {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: calc(16.667% - 10px);
+    margin-left: 0;
+}
+
+@media (max-width: 999px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 53px;
+    justify-content: center;
+    padding-top: 107px;
+    padding-bottom: 10px;
+}
+
+.div-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div-7 {
+    max-width: 264px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    line-height: 102.7999997138977%;
+    letter-spacing: 0;
+    text-align: center;
+    font-family: Eras Bold ITC, sans-serif;
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.div-81 {
+    display: flex;
+    flex-direction: column;
+    max-width: 64px;
+    justify-content: flex-start;
+}
+
+.div-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.indi {
+    display: table;
+
+    height: 53px;
+    width: 53px;
+    border-radius: 6px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.indicador {
+    color: #464646;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#aisle{
+    border-radius: 6px;
+}
+
+#empty{
+    border-radius: 6px;
+}
+
+#agvdock{
+    border-radius: 6px;
+}
+
+#agv{
+    border-radius: 6px;
+}
+
+.empty{
+    background: #ffffff;
+}
+
+.dock{
+    background: #ffc400;
+}
+
+.agvrobot{
+    font-size: 17px;
+}
+
+#columnn{
+    border-radius: 6px;
+    background: #ffc400;
+}
+
+.indi1 {
+    display: table;
+
+    border-radius: 6px;
+    height: 53px;
+    width: 53px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin: -5px 0 17px 12px;
+}
+
+.column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: calc(85.243% - 10px);
+    margin-left: 20px;
+}
+
+.indi2 {
+    display: table;
+
+    height: 53px;
+    width: 53px;
+    border-radius: 6px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+}
+
+@media (max-width: 999px) {
+    .column-2 {
+        width: 100%;
+    }
+}
+
+.div-14 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-15 {
+    alignment: center;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 53px;
+    padding-bottom: 10px;
+}
+
+.div-151 {
+    color: black;
+    font-size: 20px;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 0;
+    alignment: center;
+    text-align: center;
+    writing-mode: vertical-lr;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+}
+
+.div-16 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.columns {
+    display: flex;
+}
+
+
+div.blueTable {
+    width: 100%;
+    text-align: center;
+    alignment: center;
+}
+
+.divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead {
+    border: 0px solid #AAAAAA;
+    padding: 3px 2px;
+}
+
+.divTable.blueTable .divTableBody .divTableCell {
+    alignment: center;
+    align-content: center;
+    font-size: 13px;
+}
+
+/* DivTable.com */
+.divTable {
+    display: table;
+    alignment: center;
+}
+
+.divTableRow {
+    display: table-row;
+}
+
+.divTableHeading {
+    display: table-header-group;
+}
+
+.divTableCell, .divTableHead {
+    display: table-cell;
+}
+
+.divTableHeading {
+    display: table-header-group;
+}
+
+.divTableFoot {
+    display: table-footer-group;
+}
+
+.divTableBody {
+    display: table-row-group;
+    alignment: center;
+    align-content: center;
+}
+
+.width{
+    alignment: center;
+    vertical-align: middle;
+    display: flex;
+}

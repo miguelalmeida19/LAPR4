@@ -1,0 +1,52 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Customer" as Cli
+activate Cli
+loop for each product added
+Cli -> ":System" : Requests to add products to a shopping cart
+activate ":System"
+loop while the request of filter is different of "no"
+Cli <-- ":System": Asks for the filter to sort the search on the catalog
+end loop
+deactivate ":System"
+Cli -> ":System" : Selects the filter
+activate ":System"
+Cli <-- ":System": Asks the way to sort the results
+deactivate ":System"
+Cli -> ":System" : Selects ascendant or descendant
+activate ":System"
+Cli <-- ":System": Asks to select a product
+deactivate ":System"
+Cli -> ":System" : Selects a product
+activate ":System"
+Cli <-- ":System": Asks the quantity
+deactivate ":System"
+Cli -> ":System" : Types the quantity
+activate ":System"
+end loop
+
+Cli <-- ":System": Shows success or failure of the operation
+deactivate ":System"
+
+
+
+@enduml

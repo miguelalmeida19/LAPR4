@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence">
+  <persistence-unit name="eapli.base">
+    <!--
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    -->
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+    <class>eapli.framework.infrastructure.authz.domain.model.SystemUser</class>
+    <class>eapli.base.productmanagement.domain.model.ProductCategory</class>
+    <class>eapli.base.ordermanagement.domain.domain.model.ProductOrder</class>
+    <class>eapli.base.ordermanagement.domain.domain.model.OrderItem</class>
+    <class>eapli.base.customermanagement.domain.model.Customer</class>
+    <class>eapli.base.productmanagement.domain.model.Product</class>
+    <class>eapli.framework.infrastructure.authz.domain.model.Role</class>
+    <class>eapli.framework.infrastructure.authz.domain.model.RoleSet</class>
+    <class>eapli.framework.infrastructure.authz.domain.model.RoleAssignment</class>
+    <class>eapli.base.clientusermanagement.domain.ClientUser</class>
+    <class>eapli.base.clientusermanagement.domain.SignupRequest</class>
+    <class>eapli.base.warehousemanagement.domain.model.Squares</class>
+    <class>eapli.base.warehousemanagement.domain.model.Warehouse</class>
+    <class>eapli.base.warehousemanagement.domain.model.Aisles</class>
+    <class>eapli.base.warehousemanagement.domain.model.AGVDock</class>
+    <class>eapli.base.warehousemanagement.domain.model.AisleRow</class>
+    <class>eapli.base.agvmanagement.domain.model.AGVModel</class>
+    <class>eapli.base.agvmanagement.domain.model.AGV</class>
+    <class>eapli.base.surveymanagement.domain.model.Survey</class>
+    <class>eapli.base.surveymanagement.domain.model.SurveyAnswer</class>
+
+    <properties>
+      <!--<property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/base"/>-->
+      <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://vsgate-s2.dei.isep.ipp.pt:10634/databaseName"/>
+
+      <property name="javax.persistence.jdbc.user" value="lapr4"/>
+      <property name="javax.persistence.jdbc.password" value="lapr4"/>
+      <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+      <property name="eclipselink.logging.level" value="OFF"/>
+      <property name="connection.pool_size" value="10000"/>
+      <property name="hibernate.connection.pool_size" value="10000"/>
+      <property name="hibernate.show_sql" value="FALSE"/>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+
+    </properties>
+  </persistence-unit>
+</persistence>

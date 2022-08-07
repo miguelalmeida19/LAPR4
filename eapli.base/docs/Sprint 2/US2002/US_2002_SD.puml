@@ -1,0 +1,84 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+actor "Warehouse employee" as WE
+
+participant ":AddAGVUI" as UI
+participant ":ListAGVDocksController" as docks
+participant ":AGVDocksManagementService" as DockServ
+participant ":AGVDockRepository" as DockREP
+participant ":AddAGVController" as Controller
+participant ":AGVManagementService" as Serv
+participant ":PersistenceContext" as Pers
+participant ":RepositoryFactory" as Fac
+participant ":AGVRepository" as REP
+participant ":AGV" as Cust
+
+
+activate WE
+WE -> UI : starts configuring an AGV available on the warehouse
+activate UI
+UI -> docks : allAGVDocks()
+activate docks
+docks -> DockServ : allAGVDocks()
+activate DockServ
+DockServ -> DockREP: findAll()
+activate DockREP
+deactivate DockREP
+deactivate DockServ
+deactivate docks
+UI --> WE : shows available AGV docks to select from
+deactivate UI
+WE -> UI : selects a dock
+activate UI
+UI --> WE : asks for the AGV information
+deactivate UI
+WE -> UI : inserts the requested information
+activate UI
+
+activate "Controller"
+"UI" --> Controller : create()
+"UI" --> Controller : AddAGV(identifier, shortDesc, model, maxWeight, maxVolume, agvDock)
+activate Serv
+Controller --> Serv : create()
+
+activate Pers
+"Serv" --> Pers : repositories()
+deactivate Pers
+activate Fac
+Pers --> Fac : create()
+activate Pers
+Fac --> REP : create()
+activate REP
+deactivate REP
+deactivate Fac
+deactivate Pers
+Controller --> Serv : addNewAGV(identifier, shortDesc, model, maxWeight, maxVolume, agvDock)
+activate Cust
+Serv --> Cust: newAGV= addNewAGV(identifier, shortDesc, model, maxWeight, maxVolume, agvDock)
+activate REP
+Serv --> REP: save(newAGV)
+deactivate REP
+
+UI --> WE : shows success or failure of the operation
+deactivate UI
+
+@enduml

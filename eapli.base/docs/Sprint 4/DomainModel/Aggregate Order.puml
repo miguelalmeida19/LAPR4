@@ -1,0 +1,88 @@
+@startuml
+
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #d7e2dd
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #d55563
+
+skinparam packageBackgroundColor #C3DBD9
+skinparam packageBorderColor #
+skinparam packageBorderThickness 40
+
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor #B0C1DB
+skinparam arrowThickness 3
+
+skinparam class {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+skinparam object {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by DeezNuts ©</font>
+endheader
+title <b>AGGREGATE ORDER\n
+
+' ======= aggregates =========
+
+package "Aggregate Order" <<Frame>> {
+
+    enum OrderStatus{
+        PROCESSING
+        SHIPPED
+        IN_TRANSIT
+        DELIVERED
+        INVALID
+    }
+
+    entity Order <<entity root>> {
+
+    }
+
+    entity OrderItem{
+    }
+
+    object Order_ID
+    object Unitary_Price
+    object Quantity
+    object Datetime
+    object Client_ID
+    object Product_ID
+    object Shipping_Method
+    object Total_Price
+
+    Order -down[dotted,#38555F]-> Shipping_Method
+    Order -down[dotted,#38555F]-> Total_Price
+
+
+    OrderItem -down[dotted,#38555F]-> Order_ID
+    OrderItem -down[dotted,#38555F]-> Product_ID
+    OrderItem -down[dotted,#38555F]-> Quantity
+    OrderItem -down[dotted,#38555F]-> Unitary_Price
+
+    Order -right[dotted,#38555F]-> Order_ID
+    Order -right[dotted,#38555F]-> Datetime
+    Order -right[dotted,#38555F]-> Client_ID
+
+    Order "1" o-- "*" OrderItem : contains >
+    Order "1" o-- "1" OrderStatus : updated by >
+
+}
+
+
+@enduml

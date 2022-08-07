@@ -1,0 +1,67 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+actor "Sales Clerk" as sales
+
+participant ":RegisterCustomerUI" as UI
+participant ":AddCustomerController" as Controller
+participant ":CustomerManagementService" as Serv
+participant ":PersistenceContext" as Pers
+participant ":RepositoryFactory" as Fac
+participant ":CustomerRepository" as REP
+participant ":Customer" as Cust
+
+
+activate sales
+sales -> UI : Requires to add a new customer
+activate UI
+sales <-- UI :Asks the required data
+deactivate UI
+sales -> UI :types the data.
+activate UI
+activate "Controller"
+"UI" --> Controller : create()
+"UI" --> Controller : AddCustomer(customerId,firstName,lastName,vat,email,phoneNumber,addresses,gender,birthDate)
+activate Serv
+Controller --> Serv : create()
+
+activate Pers
+"Serv" --> Pers : repositories()
+deactivate Pers
+activate Fac
+Pers --> Fac : create()
+activate Pers
+Fac --> REP : create()
+activate REP
+deactivate REP
+deactivate Fac
+deactivate Pers
+Controller --> Serv : registerNewCustomer(customerId,firstName,lastName,vat,email,phoneNumber,addresses,gender,birthDate)
+activate Cust
+Serv --> Cust: newCustomer= registerNewCustomer(customerId,firstName,lastName,vat,email,phoneNumber,addresses,gender,birthDate)
+activate REP
+Serv --> REP: save(newCustomer)
+deactivate REP
+
+
+UI --> sales : shows success or failure of the operation
+
+@enduml

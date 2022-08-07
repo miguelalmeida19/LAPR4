@@ -1,0 +1,171 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+actor "Sales Clerk" as sales
+
+
+participant ":AddOrderUI" as UI
+participant ":AddOrderController" as Controller
+participant ":AddOrderItemController" as Controller1
+participant ":CustomerManagementService" as CAT
+participant ":ProductManagementService" as CAT0
+participant ":OrderItemManagementService" as CAT1
+participant ":OrderManagementService" as CAT2
+participant ":PersistenceContext" as Pers
+participant ":RepositoryFactory" as Fac
+participant ":CustomerRepository" as PRO
+participant ":ProductRepository" as PRO1
+participant ":OrderItemRepository" as REP
+participant ":OrderRepository" as REP1
+participant ":OrderItem" as OI
+participant ":ProductOrder" as PO
+
+
+
+
+
+
+
+
+
+
+
+
+activate sales
+sales -> UI : Requires to add a new order
+activate UI
+UI --> Controller: getCustomer()
+activate Controller
+Controller-->CAT: create()
+activate CAT
+CAT --> Pers : repositories()
+activate Pers
+
+activate Fac
+Pers --> Fac : create()
+activate PRO
+Fac --> PRO : create()
+deactivate Pers
+CAT --> PRO : findAll()
+deactivate CAT
+
+
+
+
+deactivate PRO
+deactivate Fac
+deactivate Controller
+sales <-- UI: Asks the customer who required the order
+deactivate UI
+sales -> UI: selects the customer.
+activate UI
+sales -> UI : Requires to add a new order
+UI --> Controller1: getProduct()
+activate Controller1
+Controller1-->CAT0: create()
+activate CAT0
+CAT0 --> Pers : repositories()
+activate Pers
+
+activate Fac
+Pers --> Fac : create()
+activate PRO1
+Fac --> PRO1 : create()
+deactivate Pers
+CAT0 --> PRO1 : findAll()
+deactivate CAT0
+
+
+
+
+deactivate PRO1
+deactivate Fac
+deactivate Controller1
+loop for each product wanted
+UI --> sales : shows products to select
+deactivate UI
+sales -> UI : selects a product
+activate UI
+activate "Controller1"
+"UI" --> Controller1 : create()
+"UI" --> Controller1 : AddOrderItem(quantity,product)
+activate CAT1
+Controller1 --> CAT1 : create()
+Controller1 --> CAT1 : AddNewOrderItem(quantity,product)
+
+
+activate Pers
+"CAT1" --> Pers : repositories()
+deactivate Pers
+activate Fac
+Pers --> Fac : create()
+activate Pers
+Fac --> REP : create()
+activate REP
+deactivate REP
+deactivate Fac
+deactivate Pers
+"CAT1" -->OI  : newOrderItem= AddNewOrderItem(quantity,product)
+activate OI
+activate REP
+"CAT1" -->REP  : save(newOrderItem)
+deactivate REP
+deactivate OI
+deactivate CAT1
+deactivate "Controller1"
+end loop
+UI --> sales : asks for the required data
+deactivate UI
+sales --> UI : types the data
+activate UI
+activate "Controller"
+"UI" --> Controller : create()
+"UI" --> Controller : addOrder(shippingMethod,orderStatus,createdOn,paymentMethod,orderItems,customer)
+activate CAT2
+Controller --> CAT2 : create()
+Controller --> CAT2 : AddNewOrder(shippingMethod,orderStatus,createdOn,paymentMethod,orderItems,customer)
+
+
+activate Pers
+"CAT2" --> Pers : repositories()
+deactivate Pers
+activate Fac
+Pers --> Fac : create()
+activate Pers
+Fac --> REP1 : create()
+activate REP1
+deactivate REP1
+deactivate Fac
+deactivate Pers
+"CAT2" -->PO  : newOrder= AddNewOrder(shippingMethod,orderStatus,createdOn,paymentMethod,orderItems,customer)
+activate PO
+activate REP1
+"CAT2" -->REP1  : save(newOrder)
+deactivate REP1
+deactivate PO
+deactivate CAT2
+deactivate "Controller"
+UI --> sales : shows success or failure of the operation
+deactivate UI
+
+
+
+@enduml

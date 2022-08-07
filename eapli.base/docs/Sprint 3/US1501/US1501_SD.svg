@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="904px" preserveAspectRatio="none" style="width:1273px;height:904px;background:#FCF9EA;" version="1.1" viewBox="0 0 1273 904" width="1273px" zoomAndPan="magnify"><defs><filter height="300%" id="f1l6tdvyt6wz4y" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="369" x="450.25" y="45.0176">SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="639.75" y="87.3223"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="611.3281" style="stroke:#A80036;stroke-width:1.0;" width="10" x="58.5" y="198.2188"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="191.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="393.5" y="245.9219"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="393.5" y="460.0313"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="393.5" y="520.7344"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="393.5" y="581.4375"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="158.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="393.5" y="642.1406"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="90.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="670.5" y="276.2734"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="90.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="670.5" y="672.4922"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1007.5" y="306.625"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1007.5" y="702.8438"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1166" y="336.9766"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1166" y="733.1953"/><rect fill="#FCF9EA" filter="url(#f1l6tdvyt6wz4y)" height="565.9766" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="1249.5" x="10" y="205.2188"/><rect fill="#FCF9EA" filter="url(#f1l6tdvyt6wz4y)" height="48.7031" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="449" x="20" y="381.9766"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="63" x2="63" y1="188.2188" y2="818.5469"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="398" x2="398" y1="188.2188" y2="818.5469"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="675.5" x2="675.5" y1="188.2188" y2="818.5469"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1012.5" x2="1012.5" y1="188.2188" y2="818.5469"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1170.5" x2="1170.5" y1="188.2188" y2="818.5469"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="30" y="185.1426">Customer</text><ellipse cx="63.5" cy="113.6094" fill="#FEFECE" filter="url(#f1l6tdvyt6wz4y)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M63.5,121.6094 L63.5,148.6094 M50.5,129.6094 L76.5,129.6094 M63.5,148.6094 L50.5,163.6094 M63.5,148.6094 L76.5,163.6094 " fill="none" filter="url(#f1l6tdvyt6wz4y)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="30" y="832.0801">Customer</text><ellipse cx="63.5" cy="845.1563" fill="#FEFECE" filter="url(#f1l6tdvyt6wz4y)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M63.5,853.1563 L63.5,880.1563 M50.5,861.1563 L76.5,861.1563 M63.5,880.1563 L50.5,895.1563 M63.5,880.1563 L76.5,895.1563 " fill="none" filter="url(#f1l6tdvyt6wz4y)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1l6tdvyt6wz4y)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="117" x="338" y="151.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="345" y="173.1426">:ShoppingCartUI</text><rect fill="#FEFECE" filter="url(#f1l6tdvyt6wz4y)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="117" x="338" y="817.5469"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="345" y="839.0801">:ShoppingCartUI</text><rect fill="#FEFECE" filter="url(#f1l6tdvyt6wz4y)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="248" x="549.5" y="151.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="234" x="556.5" y="173.1426">:AddProductsShoppingCartController</text><rect fill="#FEFECE" filter="url(#f1l6tdvyt6wz4y)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="248" x="549.5" y="817.5469"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="234" x="556.5" y="839.0801">:AddProductsShoppingCartController</text><rect fill="#FEFECE" filter="url(#f1l6tdvyt6wz4y)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="136" x="942.5" y="151.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="949.5" y="173.1426">:ListCatalogService</text><rect fill="#FEFECE" filter="url(#f1l6tdvyt6wz4y)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="136" x="942.5" y="817.5469"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="949.5" y="839.0801">:ListCatalogService</text><rect fill="#FEFECE" filter="url(#f1l6tdvyt6wz4y)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="153" x="1092.5" y="151.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1099.5" y="173.1426">:TcpSrvOrdersThread</text><rect fill="#FEFECE" filter="url(#f1l6tdvyt6wz4y)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="153" x="1092.5" y="817.5469"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1099.5" y="839.0801">:TcpSrvOrdersThread</text><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="611.3281" style="stroke:#A80036;stroke-width:1.0;" width="10" x="58.5" y="198.2188"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="191.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="393.5" y="245.9219"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="393.5" y="460.0313"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="393.5" y="520.7344"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="393.5" y="581.4375"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="158.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="393.5" y="642.1406"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="90.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="670.5" y="276.2734"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="90.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="670.5" y="672.4922"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1007.5" y="306.625"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1007.5" y="702.8438"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1166" y="336.9766"/><rect fill="#FFFFFF" filter="url(#f1l6tdvyt6wz4y)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1166" y="733.1953"/><path d="M20,205.2188 L83,205.2188 L83,213.2188 L73,223.2188 L10,223.2188 L10,215.2188 A10,10 0 0 1 20,205.2188 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="565.9766" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="1249.5" x="10" y="205.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="25" y="219.7139">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="136" x="98" y="218.6377">[for each product added]</text><polygon fill="#FFC5A1" points="381.5,241.9219,391.5,245.9219,381.5,249.9219,385.5,245.9219" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="68.5" x2="387.5" y1="245.9219" y2="245.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="75.5" y="241.0654">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="257" x="86.5" y="241.0654">Requests to add products to a shopping cart</text><polygon fill="#FFC5A1" points="658.5,272.2734,668.5,276.2734,658.5,280.2734,662.5,276.2734" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="403.5" x2="664.5" y1="276.2734" y2="276.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="410.5" y="271.417">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="237" x="421.5" y="271.417">createShoppingCartAndRequestCatalog()</text><polygon fill="#FFC5A1" points="995.5,302.625,1005.5,306.625,995.5,310.625,999.5,306.625" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="680.5" x2="1001.5" y1="306.625" y2="306.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="687.5" y="301.7686">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="297" x="698.5" y="301.7686">sendMessageToServer(SHOPPINGCART.code,null)</text><polygon fill="#FFC5A1" points="1154,332.9766,1164,336.9766,1154,340.9766,1158,336.9766" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="1017.5" x2="1160" y1="336.9766" y2="336.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1024.5" y="332.1201">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="1035.5" y="332.1201">receiveAnswer()</text><path d="M30,381.9766 L93,381.9766 L93,389.9766 L83,399.9766 L20,399.9766 L20,391.9766 A10,10 0 0 1 30,381.9766 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="48.7031" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="449" x="20" y="381.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="35" y="396.4717">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="254" x="108" y="395.3955">[while the request of filter is different of "no"]</text><path d="M474,396.9766 L474,402.9766 A10,10 0 0 0 484,412.9766 L931,412.9766 A10,10 0 0 0 941,402.9766 L941,396.9766 L931,386.9766 L484,386.9766 A10,10 0 0 0 474,396.9766 " fill="#FBFB77" filter="url(#f1l6tdvyt6wz4y)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M931,386.9766 L931,391.9766 A5,5 0 0 0 936,396.9766 L941,396.9766 L931,386.9766 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="446" x="480" y="405.4717">The filter and sorting operations have been already explained in a previous US</text><polygon fill="#FFC5A1" points="79.5,418.6797,69.5,422.6797,79.5,426.6797,75.5,422.6797" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="73.5" x2="392.5" y1="422.6797" y2="422.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="85.5" y="417.8232">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="290" x="96.5" y="417.8232">Asks for the filter to sort the search on the catalog</text><polygon fill="#FFC5A1" points="381.5,456.0313,391.5,460.0313,381.5,464.0313,385.5,460.0313" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="68.5" x2="387.5" y1="460.0313" y2="460.0313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="75.5" y="455.1748">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="86.5" y="455.1748">Selects the filter</text><polygon fill="#FFC5A1" points="79.5,486.3828,69.5,490.3828,79.5,494.3828,75.5,490.3828" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="73.5" x2="397.5" y1="490.3828" y2="490.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="85.5" y="485.5264">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="185" x="96.5" y="485.5264">Asks the way to sort the results</text><polygon fill="#FFC5A1" points="381.5,516.7344,391.5,520.7344,381.5,524.7344,385.5,520.7344" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="68.5" x2="387.5" y1="520.7344" y2="520.7344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="75.5" y="515.8779">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="194" x="86.5" y="515.8779">Selects ascendant or descendant</text><polygon fill="#FFC5A1" points="79.5,547.0859,69.5,551.0859,79.5,555.0859,75.5,551.0859" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="73.5" x2="397.5" y1="551.0859" y2="551.0859"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="85.5" y="546.2295">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="96.5" y="546.2295">Asks to select a product</text><polygon fill="#FFC5A1" points="381.5,577.4375,391.5,581.4375,381.5,585.4375,385.5,581.4375" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="68.5" x2="387.5" y1="581.4375" y2="581.4375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="75.5" y="576.5811">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="93.5" y="576.5811">Selects a product</text><polygon fill="#FFC5A1" points="79.5,607.7891,69.5,611.7891,79.5,615.7891,75.5,611.7891" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="73.5" x2="397.5" y1="611.7891" y2="611.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="85.5" y="606.9326">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="103.5" y="606.9326">Asks the quantity</text><polygon fill="#FFC5A1" points="381.5,638.1406,391.5,642.1406,381.5,646.1406,385.5,642.1406" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="68.5" x2="387.5" y1="642.1406" y2="642.1406"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="75.5" y="637.2842">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="93.5" y="637.2842">Types the quantity</text><polygon fill="#FFC5A1" points="658.5,668.4922,668.5,672.4922,658.5,676.4922,662.5,672.4922" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="403.5" x2="664.5" y1="672.4922" y2="672.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="410.5" y="667.6357">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="166" x="428.5" y="667.6357">addProductToShoppingCart()</text><polygon fill="#FFC5A1" points="995.5,698.8438,1005.5,702.8438,995.5,706.8438,999.5,702.8438" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="680.5" x2="1001.5" y1="702.8438" y2="702.8438"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="687.5" y="697.9873">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="705.5" y="697.9873">addProductToShoppingCart(shoppingCart)</text><polygon fill="#FFC5A1" points="1154,729.1953,1164,733.1953,1154,737.1953,1158,733.1953" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="1017.5" x2="1160" y1="733.1953" y2="733.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1024.5" y="728.3389">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="1042.5" y="728.3389">receiveAnswer()</text><polygon fill="#FFC5A1" points="79.5,796.5469,69.5,800.5469,79.5,804.5469,75.5,800.5469" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="73.5" x2="397.5" y1="800.5469" y2="800.5469"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="85.5" y="795.6904">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="238" x="103.5" y="795.6904">Shows success or failure of the operation</text><!--MD5=[390321f0637e64b9d134c710fa486e1b]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+actor "Customer" as Cli
+
+participant ":ShoppingCartUI" as UI
+participant ":AddProductsShoppingCartController" as Controller
+participant ":ListCatalogService" as Serv
+participant ":TcpSrvOrdersThread" as TCP
+
+
+
+
+activate Cli
+loop for each product added
+Cli -> UI : Requests to add products to a shopping cart
+activate UI
+UI->Controller: createShoppingCartAndRequestCatalog()
+activate Controller
+Controller->Serv: sendMessageToServer(SHOPPINGCART.code,null)
+activate Serv
+Serv->TCP: receiveAnswer()
+activate TCP
+deactivate TCP
+deactivate Serv
+deactivate Controller
+loop while the request of filter is different of "no"
+Cli <- - UI: Asks for the filter to sort the search on the catalog
+end loop
+deactivate UI
+note left: The filter and sorting operations have been already explained in a previous US
+Cli -> UI : Selects the filter
+activate UI
+Cli <- - UI: Asks the way to sort the results
+deactivate UI
+Cli -> UI : Selects ascendant or descendant
+activate UI
+Cli <- - UI: Asks to select a product
+deactivate UI
+Cli -> UI : Selects a product
+activate UI
+Cli <- - UI: Asks the quantity
+deactivate UI
+Cli -> UI : Types the quantity
+activate UI
+UI->Controller: addProductToShoppingCart()
+activate Controller
+Controller->Serv: addProductToShoppingCart(shoppingCart)
+activate Serv
+Serv->TCP: receiveAnswer()
+activate TCP
+deactivate TCP
+deactivate Serv
+deactivate Controller
+
+end loop
+Cli <- - UI: Shows success or failure of the operation
+deactivate UI
+
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+actor "Customer" as Cli
+
+participant ":ShoppingCartUI" as UI
+participant ":AddProductsShoppingCartController" as Controller
+participant ":ListCatalogService" as Serv
+participant ":TcpSrvOrdersThread" as TCP
+
+
+
+
+activate Cli
+loop for each product added
+Cli -> UI : Requests to add products to a shopping cart
+activate UI
+UI->Controller: createShoppingCartAndRequestCatalog()
+activate Controller
+Controller->Serv: sendMessageToServer(SHOPPINGCART.code,null)
+activate Serv
+Serv->TCP: receiveAnswer()
+activate TCP
+deactivate TCP
+deactivate Serv
+deactivate Controller
+loop while the request of filter is different of "no"
+Cli <- - UI: Asks for the filter to sort the search on the catalog
+end loop
+deactivate UI
+note left: The filter and sorting operations have been already explained in a previous US
+Cli -> UI : Selects the filter
+activate UI
+Cli <- - UI: Asks the way to sort the results
+deactivate UI
+Cli -> UI : Selects ascendant or descendant
+activate UI
+Cli <- - UI: Asks to select a product
+deactivate UI
+Cli -> UI : Selects a product
+activate UI
+Cli <- - UI: Asks the quantity
+deactivate UI
+Cli -> UI : Types the quantity
+activate UI
+UI->Controller: addProductToShoppingCart()
+activate Controller
+Controller->Serv: addProductToShoppingCart(shoppingCart)
+activate Serv
+Serv->TCP: receiveAnswer()
+activate TCP
+deactivate TCP
+deactivate Serv
+deactivate Controller
+
+end loop
+Cli <- - UI: Shows success or failure of the operation
+deactivate UI
+
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

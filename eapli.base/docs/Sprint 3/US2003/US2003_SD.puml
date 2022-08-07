@@ -1,0 +1,110 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+actor "Warehouse Employee" as emp
+
+
+participant ":AssignOrderAgvUI" as UI
+participant ":ListOrdersController" as Controller
+participant ":ListAgvController" as Controller1
+participant ":AssignAgvOrderController" as Controller2
+participant ":OrderManagementService" as Serv
+participant ":agvManagementService" as Serv1
+participant ":PersistenceContext" as Pers
+participant ":RepositoryFactory" as Fac
+participant ":OrderRepository" as Ord
+participant ":AGVRepository" as REP
+participant ":ProductOrder" as Order
+
+activate emp
+emp -> UI : Requires to associate an agv to an order
+activate UI
+UI --> Controller: getOrder()
+activate Controller
+Controller-->Serv: create()
+activate Serv
+Serv --> Pers : repositories()
+activate Pers
+
+activate Fac
+Pers --> Fac : create()
+activate Ord
+Fac --> Ord : create()
+deactivate Pers
+Serv --> Ord : findAll()
+deactivate Serv
+
+
+
+
+deactivate Ord
+deactivate Fac
+deactivate Controller
+emp <-- UI: Asks to select an order
+deactivate UI
+emp -> UI: Selects the order to associate.
+activate UI
+UI --> Controller1: getAGV()
+activate Controller1
+Controller1-->Serv1: create()
+activate Serv1
+Serv1 --> Pers : repositories()
+activate Pers
+
+activate Fac
+Pers --> Fac : create()
+activate REP
+Fac --> REP : create()
+deactivate Pers
+Serv1 --> REP : findAll()
+deactivate Serv1
+
+
+
+
+deactivate REP
+deactivate Fac
+deactivate Controller1
+UI --> emp : shows AGV to select
+deactivate UI
+deactivate UI
+
+emp -> UI: selects the AGV
+activate UI
+UI --> Controller2: getAGV()
+activate Controller2
+Controller2->Serv: setAgvOrder(order, agv)
+activate Serv
+Serv->Order: setAgv(agv)
+activate Order
+Serv->Order: setAgvStatus(ASSOCIATED)
+deactivate Order
+Serv->Ord: save(order)
+activate Ord
+deactivate Ord
+deactivate Serv
+deactivate Controller2
+
+UI --> emp : shows success or failure of the operation
+deactivate UI
+
+
+@enduml

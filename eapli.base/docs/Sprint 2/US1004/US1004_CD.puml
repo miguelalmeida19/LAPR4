@@ -1,0 +1,123 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+endheader
+title <b>US1004 - Class Diagram\n
+
+' ======= classes =========
+class AddOrderController{
++addOrder(shippingMethod,orderStatus,createdOn,paymentMethod,orderItems,customer)
+}
+class AddOrderItemController{
++addOrderItem(quantity,product)
+}
+
+class AddOrderUI{
+}
+class ProductManagementService{
++ProductManagementService(productRepository)
++addNewProduct(price,brand, reference,shortDescription,longDescription,technicalDescription,barcode,width,length,height,weight,productCategory)
++allProducts()
++productOfIdentity(id)
+
+}
+class CustomerManagementService{
+ +CustomerManagementService(customerRepo)
+ +registerNewCustomer(firstName,lastName,vat,email,phoneNumber,addresses,gender,birthdate)
+ +allCustomers()
+ +customerOfIdentity(id)
+}
+class OrderItemManagementService{
+ +OrderItemManagementService(orderItemRepository)
+ +addNewOrderItem(quantity,product)
+ +allOrderItems()
+ +orderItemOfIdentity(code)
+}
+class OrderManagementService{
+ +OrderManagementService(orderRepository)
+ +addNewOrder(shippingMethod,orderStatus,createdOn,paymentMethod,orderItems,customer)
+ +allOrders()
+ +orderOfIdentity(code)
+}
+class CustomerRepository{
++findAll()
+}
+class ProductRepository{
++findAll()
+}
+class OrderItemRepository{
++save(orderItem)
+}
+class OrderRepository{
++save(order)
+}
+class OrderItem{
++OrderItem(quantity,totalPrice,product)
++OrderItem()
++equals(o)
++identity()
++quantity()
++itemQuantity()
++totalPrice()
++itemTotalPrice()
++product()
++itemProduct()
++isActive()
+}
+class ProductOrder{
++getCustomer()
++ProductOrder(shippingMethod,orderStatus,createdOn,finalPrice,paymentMethod,orderItems,customer)
++ProductOrder()
++equals(o)
++identity()
++shippingMethod()
++orderShippingMethod()
++orderStatus()
++orderState()
++creationDate()
++orderCreationDate()
++finalPrice()
++orderFinalPrice()
++paymentMethod()
++orderPaymentMethod()
++items()
++orderItems()
++isActive()
+}
+
+AddOrderUI ..> AddOrderController
+AddOrderUI ..> AddOrderItemController
+AddOrderItemController ..> ProductManagementService
+AddOrderItemController ..> OrderItemManagementService
+AddOrderController ..> CustomerManagementService
+AddOrderController ..> OrderManagementService
+CustomerManagementService ..> CustomerRepository
+ProductManagementService ..> ProductRepository
+OrderManagementService ..> OrderRepository
+OrderItemManagementService ..> OrderItemRepository
+OrderItemManagementService ..> OrderItem
+OrderManagementService ..> ProductOrder
+OrderRepository ..> ProductOrder
+OrderItemRepository ..> OrderItem
+OrderItem ..> ProductOrder
+
+@enduml

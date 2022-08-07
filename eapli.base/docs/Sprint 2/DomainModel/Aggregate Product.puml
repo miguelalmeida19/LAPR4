@@ -1,0 +1,86 @@
+@startuml
+
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #d7e2dd
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #d55563
+
+skinparam packageBackgroundColor #C3DBD9
+skinparam packageBorderColor #
+skinparam packageBorderThickness 40
+
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor #B0C1DB
+skinparam arrowThickness 3
+
+skinparam class {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+skinparam object {
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor #86c2bd
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by DeezNuts ©</font>
+endheader
+title <b>AGGREGATE PRODUCT\n
+
+' ======= aggregates =========
+
+package "Aggregate Product" <<Frame>> {
+    Class ProductCatalog{
+    }
+
+    entity ProductCategory{
+    }
+
+    entity Product{
+        - promotional code
+    }
+
+    object Product_List
+    object Type
+    object Category_Description
+    object Product_ID
+    object Photo
+    object Price
+    object Short_Description
+    object Long_Description
+    object Technical_Description
+    object Brand
+    object Reference
+    object Barcode
+
+    ProductCatalog -down[dotted,#38555F]-> Product_List
+
+    ProductCategory -down[dotted,#38555F]-> Type
+    ProductCategory -down[dotted,#38555F]-> Category_Description
+
+    Product -down[dotted,#38555F]-> Product_ID
+    Product -down[dotted,#38555F]-> Photo
+    Product -down[dotted,#38555F]-> Price
+    Product -down[dotted,#38555F]-> Short_Description
+    Product -down[dotted,#38555F]-> Long_Description
+    Product -down[dotted,#38555F]-> Technical_Description
+    Product -down[dotted,#38555F]-> Brand
+    Product -down[dotted,#38555F]-> Reference
+    Product -down[dotted,#38555F]-> Barcode
+
+    Product "*" o-- "1" ProductCategory : categorized as >
+    Product "*" o-- "1" ProductCatalog : listed in >
+}
+
+@enduml

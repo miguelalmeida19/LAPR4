@@ -1,0 +1,88 @@
+CHPA22-01
+
+Children Questionnaire
+
+Hello,
+This questionnaire aims to children
+It takes approximately 10 minutes
+Thank you very much for your time and support.
+
+1
+Children 5 to 6
+Questions about physical activity
+[mandatory]
+yes
+
+1
+On a typical weekday, how much time does your child spend doing the following activities?
+Scaling Options
+[mandatory]
+(from waking up to going to bed)
+None|less than 15min|30min|1h|2h|3h|4h|5h|less than 6h
+- Watch TV;
+- Playing computer or console games;
+
+2
+How many hours does the average child sleep a day?
+Numeric
+[mandatory]
+(type the time in hours)
+
+2
+Children 10 to 19
+Questions about physical activity
+[mandatory]
+yes
+
+1
+Do you usually practice any kind of programmed and regular sports activity excluding physical education classes?
+Single-Choice
+[mandatory]
+(select one of the options below)
+[] Yes;
+[] No;
+
+2
+What is your current fitness level?
+Single-Choice
+[mandatory]
+(select one of the options below)
+[] Perfect;
+[] Good;
+[] Average;
+[] Weak;
+[] Very weak;
+
+3
+Why do you practice sports?
+Single-Choice with input value
+[optional]
+(select one of the options below)
+[] It is part of my job and I make sport my life;
+[] I enjoy doing sports;
+[] I want to lose weight;
+[] I want to keep fit;
+[] Other;
+
+4
+Have you ever followed an exercise plan?
+Single-Choice
+[mandatory]
+(select one of the options below)
+[] Yes;
+[] No;
+
+5
+Have you ever practiced any of these sports?
+Scaling Options
+[mandatory]
+(from waking up to going to bed)
+Yes|No|Not regularly
+- Running;
+- Swimming;
+- Bicycling;
+- Skating;
+- Extreme sports;
+- Martial arts;
+
+You have successfully completed the questionnaire.Thank you for your help.
